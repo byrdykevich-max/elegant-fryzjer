@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Note: Machine-translation drafts — every entry needs native review. Remove the [MT-REVIEW] prefix once approved.\n"
+"X-Note: All translations human-reviewed 2026-07-02. Mark any new machine-translation draft with a [MT-REVIEW] prefix until it is reviewed.\n"
 
 #: footer.php:7
 msgid "Gotowa/gotowy na nowy look?"
@@ -746,11 +746,11 @@ msgstr "Colour transformation: lightening from dark blonde to platinum blonde �
 
 #: inc/i18n.php:246
 msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
-msgstr "[MT-REVIEW] Elegant Fryzjer — hair salon and barbershop in Warsaw's Białołęka. Women's, men's and children's haircuts, barbering, beard care. Run by Julia."
+msgstr "Elegant Fryzjer — hair salon and barbershop in Warsaw's Białołęka. Women's, men's and children's haircuts, barbering, beard care. Run by Julia."
 
 #: inc/i18n.php:250
 msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
-msgstr "[MT-REVIEW] Full range of services and price list at Elegant Fryzjer in Białołęka — women's, men's and children's haircuts, barbering, beard care."
+msgstr "Full range of services and price list at Elegant Fryzjer in Białołęka — women's, men's and children's haircuts, barbering, beard care."
 
 #: inc/i18n.php:251
 msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
@@ -766,7 +766,7 @@ msgstr "Contact and directions to the Elegant Fryzjer salon in Białołęka. Boo
 
 #: inc/i18n.php:254
 msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
-msgstr "[MT-REVIEW] Privacy policy for the Elegant Fryzjer salon — how we process the personal data of visitors and clients."
+msgstr "Privacy policy for the Elegant Fryzjer salon — how we process the personal data of visitors and clients."
 
 
 #: inc/i18n.php:272
@@ -775,7 +775,7 @@ msgstr "Language selection"
 
 #: inc/schema.php:52
 msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
-msgstr "[MT-REVIEW] Hair salon and barbershop in Warsaw's Białołęka — women's, men's and children's haircuts, barbering and beard styling. Run by Julia."
+msgstr "Hair salon and barbershop in Warsaw's Białołęka — women's, men's and children's haircuts, barbering and beard styling. Run by Julia."
 
 #: inc/schema.php:74
 msgid "Usługi fryzjerskie i barberskie"
