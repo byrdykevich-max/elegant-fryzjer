@@ -119,17 +119,6 @@ $gall = ef_gallery_images();
 	</div>
 </section>
 
-<!-- REVIEWS (placeholder — no fabricated testimonials) -->
-<section class="section--panel" aria-labelledby="rev-title">
-	<div class="container">
-		<div class="section__head">
-			<span class="eyebrow"><?php esc_html_e( 'Opinie', 'elegant-fryzjer' ); ?></span>
-			<h2 id="rev-title"><?php esc_html_e( 'Co mówią klienci', 'elegant-fryzjer' ); ?></h2>
-		</div>
-		<div class="card">
-			<p class="muted">[PLACEHOLDER — sekcja opinii. Wstawimy tu prawdziwe opinie z Google / Booksy po Twojej akceptacji. Nie dodajemy zmyślonych recenzji.]</p>
-		</div>
-	</div>
-</section>
+<?php /* TODO: Reviews section (real Google/Booksy testimonials only, no fabricated content) goes here once supplied. See memory elegant-fryzjer-launch for context. */ ?>
 
 <?php get_footer(); ?>

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Elegant Fryzjer 1.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 15:37+0000\n"
+"POT-Creation-Date: 2026-07-02 16:54+0000\n"
 "PO-Revision-Date: 2026-06-21 18:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: en_US\n"
@@ -176,14 +176,6 @@ msgstr "Phone"
 msgid "Mapa i dojazd"
 msgstr "Map and directions"
 
-#: front-page.php:126
-msgid "Opinie"
-msgstr "Reviews"
-
-#: front-page.php:127
-msgid "Co mówią klienci"
-msgstr "What clients say"
-
 #: functions.php:26 header.php:39
 msgid "Menu główne"
 msgstr "Main menu"
@@ -325,43 +317,51 @@ msgstr "The salon is run by Julia"
 msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
 msgstr "Elegant Fryzjer is an intimate hair and barber salon in Warsaw's Białołęka, where an individual approach and the client's wellbeing matter most."
 
-#: page-o-nas.php:16
+#: page-o-nas.php:15
 msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
 msgstr "[MT-REVIEW] We specialise in women's, men's and children's haircuts, as well as barbering services — beard shaping and styling."
 
-#: page-o-nas.php:19
+#: page-o-nas.php:16
+msgid "Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich — fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą starannością podchodząc do strzyżeń damskich i dziecięcych."
+msgstr "[MT-REVIEW] Julia has over ten years of experience and professional qualifications in hairdressing. She specialises in men's cuts and barbering — fades, classic cuts, beard shaping and shaving — while bringing the same care to women's and children's cuts."
+
+#: page-o-nas.php:17
+msgid "Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później."
+msgstr "[MT-REVIEW] Her approach is direct: she listens, advises based on your actual hair rather than trends, and tells you what will genuinely suit you. The goal isn't just a good cut in the chair — it's one that still works a week later."
+
+#: page-o-nas.php:20
 msgid "Zobacz realizacje"
 msgstr "See our work"
 
-#: page-o-nas.php:36
+#: page-o-nas.php:37
 msgid "Nasze podejście"
 msgstr "Our approach"
 
-#: page-o-nas.php:37
+#: page-o-nas.php:38
 msgid "Na czym nam zależy"
 msgstr "What matters to us"
 
-#: page-o-nas.php:40
+#: page-o-nas.php:41
 msgid "Konsultacja"
 msgstr "Consultation"
 
-#: page-o-nas.php:40
+#: page-o-nas.php:41
 msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
 msgstr "Before we start, we talk about your expectations and the condition of your hair."
 
-#: page-o-nas.php:41
+#: page-o-nas.php:42
 msgid "Jakość"
 msgstr "Quality"
 
-#: page-o-nas.php:41
+#: page-o-nas.php:42
 msgid "Sprawdzone produkty i staranne wykończenie każdej fryzury."
 msgstr "Trusted products and careful finishing of every hairstyle."
 
-#: page-o-nas.php:42
+#: page-o-nas.php:43
 msgid "Komfort"
 msgstr "Comfort"
 
-#: page-o-nas.php:42
+#: page-o-nas.php:43
 msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
 msgstr "A calm, friendly atmosphere — also for children."
 

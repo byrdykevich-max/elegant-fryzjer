@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Elegant Fryzjer 1.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 15:37+0000\n"
+"POT-Creation-Date: 2026-07-02 16:54+0000\n"
 "PO-Revision-Date: 2026-06-21 18:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: uk_UA\n"
@@ -176,14 +176,6 @@ msgstr "Телефон"
 msgid "Mapa i dojazd"
 msgstr "Карта та як дістатися"
 
-#: front-page.php:126
-msgid "Opinie"
-msgstr "Відгуки"
-
-#: front-page.php:127
-msgid "Co mówią klienci"
-msgstr "Що кажуть клієнти"
-
 #: functions.php:26 header.php:39
 msgid "Menu główne"
 msgstr "Головне меню"
@@ -325,43 +317,51 @@ msgstr "Салон веде Юлія"
 msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
 msgstr "Elegant Fryzjer — це затишний перукарський і барбер-салон у варшавській Білоленці, де найважливіші індивідуальний підхід і добре самопочуття клієнта."
 
-#: page-o-nas.php:16
+#: page-o-nas.php:15
 msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
 msgstr "[MT-REVIEW] Ми спеціалізуємося на жіночих, чоловічих і дитячих стрижках, а також на барберських послугах — моделюванні та стилізації бороди."
 
-#: page-o-nas.php:19
+#: page-o-nas.php:16
+msgid "Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich — fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą starannością podchodząc do strzyżeń damskich i dziecięcych."
+msgstr "[MT-REVIEW] Юлія має понад десять років досвіду та професійну кваліфікацію перукаря. Вона спеціалізується на чоловічих стрижках і барберських послугах — фейдах, класичних стрижках, моделюванні та голінні бороди — приділяючи таку саму увагу жіночим і дитячим стрижкам."
+
+#: page-o-nas.php:17
+msgid "Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później."
+msgstr "[MT-REVIEW] Її підхід прямий: вона слухає, радить, виходячи з реального стану вашого волосся, а не з модних тенденцій, і відверто каже, що вам справді пасуватиме. Мета — не просто вдала стрижка в кріслі, а така, що добре виглядає ще й через тиждень."
+
+#: page-o-nas.php:20
 msgid "Zobacz realizacje"
 msgstr "Переглянути роботи"
 
-#: page-o-nas.php:36
+#: page-o-nas.php:37
 msgid "Nasze podejście"
 msgstr "Наш підхід"
 
-#: page-o-nas.php:37
+#: page-o-nas.php:38
 msgid "Na czym nam zależy"
 msgstr "Що для нас важливо"
 
-#: page-o-nas.php:40
+#: page-o-nas.php:41
 msgid "Konsultacja"
 msgstr "Консультація"
 
-#: page-o-nas.php:40
+#: page-o-nas.php:41
 msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
 msgstr "Перш ніж почати, ми обговорюємо ваші очікування та стан волосся."
 
-#: page-o-nas.php:41
+#: page-o-nas.php:42
 msgid "Jakość"
 msgstr "Якість"
 
-#: page-o-nas.php:41
+#: page-o-nas.php:42
 msgid "Sprawdzone produkty i staranne wykończenie każdej fryzury."
 msgstr "Перевірені продукти та ретельне завершення кожної зачіски."
 
-#: page-o-nas.php:42
+#: page-o-nas.php:43
 msgid "Komfort"
 msgstr "Комфорт"
 
-#: page-o-nas.php:42
+#: page-o-nas.php:43
 msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
 msgstr "Спокійна, доброзичлива атмосфера — також для дітей."
 

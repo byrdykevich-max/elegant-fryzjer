@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 15:37+0000\n"
+"POT-Creation-Date: 2026-07-02 16:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,14 +180,6 @@ msgstr ""
 msgid "Mapa i dojazd"
 msgstr ""
 
-#: front-page.php:126
-msgid "Opinie"
-msgstr ""
-
-#: front-page.php:127
-msgid "Co mówią klienci"
-msgstr ""
-
 #: functions.php:26 header.php:39
 msgid "Menu główne"
 msgstr ""
@@ -329,43 +321,51 @@ msgstr ""
 msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
 msgstr ""
 
-#: page-o-nas.php:16
+#: page-o-nas.php:15
 msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
 msgstr ""
 
-#: page-o-nas.php:19
+#: page-o-nas.php:16
+msgid "Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich — fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą starannością podchodząc do strzyżeń damskich i dziecięcych."
+msgstr ""
+
+#: page-o-nas.php:17
+msgid "Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później."
+msgstr ""
+
+#: page-o-nas.php:20
 msgid "Zobacz realizacje"
 msgstr ""
 
-#: page-o-nas.php:36
+#: page-o-nas.php:37
 msgid "Nasze podejście"
 msgstr ""
 
-#: page-o-nas.php:37
+#: page-o-nas.php:38
 msgid "Na czym nam zależy"
 msgstr ""
 
-#: page-o-nas.php:40
+#: page-o-nas.php:41
 msgid "Konsultacja"
 msgstr ""
 
-#: page-o-nas.php:40
+#: page-o-nas.php:41
 msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
 msgstr ""
 
-#: page-o-nas.php:41
+#: page-o-nas.php:42
 msgid "Jakość"
 msgstr ""
 
-#: page-o-nas.php:41
+#: page-o-nas.php:42
 msgid "Sprawdzone produkty i staranne wykończenie każdej fryzury."
 msgstr ""
 
-#: page-o-nas.php:42
+#: page-o-nas.php:43
 msgid "Komfort"
 msgstr ""
 
-#: page-o-nas.php:42
+#: page-o-nas.php:43
 msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
 msgstr ""
 
