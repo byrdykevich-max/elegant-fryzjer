@@ -1,6 +1,7 @@
 # Elegant Fryzjer — WordPress theme
 
 [![Lint PHP](https://github.com/byrdykevich-max/elegant-fryzjer/actions/workflows/lint-php.yml/badge.svg)](https://github.com/byrdykevich-max/elegant-fryzjer/actions/workflows/lint-php.yml)
+[![main: protected · PR-only](https://img.shields.io/badge/main-protected%20%C2%B7%20PR--only-2ea44f)](CONTRIBUTING.md)
 
 Custom WordPress theme for **[elegantfryzjer.pl](https://elegantfryzjer.pl)** — a hair salon & barber in
 Warszawa, Białołęka. Lightweight and fast: no page builder, minimal front-end JS, mobile-first,
