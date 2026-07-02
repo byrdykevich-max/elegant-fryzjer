@@ -228,6 +228,7 @@ function ef_title_parts( $parts ) {
 			'o-nas'   => __( 'O nas', 'elegant-fryzjer' ),
 			'galeria' => __( 'Galeria', 'elegant-fryzjer' ),
 			'kontakt' => __( 'Kontakt', 'elegant-fryzjer' ),
+			'polityka-prywatnosci' => __( 'Polityka prywatności', 'elegant-fryzjer' ),
 		);
 		if ( isset( $map[ $slug ] ) ) {
 			$parts['title'] = $map[ $slug ];
@@ -250,6 +251,7 @@ function ef_localized_description() {
 			'o-nas'   => __( 'Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia.', 'elegant-fryzjer' ),
 			'galeria' => __( 'Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia.', 'elegant-fryzjer' ),
 			'kontakt' => __( 'Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie.', 'elegant-fryzjer' ),
+			'polityka-prywatnosci' => __( 'Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów.', 'elegant-fryzjer' ),
 		);
 		if ( isset( $map[ $slug ] ) ) {
 			return $map[ $slug ];
