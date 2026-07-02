@@ -1,0 +1,530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant Fryzjer 1.2.0\n"
+"Report-Msgid-Bugs-To: kontakt@elegantfryzjer.pl\n"
+"PO-Revision-Date: 2026-06-21 18:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+
+msgid "Menu główne"
+msgstr "Menu główne"
+
+msgid "Powiększone zdjęcie"
+msgstr "Powiększone zdjęcie"
+
+msgid "Zamknij"
+msgstr "Zamknij"
+
+msgid "Zarezerwuj online"
+msgstr "Zarezerwuj online"
+
+msgid "Zadzwoń:"
+msgstr "Zadzwoń:"
+
+msgid "Umów wizytę"
+msgstr "Umów wizytę"
+
+msgid "Przejdź do treści"
+msgstr "Przejdź do treści"
+
+msgid "Elegant Fryzjer — strona główna"
+msgstr "Elegant Fryzjer — strona główna"
+
+msgid "Salon & Barber · Białołęka"
+msgstr "Salon & Barber · Białołęka"
+
+msgid "Przełącz tryb jasny lub ciemny"
+msgstr "Przełącz tryb jasny lub ciemny"
+
+msgid "Przełącz motyw"
+msgstr "Przełącz motyw"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Usługi i cennik"
+msgstr "Usługi i cennik"
+
+msgid "O nas"
+msgstr "O nas"
+
+msgid "Galeria"
+msgstr "Galeria"
+
+msgid "Kontakt"
+msgstr "Kontakt"
+
+msgid "Gotowa/gotowy na nowy look?"
+msgstr "Gotowa/gotowy na nowy look?"
+
+msgid "Umów wizytę w Elegant Fryzjer na Białołęce."
+msgstr "Umów wizytę w Elegant Fryzjer na Białołęce."
+
+msgid "Jak dojechać"
+msgstr "Jak dojechać"
+
+msgid "Adres"
+msgstr "Adres"
+
+msgid "Godziny otwarcia"
+msgstr "Godziny otwarcia"
+
+msgid "Do potwierdzenia przez właściciela"
+msgstr "Do potwierdzenia przez właściciela"
+
+msgid "[do potwierdzenia]"
+msgstr "[do potwierdzenia]"
+
+msgid "nieczynne"
+msgstr "nieczynne"
+
+msgid "Stopka"
+msgstr "Stopka"
+
+msgid "Nawigacja"
+msgstr "Nawigacja"
+
+msgid "Barber & Salon · Warszawa Białołęka"
+msgstr "Barber & Salon · Warszawa Białołęka"
+
+msgid "Elegancka fryzura blisko domu — na Białołęce"
+msgstr "Elegancka fryzura blisko domu — na Białołęce"
+
+msgid "Strzyżenie męskie, broda i barber — a także strzyżenie damskie, dziecięce i koloryzacja. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort."
+msgstr "Strzyżenie męskie, broda i barber — a także strzyżenie damskie, dziecięce i koloryzacja. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort."
+
+msgid "Zobacz usługi i cennik"
+msgstr "Zobacz usługi i cennik"
+
+msgid "Metamorfozy koloru & strzyżenia"
+msgstr "Metamorfozy koloru & strzyżenia"
+
+msgid "Co robimy"
+msgstr "Co robimy"
+
+msgid "Barber i fryzjer dla całej rodziny"
+msgstr "Barber i fryzjer dla całej rodziny"
+
+msgid "Jedno miejsce dla kobiet, mężczyzn i dzieci — od codziennego strzyżenia po pełną metamorfozę koloru i usługi barberskie."
+msgstr "Jedno miejsce dla kobiet, mężczyzn i dzieci — od codziennego strzyżenia po pełną metamorfozę koloru i usługi barberskie."
+
+msgid "Strzyżenie damskie"
+msgstr "Strzyżenie damskie"
+
+msgid "Strzyżenie, modelowanie i pielęgnacja dopasowane do Twoich włosów."
+msgstr "Strzyżenie, modelowanie i pielęgnacja dopasowane do Twoich włosów."
+
+msgid "Strzyżenie męskie"
+msgstr "Strzyżenie męskie"
+
+msgid "Klasyczne i nowoczesne cięcia, stylizacja od ręki."
+msgstr "Klasyczne i nowoczesne cięcia, stylizacja od ręki."
+
+msgid "Barber — broda"
+msgstr "Barber — broda"
+
+msgid "Modelowanie i stylizacja brody, tradycyjne golenie."
+msgstr "Modelowanie i stylizacja brody, tradycyjne golenie."
+
+msgid "Strzyżenie dziecięce"
+msgstr "Strzyżenie dziecięce"
+
+msgid "Spokojnie i bez stresu — także dla najmłodszych."
+msgstr "Spokojnie i bez stresu — także dla najmłodszych."
+
+msgid "Koloryzacja"
+msgstr "Koloryzacja"
+
+msgid "Balayage, rozjaśnianie i metamorfozy koloru po konsultacji."
+msgstr "Balayage, rozjaśnianie i metamorfozy koloru po konsultacji."
+
+msgid "Stylizacja i modelowanie"
+msgstr "Stylizacja i modelowanie"
+
+msgid "Układanie na specjalne okazje i na co dzień."
+msgstr "Układanie na specjalne okazje i na co dzień."
+
+msgid "Pełna lista usług i cennik →"
+msgstr "Pełna lista usług i cennik →"
+
+msgid "Dlaczego my"
+msgstr "Dlaczego my"
+
+msgid "Lokalny salon, w którym czujesz się dobrze"
+msgstr "Lokalny salon, w którym czujesz się dobrze"
+
+msgid "Dla całej rodziny"
+msgstr "Dla całej rodziny"
+
+msgid "Barber, strzyżenie męskie, damskie i dziecięce w jednym miejscu na Białołęce."
+msgstr "Barber, strzyżenie męskie, damskie i dziecięce w jednym miejscu na Białołęce."
+
+msgid "Doświadczenie i pasja"
+msgstr "Doświadczenie i pasja"
+
+msgid "Salon prowadzi Julia — strzyżenia i koloryzacja z dbałością o detal."
+msgstr "Salon prowadzi Julia — strzyżenia i koloryzacja z dbałością o detal."
+
+msgid "Wygodny dojazd"
+msgstr "Wygodny dojazd"
+
+msgid "W sercu Białołęki — %s."
+msgstr "W sercu Białołęki — %s."
+
+msgid "Nasze realizacje"
+msgstr "Nasze realizacje"
+
+msgid "Efekty pracy salonu"
+msgstr "Efekty pracy salonu"
+
+msgid "Prawdziwe metamorfozy i strzyżenia wykonane w Elegant Fryzjer."
+msgstr "Prawdziwe metamorfozy i strzyżenia wykonane w Elegant Fryzjer."
+
+msgid "Powiększ: %s"
+msgstr "Powiększ: %s"
+
+msgid "Zobacz całą galerię →"
+msgstr "Zobacz całą galerię →"
+
+msgid "Odwiedź nas"
+msgstr "Odwiedź nas"
+
+msgid "Adres i godziny"
+msgstr "Adres i godziny"
+
+msgid "Telefon"
+msgstr "Telefon"
+
+msgid "Mapa i dojazd"
+msgstr "Mapa i dojazd"
+
+msgid "Opinie"
+msgstr "Opinie"
+
+msgid "Co mówią klienci"
+msgstr "Co mówią klienci"
+
+msgid "Nie znaleziono strony"
+msgstr "Nie znaleziono strony"
+
+msgid "Strona, której szukasz, nie istnieje."
+msgstr "Strona, której szukasz, nie istnieje."
+
+msgid "Wróć na stronę główną"
+msgstr "Wróć na stronę główną"
+
+msgid "Cennik"
+msgstr "Cennik"
+
+msgid "Pełna oferta salonu Elegant Fryzjer na Białołęce. Ceny koloryzacji zależą od długości i gęstości włosów — dokładną wycenę podajemy po krótkiej konsultacji."
+msgstr "Pełna oferta salonu Elegant Fryzjer na Białołęce. Ceny koloryzacji zależą od długości i gęstości włosów — dokładną wycenę podajemy po krótkiej konsultacji."
+
+msgid "Kategorie usług"
+msgstr "Kategorie usług"
+
+msgid "Cennik: %s"
+msgstr "Cennik: %s"
+
+msgid "Salon prowadzi Julia"
+msgstr "Salon prowadzi Julia"
+
+msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
+msgstr "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
+
+msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych, koloryzacji i rozjaśnianiu oraz usługach barberskich — modelowaniu i stylizacji brody."
+msgstr "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych, koloryzacji i rozjaśnianiu oraz usługach barberskich — modelowaniu i stylizacji brody."
+
+msgid "Zobacz realizacje"
+msgstr "Zobacz realizacje"
+
+msgid "Nasze podejście"
+msgstr "Nasze podejście"
+
+msgid "Na czym nam zależy"
+msgstr "Na czym nam zależy"
+
+msgid "Konsultacja"
+msgstr "Konsultacja"
+
+msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
+msgstr "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
+
+msgid "Jakość"
+msgstr "Jakość"
+
+msgid "Sprawdzone produkty i staranne wykończenie każdej fryzury."
+msgstr "Sprawdzone produkty i staranne wykończenie każdej fryzury."
+
+msgid "Komfort"
+msgstr "Komfort"
+
+msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
+msgstr "Spokojna, przyjazna atmosfera — także dla dzieci."
+
+msgid "Prawdziwe metamorfozy, koloryzacje i strzyżenia wykonane w salonie Elegant Fryzjer. Kliknij zdjęcie, aby powiększyć."
+msgstr "Prawdziwe metamorfozy, koloryzacje i strzyżenia wykonane w salonie Elegant Fryzjer. Kliknij zdjęcie, aby powiększyć."
+
+msgid "Powiększ zdjęcie: %s"
+msgstr "Powiększ zdjęcie: %s"
+
+msgid "Skontaktuj się z nami"
+msgstr "Skontaktuj się z nami"
+
+msgid "Umów wizytę lub zadaj pytanie — odpowiemy najszybciej, jak to możliwe."
+msgstr "Umów wizytę lub zadaj pytanie — odpowiemy najszybciej, jak to możliwe."
+
+msgid "Napisz do nas"
+msgstr "Napisz do nas"
+
+msgid "Dziękujemy! Wiadomość została wysłana — odezwiemy się wkrótce."
+msgstr "Dziękujemy! Wiadomość została wysłana — odezwiemy się wkrótce."
+
+msgid "Nie udało się wysłać wiadomości. Sprawdź pola i spróbuj ponownie."
+msgstr "Nie udało się wysłać wiadomości. Sprawdź pola i spróbuj ponownie."
+
+msgid "Nie wypełniaj"
+msgstr "Nie wypełniaj"
+
+msgid "Imię i nazwisko"
+msgstr "Imię i nazwisko"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Wiadomość"
+msgstr "Wiadomość"
+
+msgid "Wyślij wiadomość"
+msgstr "Wyślij wiadomość"
+
+msgid "Wysyłając formularz zgadzasz się na kontakt w sprawie zapytania."
+msgstr "Wysyłając formularz zgadzasz się na kontakt w sprawie zapytania."
+
+msgid "Mapa Google ładuje się dopiero po kliknięciu (ochrona prywatności / RODO)."
+msgstr "Mapa Google ładuje się dopiero po kliknięciu (ochrona prywatności / RODO)."
+
+msgid "Pokaż mapę dojazdu"
+msgstr "Pokaż mapę dojazdu"
+
+msgid "Otwórz w Mapach Google →"
+msgstr "Otwórz w Mapach Google →"
+
+msgid "Mapa dojazdu do salonu Elegant Fryzjer"
+msgstr "Mapa dojazdu do salonu Elegant Fryzjer"
+
+msgid "Salon fryzjerski w Białołęce"
+msgstr "Salon fryzjerski w Białołęce"
+
+msgid "Poniedziałek"
+msgstr "Poniedziałek"
+
+msgid "Wtorek"
+msgstr "Wtorek"
+
+msgid "Środa"
+msgstr "Środa"
+
+msgid "Czwartek"
+msgstr "Czwartek"
+
+msgid "Piątek"
+msgstr "Piątek"
+
+msgid "Sobota"
+msgstr "Sobota"
+
+msgid "Niedziela"
+msgstr "Niedziela"
+
+msgid "Strzyżenie, modelowanie i pielęgnacja dopasowane do struktury Twoich włosów."
+msgstr "Strzyżenie, modelowanie i pielęgnacja dopasowane do struktury Twoich włosów."
+
+msgid "Strzyżenie damskie + modelowanie"
+msgstr "Strzyżenie damskie + modelowanie"
+
+msgid "Modelowanie / układanie"
+msgstr "Modelowanie / układanie"
+
+msgid "Strzyżenie grzywki"
+msgstr "Strzyżenie grzywki"
+
+msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
+msgstr "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
+
+msgid "Strzyżenie maszynką"
+msgstr "Strzyżenie maszynką"
+
+msgid "Barber — broda i zarost"
+msgstr "Barber — broda i zarost"
+
+msgid "Stylizacja brody, modelowanie i tradycyjne golenie."
+msgstr "Stylizacja brody, modelowanie i tradycyjne golenie."
+
+msgid "Strzyżenie brody / trymowanie"
+msgstr "Strzyżenie brody / trymowanie"
+
+msgid "Strzyżenie włosów + broda"
+msgstr "Strzyżenie włosów + broda"
+
+msgid "Golenie maszynką / brzytwą"
+msgstr "Golenie maszynką / brzytwą"
+
+msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
+msgstr "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
+
+msgid "Strzyżenie dziecięce (do 12 lat)"
+msgstr "Strzyżenie dziecięce (do 12 lat)"
+
+msgid "Koloryzacja i rozjaśnianie"
+msgstr "Koloryzacja i rozjaśnianie"
+
+msgid "Koloryzacja, balayage, rozjaśnianie i metamorfozy koloru. Cena zależna od długości i gęstości włosów — dokładną wycenę podajemy po konsultacji."
+msgstr "Koloryzacja, balayage, rozjaśnianie i metamorfozy koloru. Cena zależna od długości i gęstości włosów — dokładną wycenę podajemy po konsultacji."
+
+msgid "Koloryzacja jednolita"
+msgstr "Koloryzacja jednolita"
+
+msgid "Balayage / sombre"
+msgstr "Balayage / sombre"
+
+msgid "Rozjaśnianie / dekoloryzacja"
+msgstr "Rozjaśnianie / dekoloryzacja"
+
+msgid "Koloryzacja kreatywna"
+msgstr "Koloryzacja kreatywna"
+
+msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, stylizacja brody. Prowadzi Julia."
+msgstr "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, stylizacja brody. Prowadzi Julia."
+
+msgid "Usługi fryzjerskie i barberskie"
+msgstr "Usługi fryzjerskie i barberskie"
+
+msgid "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
+msgstr "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
+
+msgid "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
+msgstr "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
+
+msgid "Rozjaśnianie włosów do platynowego blondu — efekt przed i po"
+msgstr "Rozjaśnianie włosów do platynowego blondu — efekt przed i po"
+
+msgid "Metamorfoza koloru: z czerni na ciepły kasztan — przed i po"
+msgstr "Metamorfoza koloru: z czerni na ciepły kasztan — przed i po"
+
+msgid "Damskie cieniowane strzyżenie i koloryzacja, długie włosy blond — widok z tyłu"
+msgstr "Damskie cieniowane strzyżenie i koloryzacja, długie włosy blond — widok z tyłu"
+
+msgid "Strzyżenie cieniowane na długich włosach blond — widok z tyłu"
+msgstr "Strzyżenie cieniowane na długich włosach blond — widok z tyłu"
+
+msgid "Koloryzacja blond z delikatnymi rozjaśnieniami, włosy do ramion"
+msgstr "Koloryzacja blond z delikatnymi rozjaśnieniami, włosy do ramion"
+
+msgid "Długie włosy w odcieniu miedzi po koloryzacji — widok z tyłu"
+msgstr "Długie włosy w odcieniu miedzi po koloryzacji — widok z tyłu"
+
+msgid "Długie, proste włosy w odcieniu kasztanu po koloryzacji"
+msgstr "Długie, proste włosy w odcieniu kasztanu po koloryzacji"
+
+msgid "Przygotowanie do koloryzacji — długie ciemne włosy, widok z tyłu"
+msgstr "Przygotowanie do koloryzacji — długie ciemne włosy, widok z tyłu"
+
+msgid "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
+msgstr "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
+
+msgid "Kreatywna koloryzacja w odcieniach zieleni i żółci — widok z tyłu"
+msgstr "Kreatywna koloryzacja w odcieniach zieleni i żółci — widok z tyłu"
+
+msgid "Kreatywna koloryzacja neonowa — widok z góry"
+msgstr "Kreatywna koloryzacja neonowa — widok z góry"
+
+msgid "Krótkie damskie strzyżenie bob — widok z tyłu"
+msgstr "Krótkie damskie strzyżenie bob — widok z tyłu"
+
+msgid "Strzyżenie bob z wycieniowanym tyłem głowy"
+msgstr "Strzyżenie bob z wycieniowanym tyłem głowy"
+
+msgid "Precyzyjne krótkie strzyżenie bob — widok z tyłu"
+msgstr "Precyzyjne krótkie strzyżenie bob — widok z tyłu"
+
+msgid "Strzyżenie męskie, krótkie włosy — widok z tyłu"
+msgstr "Strzyżenie męskie, krótkie włosy — widok z tyłu"
+
+msgid "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
+msgstr "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
+
+msgid "Męskie strzyżenie — widok z tyłu, salon Elegant Fryzjer"
+msgstr "Męskie strzyżenie — widok z tyłu, salon Elegant Fryzjer"
+
+msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, koloryzacja, broda. Prowadzi Julia."
+msgstr "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, koloryzacja, broda. Prowadzi Julia."
+
+msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, broda."
+msgstr "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, broda."
+
+msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
+msgstr "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
+
+msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
+msgstr "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
+
+msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
+msgstr "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
+
+msgid "Wybór języka"
+msgstr "Wybór języka"
+
+# --- Gallery: men's cut alt texts (added 2026-06-22) ---
+msgid "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
+msgstr "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
+
+msgid "Męskie strzyżenie: teksturowana góra z przejściem (fade) i krótka broda — z boku"
+msgstr "Męskie strzyżenie: teksturowana góra z przejściem (fade) i krótka broda — z boku"
+
+msgid "Klasyczny pompadour z uniesioną górą — ujęcie trzy czwarte z przodu"
+msgstr "Klasyczny pompadour z uniesioną górą — ujęcie trzy czwarte z przodu"
+
+msgid "Rozłączony undercut z włosami zaczesanymi do tyłu i wysokim przejściem — profil"
+msgstr "Rozłączony undercut z włosami zaczesanymi do tyłu i wysokim przejściem — profil"
+
+msgid "Krótkie strzyżenie na jeża ze skórnym przejściem (skin fade) — z boku"
+msgstr "Krótkie strzyżenie na jeża ze skórnym przejściem (skin fade) — z boku"
+
+msgid "Młodzieżowe strzyżenie typu crop z grzywką i niskim przejściem — z boku"
+msgstr "Młodzieżowe strzyżenie typu crop z grzywką i niskim przejściem — z boku"
+
+msgid "Krótkie teksturowane strzyżenie męskie ze średnim przejściem — z boku"
+msgstr "Krótkie teksturowane strzyżenie męskie ze średnim przejściem — z boku"
+
+msgid "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — z boku"
+msgstr "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — z boku"
+
+msgid "Krótkie męskie strzyżenie z przejściem i lekkim zarostem — profil"
+msgstr "Krótkie męskie strzyżenie z przejściem i lekkim zarostem — profil"
+
+msgid "Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu"
+msgstr "Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu"
+
+msgid "Męskie strzyżenie z uniesioną górą i cieniowanym tyłem — widok z tyłu"
+msgstr "Męskie strzyżenie z uniesioną górą i cieniowanym tyłem — widok z tyłu"
+
+msgid "Męskie strzyżenie typu crop z teksturą — od przodu"
+msgstr "Męskie strzyżenie typu crop z teksturą — od przodu"
+
+msgid "Krótkie męskie strzyżenie z pełną, wymodelowaną brodą — od przodu"
+msgstr "Krótkie męskie strzyżenie z pełną, wymodelowaną brodą — od przodu"
+
+msgid "Bardzo krótkie strzyżenie na jeża ze skórnym przejściem — widok z tyłu"
+msgstr "Bardzo krótkie strzyżenie na jeża ze skórnym przejściem — widok z tyłu"
+
+msgid "Młodzieżowe strzyżenie typu crop z teksturą — widok z tyłu"
+msgstr "Młodzieżowe strzyżenie typu crop z teksturą — widok z tyłu"
+
+msgid "Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje możliwość umówienia wizyty w innym terminie."
+msgstr "Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje możliwość umówienia wizyty w innym terminie."

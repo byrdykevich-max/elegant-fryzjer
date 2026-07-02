@@ -1,0 +1,649 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Elegant Fryzjer
+# This file is distributed under the same license as the Elegant Fryzjer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant Fryzjer\n"
+"Report-Msgid-Bugs-To: kontakt@elegantfryzjer.pl\n"
+"POT-Creation-Date: 2026-06-21 18:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:24 header.php:29
+msgid "Menu główne"
+msgstr ""
+
+#: functions.php:36
+msgid "Powiększone zdjęcie"
+msgstr ""
+
+#: functions.php:37
+msgid "Zamknij"
+msgstr ""
+
+#: functions.php:60
+msgid "Zarezerwuj online"
+msgstr ""
+
+#: functions.php:65
+msgid "Zadzwoń:"
+msgstr ""
+
+#: functions.php:69 page-uslugi.php:46
+msgid "Umów wizytę"
+msgstr ""
+
+#: header.php:18
+msgid "Przejdź do treści"
+msgstr ""
+
+#: header.php:23
+msgid "Elegant Fryzjer — strona główna"
+msgstr ""
+
+#: header.php:25
+msgid "Salon & Barber · Białołęka"
+msgstr ""
+
+#: header.php:48
+msgid "Przełącz tryb jasny lub ciemny"
+msgstr ""
+
+#: header.php:55
+msgid "Przełącz motyw"
+msgstr ""
+
+#: header.php:61
+msgid "Menu"
+msgstr ""
+
+#: header.php:72 footer.php:66 page-uslugi.php:13 inc/i18n.php:205
+msgid "Usługi i cennik"
+msgstr ""
+
+#: header.php:73 footer.php:67 page-o-nas.php:12 inc/i18n.php:206
+msgid "O nas"
+msgstr ""
+
+#: header.php:74 footer.php:68 page-galeria.php:13 inc/i18n.php:207
+msgid "Galeria"
+msgstr ""
+
+#: header.php:75 footer.php:69 page-kontakt.php:15 inc/i18n.php:208
+msgid "Kontakt"
+msgstr ""
+
+#: footer.php:7
+msgid "Gotowa/gotowy na nowy look?"
+msgstr ""
+
+#: footer.php:8
+msgid "Umów wizytę w Elegant Fryzjer na Białołęce."
+msgstr ""
+
+#: footer.php:11 page-kontakt.php:81
+msgid "Jak dojechać"
+msgstr ""
+
+#: footer.php:35 front-page.php:108 page-kontakt.php:25
+msgid "Adres"
+msgstr ""
+
+#: footer.php:46 front-page.php:117 page-kontakt.php:33
+msgid "Godziny otwarcia"
+msgstr ""
+
+#: footer.php:48
+msgid "Do potwierdzenia przez właściciela"
+msgstr ""
+
+#: footer.php:48 front-page.php:118 page-kontakt.php:34
+msgid "[do potwierdzenia]"
+msgstr ""
+
+#: footer.php:56 front-page.php:122 page-kontakt.php:38
+msgid "nieczynne"
+msgstr ""
+
+#: footer.php:63
+msgid "Stopka"
+msgstr ""
+
+#: footer.php:64
+msgid "Nawigacja"
+msgstr ""
+
+#: front-page.php:15
+msgid "Salon & Barber · Warszawa Białołęka"
+msgstr ""
+
+#: front-page.php:16
+msgid "Elegancka fryzura blisko domu — na Białołęce"
+msgstr ""
+
+#: front-page.php:17
+msgid "Strzyżenie damskie, męskie i dziecięce, koloryzacja oraz stylizacja brody. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort."
+msgstr ""
+
+#: front-page.php:20
+msgid "Zobacz usługi i cennik"
+msgstr ""
+
+#: front-page.php:28
+msgid "Metamorfozy koloru & strzyżenia"
+msgstr ""
+
+#: front-page.php:37
+msgid "Co robimy"
+msgstr ""
+
+#: front-page.php:38
+msgid "Usługi dla całej rodziny"
+msgstr ""
+
+#: front-page.php:39
+msgid "Jedno miejsce dla kobiet, mężczyzn i dzieci — od codziennego strzyżenia po pełną metamorfozę koloru i usługi barberskie."
+msgstr ""
+
+#: front-page.php:44 inc/config.php:88
+msgid "Strzyżenie damskie"
+msgstr ""
+
+#: front-page.php:44
+msgid "Strzyżenie, modelowanie i pielęgnacja dopasowane do Twoich włosów."
+msgstr ""
+
+#: front-page.php:45 inc/config.php:98 inc/config.php:101
+msgid "Strzyżenie męskie"
+msgstr ""
+
+#: front-page.php:45
+msgid "Klasyczne i nowoczesne cięcia, stylizacja od ręki."
+msgstr ""
+
+#: front-page.php:46
+msgid "Barber — broda"
+msgstr ""
+
+#: front-page.php:46
+msgid "Modelowanie i stylizacja brody, tradycyjne golenie."
+msgstr ""
+
+#: front-page.php:47 inc/config.php:117
+msgid "Strzyżenie dziecięce"
+msgstr ""
+
+#: front-page.php:47
+msgid "Spokojnie i bez stresu — także dla najmłodszych."
+msgstr ""
+
+#: front-page.php:48
+msgid "Koloryzacja"
+msgstr ""
+
+#: front-page.php:48
+msgid "Balayage, rozjaśnianie i metamorfozy koloru po konsultacji."
+msgstr ""
+
+#: front-page.php:49
+msgid "Stylizacja i modelowanie"
+msgstr ""
+
+#: front-page.php:49
+msgid "Układanie na specjalne okazje i na co dzień."
+msgstr ""
+
+#: front-page.php:58
+msgid "Pełna lista usług i cennik →"
+msgstr ""
+
+#: front-page.php:66
+msgid "Dlaczego my"
+msgstr ""
+
+#: front-page.php:67
+msgid "Lokalny salon, w którym czujesz się dobrze"
+msgstr ""
+
+#: front-page.php:70
+msgid "Dla całej rodziny"
+msgstr ""
+
+#: front-page.php:70
+msgid "Damskie, męskie, dziecięce i barber w jednym miejscu na Białołęce."
+msgstr ""
+
+#: front-page.php:71
+msgid "Doświadczenie i pasja"
+msgstr ""
+
+#: front-page.php:71
+msgid "Salon prowadzi Julia — strzyżenia i koloryzacja z dbałością o detal."
+msgstr ""
+
+#: front-page.php:72
+msgid "Wygodny dojazd"
+msgstr ""
+
+#: front-page.php:72
+#, php-format
+msgid "W sercu Białołęki — %s."
+msgstr ""
+
+#: front-page.php:81 page-galeria.php:14
+msgid "Nasze realizacje"
+msgstr ""
+
+#: front-page.php:82
+msgid "Efekty pracy salonu"
+msgstr ""
+
+#: front-page.php:83
+msgid "Prawdziwe metamorfozy i strzyżenia wykonane w Elegant Fryzjer."
+msgstr ""
+
+#: front-page.php:92
+#, php-format
+msgid "Powiększ: %s"
+msgstr ""
+
+#: front-page.php:97
+msgid "Zobacz całą galerię →"
+msgstr ""
+
+#: front-page.php:105
+msgid "Odwiedź nas"
+msgstr ""
+
+#: front-page.php:106
+msgid "Adres i godziny"
+msgstr ""
+
+#: front-page.php:109 page-kontakt.php:26
+msgid "Telefon"
+msgstr ""
+
+#: front-page.php:113
+msgid "Mapa i dojazd"
+msgstr ""
+
+#: front-page.php:133
+msgid "Opinie"
+msgstr ""
+
+#: front-page.php:134
+msgid "Co mówią klienci"
+msgstr ""
+
+#: index.php:18
+msgid "Nie znaleziono strony"
+msgstr ""
+
+#: index.php:19
+msgid "Strona, której szukasz, nie istnieje."
+msgstr ""
+
+#: index.php:20
+msgid "Wróć na stronę główną"
+msgstr ""
+
+#: page-uslugi.php:12
+msgid "Cennik"
+msgstr ""
+
+#: page-uslugi.php:14
+msgid "Pełna oferta salonu Elegant Fryzjer na Białołęce. Ceny koloryzacji zależą od długości i gęstości włosów — dokładną wycenę podajemy po krótkiej konsultacji."
+msgstr ""
+
+#: page-uslugi.php:19
+msgid "Kategorie usług"
+msgstr ""
+
+#: page-uslugi.php:31
+#, php-format
+msgid "Cennik: %s"
+msgstr ""
+
+#: page-o-nas.php:13
+msgid "Salon prowadzi Julia"
+msgstr ""
+
+#: page-o-nas.php:14
+msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
+msgstr ""
+
+#: page-o-nas.php:16
+msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych, koloryzacji i rozjaśnianiu oraz usługach barberskich — modelowaniu i stylizacji brody."
+msgstr ""
+
+#: page-o-nas.php:19
+msgid "Zobacz realizacje"
+msgstr ""
+
+#: page-o-nas.php:35
+msgid "Nasze podejście"
+msgstr ""
+
+#: page-o-nas.php:36
+msgid "Na czym nam zależy"
+msgstr ""
+
+#: page-o-nas.php:39
+msgid "Konsultacja"
+msgstr ""
+
+#: page-o-nas.php:39
+msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
+msgstr ""
+
+#: page-o-nas.php:40
+msgid "Jakość"
+msgstr ""
+
+#: page-o-nas.php:40
+msgid "Sprawdzone produkty i staranne wykończenie każdej fryzury."
+msgstr ""
+
+#: page-o-nas.php:41
+msgid "Komfort"
+msgstr ""
+
+#: page-o-nas.php:41
+msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
+msgstr ""
+
+#: page-galeria.php:15
+msgid "Prawdziwe metamorfozy, koloryzacje i strzyżenia wykonane w salonie Elegant Fryzjer. Kliknij zdjęcie, aby powiększyć."
+msgstr ""
+
+#: page-galeria.php:22
+#, php-format
+msgid "Powiększ zdjęcie: %s"
+msgstr ""
+
+#: page-kontakt.php:16
+msgid "Skontaktuj się z nami"
+msgstr ""
+
+#: page-kontakt.php:17
+msgid "Umów wizytę lub zadaj pytanie — odpowiemy najszybciej, jak to możliwe."
+msgstr ""
+
+#: page-kontakt.php:49
+msgid "Napisz do nas"
+msgstr ""
+
+#: page-kontakt.php:51
+msgid "Dziękujemy! Wiadomość została wysłana — odezwiemy się wkrótce."
+msgstr ""
+
+#: page-kontakt.php:53
+msgid "Nie udało się wysłać wiadomości. Sprawdź pola i spróbuj ponownie."
+msgstr ""
+
+#: page-kontakt.php:60
+msgid "Nie wypełniaj"
+msgstr ""
+
+#: page-kontakt.php:63
+msgid "Imię i nazwisko"
+msgstr ""
+
+#: page-kontakt.php:67
+msgid "E-mail"
+msgstr ""
+
+#: page-kontakt.php:71
+msgid "Wiadomość"
+msgstr ""
+
+#: page-kontakt.php:74
+msgid "Wyślij wiadomość"
+msgstr ""
+
+#: page-kontakt.php:75
+msgid "Wysyłając formularz zgadzasz się na kontakt w sprawie zapytania."
+msgstr ""
+
+#: page-kontakt.php:83
+msgid "Mapa Google ładuje się dopiero po kliknięciu (ochrona prywatności / RODO)."
+msgstr ""
+
+#: page-kontakt.php:86
+msgid "Pokaż mapę dojazdu"
+msgstr ""
+
+#: page-kontakt.php:88
+msgid "Otwórz w Mapach Google →"
+msgstr ""
+
+#: page-kontakt.php:98
+msgid "Mapa dojazdu do salonu Elegant Fryzjer"
+msgstr ""
+
+#: inc/config.php:18 inc/i18n.php:201
+msgid "Salon fryzjerski w Białołęce"
+msgstr ""
+
+#: inc/config.php:74
+msgid "Poniedziałek"
+msgstr ""
+
+#: inc/config.php:74
+msgid "Wtorek"
+msgstr ""
+
+#: inc/config.php:74
+msgid "Środa"
+msgstr ""
+
+#: inc/config.php:75
+msgid "Czwartek"
+msgstr ""
+
+#: inc/config.php:75
+msgid "Piątek"
+msgstr ""
+
+#: inc/config.php:75
+msgid "Sobota"
+msgstr ""
+
+#: inc/config.php:75
+msgid "Niedziela"
+msgstr ""
+
+#: inc/config.php:89
+msgid "Strzyżenie, modelowanie i pielęgnacja dopasowane do struktury Twoich włosów."
+msgstr ""
+
+#: inc/config.php:91
+msgid "Strzyżenie damskie + modelowanie"
+msgstr ""
+
+#: inc/config.php:92
+msgid "Modelowanie / układanie"
+msgstr ""
+
+#: inc/config.php:93
+msgid "Strzyżenie grzywki"
+msgstr ""
+
+#: inc/config.php:99
+msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
+msgstr ""
+
+#: inc/config.php:102
+msgid "Strzyżenie maszynką"
+msgstr ""
+
+#: inc/config.php:107
+msgid "Barber — broda i zarost"
+msgstr ""
+
+#: inc/config.php:108
+msgid "Stylizacja brody, modelowanie i tradycyjne golenie."
+msgstr ""
+
+#: inc/config.php:110
+msgid "Strzyżenie brody / trymowanie"
+msgstr ""
+
+#: inc/config.php:111
+msgid "Strzyżenie włosów + broda"
+msgstr ""
+
+#: inc/config.php:112
+msgid "Golenie maszynką / brzytwą"
+msgstr ""
+
+#: inc/config.php:118
+msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
+msgstr ""
+
+#: inc/config.php:120
+msgid "Strzyżenie dziecięce (do 12 lat)"
+msgstr ""
+
+#: inc/config.php:125
+msgid "Koloryzacja i rozjaśnianie"
+msgstr ""
+
+#: inc/config.php:126
+msgid "Koloryzacja, balayage, rozjaśnianie i metamorfozy koloru. Cena zależna od długości i gęstości włosów — dokładną wycenę podajemy po konsultacji."
+msgstr ""
+
+#: inc/config.php:128
+msgid "Koloryzacja jednolita"
+msgstr ""
+
+#: inc/config.php:129
+msgid "Balayage / sombre"
+msgstr ""
+
+#: inc/config.php:130
+msgid "Rozjaśnianie / dekoloryzacja"
+msgstr ""
+
+#: inc/config.php:131
+msgid "Koloryzacja kreatywna"
+msgstr ""
+
+#: inc/schema.php:52
+msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, stylizacja brody. Prowadzi Julia."
+msgstr ""
+
+#: inc/schema.php:74
+msgid "Usługi fryzjerskie i barberskie"
+msgstr ""
+
+#: inc/gallery.php:17
+msgid "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
+msgstr ""
+
+#: inc/gallery.php:18
+msgid "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
+msgstr ""
+
+#: inc/gallery.php:19
+msgid "Rozjaśnianie włosów do platynowego blondu — efekt przed i po"
+msgstr ""
+
+#: inc/gallery.php:20
+msgid "Metamorfoza koloru: z czerni na ciepły kasztan — przed i po"
+msgstr ""
+
+#: inc/gallery.php:21
+msgid "Damskie cieniowane strzyżenie i koloryzacja, długie włosy blond — widok z tyłu"
+msgstr ""
+
+#: inc/gallery.php:22
+msgid "Strzyżenie cieniowane na długich włosach blond — widok z tyłu"
+msgstr ""
+
+#: inc/gallery.php:23
+msgid "Koloryzacja blond z delikatnymi rozjaśnieniami, włosy do ramion"
+msgstr ""
+
+#: inc/gallery.php:24
+msgid "Długie włosy w odcieniu miedzi po koloryzacji — widok z tyłu"
+msgstr ""
+
+#: inc/gallery.php:25
+msgid "Długie, proste włosy w odcieniu kasztanu po koloryzacji"
+msgstr ""
+
+#: inc/gallery.php:26
+msgid "Przygotowanie do koloryzacji — długie ciemne włosy, widok z tyłu"
+msgstr ""
+
+#: inc/gallery.php:27
+msgid "Detal zabiegu koloryzacji — nałożony preparat na pasma włosów"
+msgstr ""
+
+#: inc/gallery.php:28
+msgid "Kreatywna koloryzacja w odcieniach zieleni i żółci — widok z tyłu"
+msgstr ""
+
+#: inc/gallery.php:29
+msgid "Kreatywna koloryzacja neonowa — widok z góry"
+msgstr ""
+
+#: inc/gallery.php:30
+msgid "Krótkie damskie strzyżenie bob — widok z tyłu"
+msgstr ""
+
+#: inc/gallery.php:31
+msgid "Strzyżenie bob z wycieniowanym tyłem głowy"
+msgstr ""
+
+#: inc/gallery.php:32
+msgid "Precyzyjne krótkie strzyżenie bob — widok z tyłu"
+msgstr ""
+
+#: inc/gallery.php:33
+msgid "Strzyżenie męskie, krótkie włosy — widok z tyłu"
+msgstr ""
+
+#: inc/gallery.php:34
+msgid "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
+msgstr ""
+
+#: inc/gallery.php:35
+msgid "Męskie strzyżenie — widok z tyłu, salon Elegant Fryzjer"
+msgstr ""
+
+#: inc/i18n.php:223
+msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, koloryzacja, broda. Prowadzi Julia."
+msgstr ""
+
+#: inc/i18n.php:227
+msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, broda."
+msgstr ""
+
+#: inc/i18n.php:228
+msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
+msgstr ""
+
+#: inc/i18n.php:229
+msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
+msgstr ""
+
+#: inc/i18n.php:230
+msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
+msgstr ""
+
+#: inc/i18n.php:248
+msgid "Wybór języka"
+msgstr ""
+
+msgid "Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje możliwość umówienia wizyty w innym terminie."
+msgstr ""
