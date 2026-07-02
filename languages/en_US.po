@@ -325,15 +325,15 @@ msgstr "Elegant Fryzjer is an intimate hair and barber salon in Warsaw's Biało�
 
 #: page-o-nas.php:15
 msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
-msgstr "[MT-REVIEW] We specialise in women's, men's and children's haircuts, as well as barbering services — beard shaping and styling."
+msgstr "We specialise in women's, men's and children's haircuts, as well as barbering services — beard shaping and styling."
 
 #: page-o-nas.php:16
 msgid "Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich — fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą starannością podchodząc do strzyżeń damskich i dziecięcych."
-msgstr "[MT-REVIEW] Julia has over ten years of experience and professional qualifications in hairdressing. She specialises in men's cuts and barbering — fades, classic cuts, beard shaping and shaving — while bringing the same care to women's and children's cuts."
+msgstr "Julia has over ten years of experience and professional hairdressing qualifications. She specialises in men's cuts and barbering — fades, classic cuts, beard shaping and shaving — and brings the same care to women's and children's cuts."
 
 #: page-o-nas.php:17
 msgid "Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później."
-msgstr "[MT-REVIEW] Her approach is direct: she listens, advises based on your actual hair rather than trends, and tells you what will genuinely suit you. The goal isn't just a good cut in the chair — it's one that still works a week later."
+msgstr "Her approach is direct: she listens, advises based on your actual hair rather than passing trends, and tells you honestly what will really suit you. The goal isn't just a good cut in the chair — it's one that still holds up a week later."
 
 #: page-o-nas.php:20
 msgid "Zobacz realizacje"
