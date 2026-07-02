@@ -48,9 +48,11 @@ function ef_config() {
 		'instagram'       => 'https://www.instagram.com/juli_fryzjer/', // real (źródło zdjęć)
 		'facebook'        => '', // [PLACEHOLDER] — wklej link do profilu FB jeśli jest
 
-		// --- Geo (approximate; Google geocodes from the address too) ---
-		'geo_lat'         => '52.3210', // [PLACEHOLDER – przybliżone] zweryfikuj dokładne współrzędne
-		'geo_lng'         => '21.0510', // [PLACEHOLDER – przybliżone]
+		// --- Geo ---
+		// Geocoded 2026-07-02 from the real address (ul. Mariana Hemara 5, 03-289 Warszawa) via
+		// OpenStreetMap/Nominatim — exact house-number + postcode match, not an approximation.
+		'geo_lat'         => '52.3255881',
+		'geo_lng'         => '21.0448901',
 
 		// --- Opening hours ---
 		// [PLACEHOLDER] — confirm real hours. 'hours_confirmed' => true gdy potwierdzone
