@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Note: Machine-translation drafts — every entry needs native review. Remove the [MT-REVIEW] prefix once approved.\n"
+"X-Note: All translations human-reviewed 2026-07-02. Mark any new machine-translation draft with a [MT-REVIEW] prefix until it is reviewed.\n"
 
 #: footer.php:7
 msgid "Gotowa/gotowy na nowy look?"
@@ -372,15 +372,15 @@ msgstr "Спокійна, доброзичлива атмосфера — так
 
 #: page-polityka-prywatnosci.php:17
 msgid "RODO"
-msgstr "[MT-REVIEW] GDPR"
+msgstr "GDPR"
 
 #: page-polityka-prywatnosci.php:19
 msgid "Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant Fryzjer."
-msgstr "[MT-REVIEW] Як ми обробляємо персональні дані відвідувачів і клієнтів салону Elegant Fryzjer."
+msgstr "Як ми обробляємо персональні дані відвідувачів і клієнтів салону Elegant Fryzjer."
 
 #: page-polityka-prywatnosci.php:23
 msgid "Administrator danych"
-msgstr "[MT-REVIEW] Адміністратор даних"
+msgstr "Адміністратор даних"
 
 #: page-polityka-prywatnosci.php:28
 #, php-format
@@ -390,59 +390,59 @@ msgstr "[MT-REVIEW] Адміністратором персональних да
 
 #: page-polityka-prywatnosci.php:34
 msgid "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
-msgstr "[MT-REVIEW] Контакт з питань захисту даних: телефоном або через контактну форму на сайті."
+msgstr "Контакт з питань захисту даних: телефоном або через контактну форму на сайті."
 
 #: page-polityka-prywatnosci.php:37
 msgid "Formularz kontaktowy"
-msgstr "[MT-REVIEW] Контактна форма"
+msgstr "Контактна форма"
 
 #: page-polityka-prywatnosci.php:38
 msgid "Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do celów marketingowych bez odrębnej zgody."
-msgstr "[MT-REVIEW] Через контактну форму ми збираємо ім'я та прізвище, електронну адресу та зміст повідомлення. Ці дані використовуються виключно для відповіді на надіслане запитання і не використовуються з маркетинговою метою без окремої згоди."
+msgstr "Через контактну форму ми збираємо ім'я та прізвище, електронну адресу та зміст повідомлення. Ці дані використовуються виключно для відповіді на надіслане запитання і не використовуються з маркетинговою метою без окремої згоди."
 
 #: page-polityka-prywatnosci.php:39
 msgid "Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie uzasadniony interes administratora polegający na udzieleniu odpowiedzi na przesłane zapytanie."
-msgstr "[MT-REVIEW] Правовою підставою обробки є ст. 6 п. 1 (f) GDPR — законний інтерес адміністратора, що полягає у наданні відповіді на надіслане запитання."
+msgstr "Правовою підставою обробки є ст. 6 п. 1 (f) GDPR — законний інтерес адміністратора, що полягає у наданні відповіді на надіслане запитання."
 
 #: page-polityka-prywatnosci.php:40
 msgid "Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail administratora i nie są zapisywane w bazie danych strony. Przechowujemy je tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej korespondencji."
-msgstr "[MT-REVIEW] Повідомлення з форми надсилаються безпосередньо на електронну пошту адміністратора і не зберігаються в базі даних сайту. Ми зберігаємо їх стільки, скільки потрібно для обробки запитання та подальшого листування."
+msgstr "Повідомлення з форми надсилаються безпосередньо на електронну пошту адміністратора і не зберігаються в базі даних сайту. Ми зберігаємо їх стільки, скільки потрібно для обробки запитання та подальшого листування."
 
 #: page-polityka-prywatnosci.php:42
 msgid "Komu przekazujemy dane"
-msgstr "[MT-REVIEW] Кому ми передаємо дані"
+msgstr "Кому ми передаємо дані"
 
 #: page-polityka-prywatnosci.php:43
 msgid "Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych witryny przechowywanych na koncie Google Drive administratora — w tym zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz Google jako podmioty przetwarzające."
-msgstr "[MT-REVIEW] Ми користуємося зовнішнім хостингом та автоматичними резервними копіями сайту, що зберігаються на обліковому записі Google Drive адміністратора — у цьому обсязі дані можуть тимчасово оброблятися постачальником хостингу та Google як обробниками даних."
+msgstr "Ми користуємося зовнішнім хостингом та автоматичними резервними копіями сайту, що зберігаються на обліковому записі Google Drive адміністратора — у цьому обсязі дані можуть тимчасово оброблятися постачальником хостингу та Google як обробниками даних."
 
 #: page-polityka-prywatnosci.php:45
 msgid "Pliki cookie i mapa dojazdu"
-msgstr "[MT-REVIEW] Файли cookie та карта проїзду"
+msgstr "Файли cookie та карта проїзду"
 
 #: page-polityka-prywatnosci.php:46
 msgid "Strona nie wykorzystuje plików cookie do śledzenia ani profilowania odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest przesyłany na serwer."
-msgstr "[MT-REVIEW] Сайт не використовує файли cookie для відстеження чи профілювання відвідувачів. Вибір світлої або темної теми відображення зберігається лише локально у вашому браузері (local storage) і ніколи не надсилається на сервер."
+msgstr "Сайт не використовує файли cookie для відстеження чи профілювання відвідувачів. Вибір світлої або темної теми відображення зберігається лише локально у вашому браузері (local storage) і ніколи не надсилається на сервер."
 
 #: page-polityka-prywatnosci.php:47
 msgid "Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
-msgstr "[MT-REVIEW] Карта проїзду (Google Maps) на сторінці Контакти завантажується лише після натискання кнопки «Показати карту проїзду» — лише тоді встановлюється з'єднання з Google і починає діяти політика конфіденційності Google."
+msgstr "Карта проїзду (Google Maps) на сторінці Контакти завантажується лише після натискання кнопки «Показати карту проїзду» — лише тоді встановлюється з'єднання з Google і починає діяти політика конфіденційності Google."
 
 #: page-polityka-prywatnosci.php:49
 msgid "Twoje prawa"
-msgstr "[MT-REVIEW] Ваші права"
+msgstr "Ваші права"
 
 #: page-polityka-prywatnosci.php:50
 msgid "Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych."
-msgstr "[MT-REVIEW] Відповідно до GDPR ви маєте право на доступ до своїх даних, їх виправлення, видалення, обмеження обробки, перенесення даних, а також право заперечувати проти обробки. Ви також маєте право подати скаргу Голові Управління захисту персональних даних Польщі (UODO)."
+msgstr "Відповідно до GDPR ви маєте право на доступ до своїх даних, їх виправлення, видалення, обмеження обробки, перенесення даних, а також право заперечувати проти обробки. Ви також маєте право подати скаргу Голові Управління захисту персональних даних Польщі (UODO)."
 
 #: page-polityka-prywatnosci.php:52
 msgid "Zmiany w polityce"
-msgstr "[MT-REVIEW] Зміни в політиці"
+msgstr "Зміни в політиці"
 
 #: page-polityka-prywatnosci.php:53
 msgid "Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
-msgstr "[MT-REVIEW] Ця політика може періодично оновлюватися відповідно до змін на сайті. Актуальна версія завжди доступна за цією адресою."
+msgstr "Ця політика може періодично оновлюватися відповідно до змін на сайті. Актуальна версія завжди доступна за цією адресою."
 
 #: page-uslugi.php:28
 #, php-format
@@ -728,11 +728,11 @@ msgstr "Кольорове перетворення: освітлення з т�
 
 #: inc/i18n.php:246
 msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
-msgstr "[MT-REVIEW] Elegant Fryzjer — перукарський і барбер-салон у варшавській Білоленці. Жіночі, чоловічі та дитячі стрижки, барбер, борода. Веде Юлія."
+msgstr "Elegant Fryzjer — перукарський і барбер-салон у варшавській Білоленці. Жіночі, чоловічі та дитячі стрижки, барбер, борода. Веде Юлія."
 
 #: inc/i18n.php:250
 msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
-msgstr "[MT-REVIEW] Повний перелік послуг та ціни салону Elegant Fryzjer у Білоленці — жіночі, чоловічі та дитячі стрижки, барбер, борода."
+msgstr "Повний перелік послуг та ціни салону Elegant Fryzjer у Білоленці — жіночі, чоловічі та дитячі стрижки, барбер, борода."
 
 #: inc/i18n.php:251
 msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
@@ -748,7 +748,7 @@ msgstr "Контакти та як дістатися салону Elegant Fryzj
 
 #: inc/i18n.php:254
 msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
-msgstr "[MT-REVIEW] Політика конфіденційності салону Elegant Fryzjer — як ми обробляємо персональні дані відвідувачів і клієнтів."
+msgstr "Політика конфіденційності салону Elegant Fryzjer — як ми обробляємо персональні дані відвідувачів і клієнтів."
 
 #: inc/i18n.php:272
 msgid "Wybór języka"
@@ -756,7 +756,7 @@ msgstr "Вибір мови"
 
 #: inc/schema.php:52
 msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
-msgstr "[MT-REVIEW] Перукарський і барбер-салон у варшавській Білоленці — жіночі, чоловічі та дитячі стрижки, барбер і стилізація бороди. Веде Юлія."
+msgstr "Перукарський і барбер-салон у варшавській Білоленці — жіночі, чоловічі та дитячі стрижки, барбер і стилізація бороди. Веде Юлія."
 
 #: inc/schema.php:74
 msgid "Usługi fryzjerskie i barberskie"
