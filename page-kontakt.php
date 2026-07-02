@@ -73,7 +73,7 @@ $map_q  = rawurlencode( 'Elegant Fryzjer, ' . $c['street'] . ', ' . $c['city'] )
 						<textarea id="ef_message" name="ef_message" rows="5" required></textarea>
 					</div>
 					<button class="btn btn--primary" type="submit"><?php esc_html_e( 'Wyślij wiadomość', 'elegant-fryzjer' ); ?></button>
-					<p class="muted" style="font-size:.85rem;margin-top:var(--sp-2)"><?php esc_html_e( 'Wysyłając formularz zgadzasz się na kontakt w sprawie zapytania.', 'elegant-fryzjer' ); ?> <strong>[PLACEHOLDER — link do Polityki prywatności / RODO]</strong></p>
+					<p class="muted" style="font-size:.85rem;margin-top:var(--sp-2)"><?php esc_html_e( 'Wysyłając formularz zgadzasz się na kontakt w sprawie zapytania.', 'elegant-fryzjer' ); ?> <a href="<?php echo esc_url( ef_url( '/polityka-prywatnosci/' ) ); ?>"><?php esc_html_e( 'Polityka prywatności', 'elegant-fryzjer' ); ?></a></p>
 				</form>
 			</div>
 		</div>

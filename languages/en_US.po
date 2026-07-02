@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Elegant Fryzjer 1.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 16:54+0000\n"
+"POT-Creation-Date: 2026-07-02 17:02+0000\n"
 "PO-Revision-Date: 2026-06-21 18:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: en_US\n"
@@ -69,6 +69,12 @@ msgstr "Gallery"
 #: inc/i18n.php:230
 msgid "Kontakt"
 msgstr "Contact"
+
+#: footer.php:71 page-kontakt.php:76 page-polityka-prywatnosci.php:18
+#: inc/i18n.php:231
+msgid "Polityka prywatności"
+msgstr "[MT-REVIEW] Privacy Policy"
+
 
 #: front-page.php:15
 msgid "Barber & Salon · Warszawa Białołęka"
@@ -365,6 +371,97 @@ msgstr "Comfort"
 msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
 msgstr "A calm, friendly atmosphere — also for children."
 
+#: page-polityka-prywatnosci.php:17
+msgid "RODO"
+msgstr "[MT-REVIEW] GDPR"
+
+
+#: page-polityka-prywatnosci.php:19
+msgid "Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant Fryzjer."
+msgstr "[MT-REVIEW] How we process the personal data of visitors and clients of Elegant Fryzjer."
+
+
+#: page-polityka-prywatnosci.php:23
+msgid "Administrator danych"
+msgstr "[MT-REVIEW] Data controller"
+
+
+#: page-polityka-prywatnosci.php:28
+#, php-format
+msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest podmiot prowadzący salon Elegant Fryzjer, %s."
+msgstr "[MT-REVIEW] The controller of personal data processed via elegantfryzjer.pl is the business operating the Elegant Fryzjer salon, %s."
+
+
+#: page-polityka-prywatnosci.php:32
+msgid "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
+msgstr "[MT-REVIEW] Contact for data protection matters: by phone or via the contact form on the site."
+
+
+#: page-polityka-prywatnosci.php:35
+msgid "Formularz kontaktowy"
+msgstr "[MT-REVIEW] Contact form"
+
+
+#: page-polityka-prywatnosci.php:36
+msgid "Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do celów marketingowych bez odrębnej zgody."
+msgstr "[MT-REVIEW] Through the contact form we collect your name, email address and message content. This data is used solely to respond to your enquiry and is not used for marketing purposes without separate consent."
+
+
+#: page-polityka-prywatnosci.php:37
+msgid "Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie uzasadniony interes administratora polegający na udzieleniu odpowiedzi na przesłane zapytanie."
+msgstr "[MT-REVIEW] The legal basis for processing is Article 6(1)(f) GDPR — the controller's legitimate interest in responding to your enquiry."
+
+
+#: page-polityka-prywatnosci.php:38
+msgid "Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail administratora i nie są zapisywane w bazie danych strony. Przechowujemy je tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej korespondencji."
+msgstr "[MT-REVIEW] Messages from the form are sent directly to the controller's email inbox and are not stored in the site's database. We keep them for as long as needed to handle your enquiry and any further correspondence."
+
+
+#: page-polityka-prywatnosci.php:40
+msgid "Komu przekazujemy dane"
+msgstr "[MT-REVIEW] Who we share data with"
+
+
+#: page-polityka-prywatnosci.php:41
+msgid "Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych witryny przechowywanych na koncie Google Drive administratora — w tym zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz Google jako podmioty przetwarzające."
+msgstr "[MT-REVIEW] We use external hosting and automatic website backups stored in the controller's Google Drive account — to that extent, data may be temporarily processed by the hosting provider and by Google as data processors."
+
+
+#: page-polityka-prywatnosci.php:43
+msgid "Pliki cookie i mapa dojazdu"
+msgstr "[MT-REVIEW] Cookies and the directions map"
+
+
+#: page-polityka-prywatnosci.php:44
+msgid "Strona nie wykorzystuje plików cookie do śledzenia ani profilowania odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest przesyłany na serwer."
+msgstr "[MT-REVIEW] The site does not use cookies to track or profile visitors. Your light/dark display preference is stored only locally in your browser (local storage) and is never sent to the server."
+
+
+#: page-polityka-prywatnosci.php:45
+msgid "Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
+msgstr "[MT-REVIEW] The directions map (Google Maps) on the Contact page only loads after you click the “Show map” button — only then is a connection made to Google, and Google's own privacy policy starts to apply."
+
+
+#: page-polityka-prywatnosci.php:47
+msgid "Twoje prawa"
+msgstr "[MT-REVIEW] Your rights"
+
+
+#: page-polityka-prywatnosci.php:48
+msgid "Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych."
+msgstr "[MT-REVIEW] Under GDPR you have the right to access your data, rectify it, erase it, restrict its processing, transfer it, and object to its processing. You also have the right to lodge a complaint with the President of the Polish Data Protection Authority (UODO)."
+
+
+#: page-polityka-prywatnosci.php:50
+msgid "Zmiany w polityce"
+msgstr "[MT-REVIEW] Changes to this policy"
+
+
+#: page-polityka-prywatnosci.php:51
+msgid "Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
+msgstr "[MT-REVIEW] This policy may be updated periodically as the site changes. The current version is always available at this address."
+
+
 #: page-uslugi.php:28
 #, php-format
 msgid "Cennik: %s"
@@ -430,135 +527,135 @@ msgstr "[MT-REVIEW] Experience"
 msgid "Salon fryzjerski w Białołęce"
 msgstr "Hair salon in Białołęka"
 
-#: inc/config.php:75
+#: inc/config.php:77
 msgid "Poniedziałek"
 msgstr "Monday"
 
-#: inc/config.php:75
+#: inc/config.php:77
 msgid "Wtorek"
 msgstr "Tuesday"
 
-#: inc/config.php:75
+#: inc/config.php:77
 msgid "Środa"
 msgstr "Wednesday"
 
-#: inc/config.php:76
+#: inc/config.php:78
 msgid "Czwartek"
 msgstr "Thursday"
 
-#: inc/config.php:76
+#: inc/config.php:78
 msgid "Piątek"
 msgstr "Friday"
 
-#: inc/config.php:76
+#: inc/config.php:78
 msgid "Sobota"
 msgstr "Saturday"
 
-#: inc/config.php:76
+#: inc/config.php:78
 msgid "Niedziela"
 msgstr "Sunday"
 
-#: inc/config.php:92 inc/config.php:95
+#: inc/config.php:94 inc/config.php:97
 msgid "Strzyżenie męskie"
 msgstr "Men's haircut"
 
-#: inc/config.php:93
+#: inc/config.php:95
 msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
 msgstr "Classic and modern men's haircuts, styling on the spot."
 
-#: inc/config.php:96
+#: inc/config.php:98
 msgid "Strzyżenie maszynką"
 msgstr "Clipper cut"
 
-#: inc/config.php:97
+#: inc/config.php:99
 msgid "Strzyżenie męskie + mycie"
 msgstr "[MT-REVIEW] Men's haircut + wash"
 
-#: inc/config.php:104
+#: inc/config.php:106
 msgid "Broda i zarost"
 msgstr "[MT-REVIEW] Beard & stubble"
 
-#: inc/config.php:105
+#: inc/config.php:107
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
 msgstr "[MT-REVIEW] Trimming, shaping and a precise beard outline."
 
-#: inc/config.php:107
+#: inc/config.php:109
 msgid "Korekta brody / zarostu"
 msgstr "[MT-REVIEW] Beard / stubble trim"
 
-#: inc/config.php:108
+#: inc/config.php:110
 msgid "Modelowanie brody"
 msgstr "[MT-REVIEW] Beard shaping"
 
-#: inc/config.php:109
+#: inc/config.php:111
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
 msgstr "[MT-REVIEW] Premium (shaping, outline, smooth fades)"
 
-#: inc/config.php:116
+#: inc/config.php:118
 msgid "Pakiety"
 msgstr "[MT-REVIEW] Packages"
 
-#: inc/config.php:117
+#: inc/config.php:119
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 msgstr "[MT-REVIEW] A haircut and beard in one visit, at a lower combined price."
 
-#: inc/config.php:119
+#: inc/config.php:121
 msgid "Strzyżenie męskie + broda (korekta)"
 msgstr "[MT-REVIEW] Men's haircut + beard (trim)"
 
-#: inc/config.php:120
+#: inc/config.php:122
 msgid "Strzyżenie męskie + broda (modelowanie)"
 msgstr "[MT-REVIEW] Men's haircut + beard (shaping)"
 
-#: inc/config.php:121
+#: inc/config.php:123
 msgid "Strzyżenie maszynką + broda"
 msgstr "[MT-REVIEW] Clipper cut + beard"
 
-#: inc/config.php:129 inc/config.php:132
+#: inc/config.php:131 inc/config.php:134
 msgid "Strzyżenie damskie"
 msgstr "Women's haircut"
 
-#: inc/config.php:130
+#: inc/config.php:132
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 msgstr "[MT-REVIEW] Haircut and styling tailored to your hair's structure."
 
-#: inc/config.php:133
+#: inc/config.php:135
 msgid "Mycie + modelowanie"
 msgstr "[MT-REVIEW] Wash + blow-dry styling"
 
-#: inc/config.php:134 inc/config.php:156
+#: inc/config.php:136 inc/config.php:158
 msgid "Stylizacja / układanie"
 msgstr "[MT-REVIEW] Styling / blow-dry"
 
-#: inc/config.php:141
+#: inc/config.php:143
 msgid "Strzyżenie dziecięce"
 msgstr "Children's haircut"
 
-#: inc/config.php:142
+#: inc/config.php:144
 msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 msgstr "Calm and stress-free — haircuts for the youngest."
 
-#: inc/config.php:144
+#: inc/config.php:146
 msgid "Strzyżenie dziecięce (do 12 lat)"
 msgstr "Children's haircut (up to 12 years)"
 
-#: inc/config.php:151
+#: inc/config.php:153
 msgid "Pielęgnacja i stylizacja"
 msgstr "[MT-REVIEW] Care & styling"
 
-#: inc/config.php:152
+#: inc/config.php:154
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
 msgstr "[MT-REVIEW] Washing, care and styling — for everyone, every day and for special occasions."
 
-#: inc/config.php:154
+#: inc/config.php:156
 msgid "Mycie włosów"
 msgstr "[MT-REVIEW] Hair wash"
 
-#: inc/config.php:155
+#: inc/config.php:157
 msgid "Odżywka / maska"
 msgstr "[MT-REVIEW] Conditioner / hair mask"
 
-#: inc/config.php:157
+#: inc/config.php:159
 msgid "Stylizacja premium (produkty profesjonalne)"
 msgstr "[MT-REVIEW] Premium styling (professional products)"
 
@@ -647,27 +744,32 @@ msgstr "Bob cut with a tapered back"
 msgid "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
 msgstr "Colour transformation: lightening from dark blonde to platinum blonde — before and after, back view"
 
-#: inc/i18n.php:245
+#: inc/i18n.php:246
 msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
 msgstr "[MT-REVIEW] Elegant Fryzjer — hair salon and barbershop in Warsaw's Białołęka. Women's, men's and children's haircuts, barbering, beard care. Run by Julia."
 
-#: inc/i18n.php:249
+#: inc/i18n.php:250
 msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
 msgstr "[MT-REVIEW] Full range of services and price list at Elegant Fryzjer in Białołęka — women's, men's and children's haircuts, barbering, beard care."
 
-#: inc/i18n.php:250
+#: inc/i18n.php:251
 msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
 msgstr "Meet Elegant Fryzjer — an intimate hair and barber salon in Warsaw's Białołęka. The salon is run by Julia."
 
-#: inc/i18n.php:251
+#: inc/i18n.php:252
 msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
 msgstr "Gallery of work by the Elegant Fryzjer salon — colour transformations, colourings and haircuts."
 
-#: inc/i18n.php:252
+#: inc/i18n.php:253
 msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
 msgstr "Contact and directions to the Elegant Fryzjer salon in Białołęka. Book an appointment or ask a question."
 
-#: inc/i18n.php:270
+#: inc/i18n.php:254
+msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
+msgstr "[MT-REVIEW] Privacy policy for the Elegant Fryzjer salon — how we process the personal data of visitors and clients."
+
+
+#: inc/i18n.php:272
 msgid "Wybór języka"
 msgstr "Language selection"
 
@@ -678,4 +780,3 @@ msgstr "[MT-REVIEW] Hair salon and barbershop in Warsaw's Białołęka — women
 #: inc/schema.php:74
 msgid "Usługi fryzjerskie i barberskie"
 msgstr "Hairdressing and barber services"
-

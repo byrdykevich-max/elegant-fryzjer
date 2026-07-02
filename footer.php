@@ -68,6 +68,7 @@
 				<li><a href="<?php echo esc_url( ef_url( '/o-nas/' ) ); ?>"><?php esc_html_e( 'O nas', 'elegant-fryzjer' ); ?></a></li>
 				<li><a href="<?php echo esc_url( ef_url( '/galeria/' ) ); ?>"><?php esc_html_e( 'Galeria', 'elegant-fryzjer' ); ?></a></li>
 				<li><a href="<?php echo esc_url( ef_url( '/kontakt/' ) ); ?>"><?php esc_html_e( 'Kontakt', 'elegant-fryzjer' ); ?></a></li>
+				<li><a href="<?php echo esc_url( ef_url( '/polityka-prywatnosci/' ) ); ?>"><?php esc_html_e( 'Polityka prywatności', 'elegant-fryzjer' ); ?></a></li>
 			</ul>
 		</nav>
 

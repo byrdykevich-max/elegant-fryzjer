@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 16:54+0000\n"
+"POT-Creation-Date: 2026-07-02 17:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,11 @@ msgstr ""
 #: footer.php:70 header.php:85 page-kontakt.php:15 page-uslugi.php:121
 #: inc/i18n.php:230
 msgid "Kontakt"
+msgstr ""
+
+#: footer.php:71 page-kontakt.php:76 page-polityka-prywatnosci.php:18
+#: inc/i18n.php:231
+msgid "Polityka prywatności"
 msgstr ""
 
 #: front-page.php:15
@@ -369,6 +374,79 @@ msgstr ""
 msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
 msgstr ""
 
+#: page-polityka-prywatnosci.php:17
+msgid "RODO"
+msgstr ""
+
+#: page-polityka-prywatnosci.php:19
+msgid "Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant Fryzjer."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:23
+msgid "Administrator danych"
+msgstr ""
+
+#: page-polityka-prywatnosci.php:28
+#, php-format
+msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest podmiot prowadzący salon Elegant Fryzjer, %s."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:32
+msgid "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:35
+msgid "Formularz kontaktowy"
+msgstr ""
+
+#: page-polityka-prywatnosci.php:36
+msgid "Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do celów marketingowych bez odrębnej zgody."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:37
+msgid "Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie uzasadniony interes administratora polegający na udzieleniu odpowiedzi na przesłane zapytanie."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:38
+msgid "Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail administratora i nie są zapisywane w bazie danych strony. Przechowujemy je tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej korespondencji."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:40
+msgid "Komu przekazujemy dane"
+msgstr ""
+
+#: page-polityka-prywatnosci.php:41
+msgid "Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych witryny przechowywanych na koncie Google Drive administratora — w tym zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz Google jako podmioty przetwarzające."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:43
+msgid "Pliki cookie i mapa dojazdu"
+msgstr ""
+
+#: page-polityka-prywatnosci.php:44
+msgid "Strona nie wykorzystuje plików cookie do śledzenia ani profilowania odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest przesyłany na serwer."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:45
+msgid "Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:47
+msgid "Twoje prawa"
+msgstr ""
+
+#: page-polityka-prywatnosci.php:48
+msgid "Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych."
+msgstr ""
+
+#: page-polityka-prywatnosci.php:50
+msgid "Zmiany w polityce"
+msgstr ""
+
+#: page-polityka-prywatnosci.php:51
+msgid "Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
+msgstr ""
+
 #: page-uslugi.php:28
 #, php-format
 msgid "Cennik: %s"
@@ -434,135 +512,135 @@ msgstr ""
 msgid "Salon fryzjerski w Białołęce"
 msgstr ""
 
-#: inc/config.php:75
+#: inc/config.php:77
 msgid "Poniedziałek"
 msgstr ""
 
-#: inc/config.php:75
+#: inc/config.php:77
 msgid "Wtorek"
 msgstr ""
 
-#: inc/config.php:75
+#: inc/config.php:77
 msgid "Środa"
 msgstr ""
 
-#: inc/config.php:76
+#: inc/config.php:78
 msgid "Czwartek"
 msgstr ""
 
-#: inc/config.php:76
+#: inc/config.php:78
 msgid "Piątek"
 msgstr ""
 
-#: inc/config.php:76
+#: inc/config.php:78
 msgid "Sobota"
 msgstr ""
 
-#: inc/config.php:76
+#: inc/config.php:78
 msgid "Niedziela"
 msgstr ""
 
-#: inc/config.php:92 inc/config.php:95
+#: inc/config.php:94 inc/config.php:97
 msgid "Strzyżenie męskie"
 msgstr ""
 
-#: inc/config.php:93
+#: inc/config.php:95
 msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
 msgstr ""
 
-#: inc/config.php:96
+#: inc/config.php:98
 msgid "Strzyżenie maszynką"
 msgstr ""
 
-#: inc/config.php:97
+#: inc/config.php:99
 msgid "Strzyżenie męskie + mycie"
 msgstr ""
 
-#: inc/config.php:104
+#: inc/config.php:106
 msgid "Broda i zarost"
 msgstr ""
 
-#: inc/config.php:105
+#: inc/config.php:107
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
 msgstr ""
 
-#: inc/config.php:107
+#: inc/config.php:109
 msgid "Korekta brody / zarostu"
 msgstr ""
 
-#: inc/config.php:108
+#: inc/config.php:110
 msgid "Modelowanie brody"
 msgstr ""
 
-#: inc/config.php:109
+#: inc/config.php:111
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
 msgstr ""
 
-#: inc/config.php:116
+#: inc/config.php:118
 msgid "Pakiety"
 msgstr ""
 
-#: inc/config.php:117
+#: inc/config.php:119
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 msgstr ""
 
-#: inc/config.php:119
+#: inc/config.php:121
 msgid "Strzyżenie męskie + broda (korekta)"
 msgstr ""
 
-#: inc/config.php:120
+#: inc/config.php:122
 msgid "Strzyżenie męskie + broda (modelowanie)"
 msgstr ""
 
-#: inc/config.php:121
+#: inc/config.php:123
 msgid "Strzyżenie maszynką + broda"
 msgstr ""
 
-#: inc/config.php:129 inc/config.php:132
+#: inc/config.php:131 inc/config.php:134
 msgid "Strzyżenie damskie"
 msgstr ""
 
-#: inc/config.php:130
+#: inc/config.php:132
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 msgstr ""
 
-#: inc/config.php:133
+#: inc/config.php:135
 msgid "Mycie + modelowanie"
 msgstr ""
 
-#: inc/config.php:134 inc/config.php:156
+#: inc/config.php:136 inc/config.php:158
 msgid "Stylizacja / układanie"
 msgstr ""
 
-#: inc/config.php:141
+#: inc/config.php:143
 msgid "Strzyżenie dziecięce"
 msgstr ""
 
-#: inc/config.php:142
+#: inc/config.php:144
 msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 msgstr ""
 
-#: inc/config.php:144
+#: inc/config.php:146
 msgid "Strzyżenie dziecięce (do 12 lat)"
 msgstr ""
 
-#: inc/config.php:151
+#: inc/config.php:153
 msgid "Pielęgnacja i stylizacja"
 msgstr ""
 
-#: inc/config.php:152
+#: inc/config.php:154
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
 msgstr ""
 
-#: inc/config.php:154
+#: inc/config.php:156
 msgid "Mycie włosów"
 msgstr ""
 
-#: inc/config.php:155
+#: inc/config.php:157
 msgid "Odżywka / maska"
 msgstr ""
 
-#: inc/config.php:157
+#: inc/config.php:159
 msgid "Stylizacja premium (produkty profesjonalne)"
 msgstr ""
 
@@ -650,27 +728,31 @@ msgstr ""
 msgid "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
 msgstr ""
 
-#: inc/i18n.php:245
+#: inc/i18n.php:246
 msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
 msgstr ""
 
-#: inc/i18n.php:249
+#: inc/i18n.php:250
 msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
 msgstr ""
 
-#: inc/i18n.php:250
+#: inc/i18n.php:251
 msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
 msgstr ""
 
-#: inc/i18n.php:251
+#: inc/i18n.php:252
 msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
 msgstr ""
 
-#: inc/i18n.php:252
+#: inc/i18n.php:253
 msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
 msgstr ""
 
-#: inc/i18n.php:270
+#: inc/i18n.php:254
+msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
+msgstr ""
+
+#: inc/i18n.php:272
 msgid "Wybór języka"
 msgstr ""
 
