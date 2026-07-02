@@ -67,4 +67,4 @@ into the web root and requires two easily-forgotten steps on this host:
 
 ## License
 
-Proprietary — custom build for Elegant Fryzjer. Not for redistribution.
+Released under the [MIT License](LICENSE).
