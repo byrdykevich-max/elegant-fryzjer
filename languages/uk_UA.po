@@ -86,7 +86,7 @@ msgstr "Елегантна зачіска поруч із домом — у Бі
 
 #: front-page.php:17
 msgid "Strzyżenie męskie, broda i barber — a także strzyżenie damskie i dziecięce. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort."
-msgstr "[MT-REVIEW] Чоловічі стрижки, борода та барбер — а також жіночі й дитячі стрижки. Салон веде <strong>Юлія</strong> — з увагою до кожної деталі та вашого комфорту."
+msgstr "Чоловічі стрижки, борода та барбер — а також жіночі й дитячі стрижки. Салон веде <strong>Юлія</strong> — з увагою до кожної деталі та вашого комфорту."
 
 #: front-page.php:20
 msgid "Zobacz usługi i cennik"
@@ -94,7 +94,7 @@ msgstr "Переглянути послуги та ціни"
 
 #: front-page.php:28
 msgid "Strzyżenia i stylizacja dla całej rodziny"
-msgstr "[MT-REVIEW] Стрижки та стилізація для всієї родини"
+msgstr "Стрижки та стилізація для всієї родини"
 
 #: front-page.php:37
 msgid "Co robimy"
@@ -106,7 +106,7 @@ msgstr "Барбер і перукар для всієї родини"
 
 #: front-page.php:39
 msgid "Jedno miejsce dla mężczyzn, kobiet i dzieci — od barberskiego strzyżenia po pielęgnację i stylizację."
-msgstr "[MT-REVIEW] Одне місце для чоловіків, жінок і дітей — від барберської стрижки до догляду та стилізації."
+msgstr "Одне місце для чоловіків, жінок і дітей — від барберської стрижки до догляду та стилізації."
 
 #: front-page.php:50
 msgid "Pełna lista usług i cennik →"
@@ -134,7 +134,7 @@ msgstr "Досвід і пристрасть"
 
 #: front-page.php:63
 msgid "Salon prowadzi Julia — strzyżenia i barber z dbałością o detal."
-msgstr "[MT-REVIEW] Салон веде Юлія — стрижки та барбер з увагою до деталей."
+msgstr "Салон веде Юлія — стрижки та барбер з увагою до деталей."
 
 #: front-page.php:64
 msgid "Wygodny dojazd"
@@ -473,7 +473,7 @@ msgstr "Ціни"
 
 #: page-uslugi.php:47
 msgid "Pełna oferta salonu Elegant Fryzjer na Białołęce — strzyżenia, broda i pielęgnacja dla całej rodziny."
-msgstr "[MT-REVIEW] Повний перелік послуг салону Elegant Fryzjer у Білоленці — стрижки, догляд за бородою та волоссям для всієї родини."
+msgstr "Повний перелік послуг салону Elegant Fryzjer у Білоленці — стрижки, догляд за бородою та волоссям для всієї родини."
 
 #: page-uslugi.php:51
 msgid "Kategorie usług"
@@ -481,47 +481,47 @@ msgstr "Категорії послуг"
 
 #: page-uslugi.php:63
 msgid "Dla niego"
-msgstr "[MT-REVIEW] Для нього"
+msgstr "Для нього"
 
 #: page-uslugi.php:64
 msgid "Strzyżenie, broda i barber"
-msgstr "[MT-REVIEW] Стрижки, борода та барбер"
+msgstr "Стрижки, борода та барбер"
 
 #: page-uslugi.php:75
 msgid "Cała rodzina w jednym miejscu"
-msgstr "[MT-REVIEW] Уся родина в одному місці"
+msgstr "Уся родина в одному місці"
 
 #: page-uslugi.php:76
 msgid "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
-msgstr "[MT-REVIEW] Барбер для нього, стрижка та стилізація для неї, спокійна стрижка для наймолодших — усе в Elegant Fryzjer у Білоленці."
+msgstr "Барбер для нього, стрижка та стилізація для неї, спокійна стрижка для наймолодших — усе в Elegant Fryzjer у Білоленці."
 
 #: page-uslugi.php:84
 msgid "Dla niej i dla najmłodszych"
-msgstr "[MT-REVIEW] Для неї та наймолодших"
+msgstr "Для неї та наймолодших"
 
 #: page-uslugi.php:85
 msgid "Strzyżenie, stylizacja i pielęgnacja"
-msgstr "[MT-REVIEW] Стрижки, стилізація та догляд"
+msgstr "Стрижки, стилізація та догляд"
 
 #: page-uslugi.php:96
 msgid "Dlaczego Elegant Fryzjer"
-msgstr "[MT-REVIEW] Чому Elegant Fryzjer"
+msgstr "Чому Elegant Fryzjer"
 
 #: page-uslugi.php:100
 msgid "Łatwa rezerwacja telefoniczna"
-msgstr "[MT-REVIEW] Легке бронювання телефоном"
+msgstr "Легке бронювання телефоном"
 
 #: page-uslugi.php:104
 msgid "Punktualność"
-msgstr "[MT-REVIEW] Пунктуальність"
+msgstr "Пунктуальність"
 
 #: page-uslugi.php:108
 msgid "Komfortowa atmosfera"
-msgstr "[MT-REVIEW] Комфортна атмосфера"
+msgstr "Комфортна атмосфера"
 
 #: page-uslugi.php:112
 msgid "Doświadczenie"
-msgstr "[MT-REVIEW] Досвід"
+msgstr "Досвід"
 
 #: inc/config.php:18 inc/i18n.php:223
 msgid "Salon fryzjerski w Białołęce"
@@ -577,7 +577,7 @@ msgstr "Борода та щетина"
 
 #: inc/config.php:107
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
-msgstr "[MT-REVIEW] Корекція, моделювання та точний контур бороди."
+msgstr "Корекція, моделювання та точний контур бороди."
 
 #: inc/config.php:109
 msgid "Korekta brody / zarostu"
@@ -597,7 +597,7 @@ msgstr "Пакети"
 
 #: inc/config.php:119
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
-msgstr "[MT-REVIEW] Стрижка та борода за один візит — за нижчою сукупною ціною."
+msgstr "Стрижка та борода за один візит — за нижчою сукупною ціною."
 
 #: inc/config.php:121
 msgid "Strzyżenie męskie + broda (korekta)"
@@ -617,7 +617,7 @@ msgstr "Жіноча стрижка"
 
 #: inc/config.php:132
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
-msgstr "[MT-REVIEW] Стрижка та укладка, підібрані під структуру вашого волосся."
+msgstr "Стрижка та укладка, підібрані під структуру вашого волосся."
 
 #: inc/config.php:135
 msgid "Mycie + modelowanie"
@@ -645,7 +645,7 @@ msgstr "Догляд та стилізація"
 
 #: inc/config.php:154
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
-msgstr "[MT-REVIEW] Миття, догляд та стилізація — для кожного, на щодень і для особливих нагод."
+msgstr "Миття, догляд та стилізація — для кожного, на щодень і для особливих нагод."
 
 #: inc/config.php:156
 msgid "Mycie włosów"

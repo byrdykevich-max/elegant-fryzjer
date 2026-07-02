@@ -86,7 +86,7 @@ msgstr "An elegant hairstyle close to home — in Białołęka"
 
 #: front-page.php:17
 msgid "Strzyżenie męskie, broda i barber — a także strzyżenie damskie i dziecięce. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort."
-msgstr "[MT-REVIEW] Men's haircuts, beard trims and barbering — as well as women's and children's haircuts. The salon is run by <strong>Julia</strong> — with care for every detail and your comfort."
+msgstr "Men's haircuts, beard trims and barbering — as well as women's and children's haircuts. The salon is run by <strong>Julia</strong> — with care for every detail and your comfort."
 
 #: front-page.php:20
 msgid "Zobacz usługi i cennik"
@@ -94,7 +94,7 @@ msgstr "See services & pricing"
 
 #: front-page.php:28
 msgid "Strzyżenia i stylizacja dla całej rodziny"
-msgstr "[MT-REVIEW] Haircuts and styling for the whole family"
+msgstr "Haircuts and styling for the whole family"
 
 #: front-page.php:37
 msgid "Co robimy"
@@ -106,7 +106,7 @@ msgstr "Barber & hairdresser for the whole family"
 
 #: front-page.php:39
 msgid "Jedno miejsce dla mężczyzn, kobiet i dzieci — od barberskiego strzyżenia po pielęgnację i stylizację."
-msgstr "[MT-REVIEW] One place for men, women and children — from barber cuts to hair care and styling."
+msgstr "One place for men, women and children — from barber cuts to hair care and styling."
 
 #: front-page.php:50
 msgid "Pełna lista usług i cennik →"
@@ -134,7 +134,7 @@ msgstr "Experience and passion"
 
 #: front-page.php:63
 msgid "Salon prowadzi Julia — strzyżenia i barber z dbałością o detal."
-msgstr "[MT-REVIEW] The salon is run by Julia — haircuts and barbering with attention to detail."
+msgstr "The salon is run by Julia — haircuts and barbering with attention to detail."
 
 #: front-page.php:64
 msgid "Wygodny dojazd"
@@ -473,7 +473,7 @@ msgstr "Pricing"
 
 #: page-uslugi.php:47
 msgid "Pełna oferta salonu Elegant Fryzjer na Białołęce — strzyżenia, broda i pielęgnacja dla całej rodziny."
-msgstr "[MT-REVIEW] The full range of services at Elegant Fryzjer in Białołęka — haircuts, beard care and hair care for the whole family."
+msgstr "The full range of services at Elegant Fryzjer in Białołęka — haircuts, beard care and hair care for the whole family."
 
 #: page-uslugi.php:51
 msgid "Kategorie usług"
@@ -481,47 +481,47 @@ msgstr "Service categories"
 
 #: page-uslugi.php:63
 msgid "Dla niego"
-msgstr "[MT-REVIEW] For him"
+msgstr "For him"
 
 #: page-uslugi.php:64
 msgid "Strzyżenie, broda i barber"
-msgstr "[MT-REVIEW] Haircuts, beard and barbering"
+msgstr "Haircuts, beard and barbering"
 
 #: page-uslugi.php:75
 msgid "Cała rodzina w jednym miejscu"
-msgstr "[MT-REVIEW] The whole family in one place"
+msgstr "The whole family in one place"
 
 #: page-uslugi.php:76
 msgid "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
-msgstr "[MT-REVIEW] Barbering for him, haircuts and styling for her, calm haircuts for the youngest — all at Elegant Fryzjer in Białołęka."
+msgstr "Barbering for him, haircuts and styling for her, calm haircuts for the youngest — all at Elegant Fryzjer in Białołęka."
 
 #: page-uslugi.php:84
 msgid "Dla niej i dla najmłodszych"
-msgstr "[MT-REVIEW] For her and the youngest ones"
+msgstr "For her and the youngest ones"
 
 #: page-uslugi.php:85
 msgid "Strzyżenie, stylizacja i pielęgnacja"
-msgstr "[MT-REVIEW] Haircuts, styling and hair care"
+msgstr "Haircuts, styling and hair care"
 
 #: page-uslugi.php:96
 msgid "Dlaczego Elegant Fryzjer"
-msgstr "[MT-REVIEW] Why Elegant Fryzjer"
+msgstr "Why Elegant Fryzjer"
 
 #: page-uslugi.php:100
 msgid "Łatwa rezerwacja telefoniczna"
-msgstr "[MT-REVIEW] Easy booking by phone"
+msgstr "Easy booking by phone"
 
 #: page-uslugi.php:104
 msgid "Punktualność"
-msgstr "[MT-REVIEW] Punctuality"
+msgstr "Punctuality"
 
 #: page-uslugi.php:108
 msgid "Komfortowa atmosfera"
-msgstr "[MT-REVIEW] Comfortable atmosphere"
+msgstr "Comfortable atmosphere"
 
 #: page-uslugi.php:112
 msgid "Doświadczenie"
-msgstr "[MT-REVIEW] Experience"
+msgstr "Experience"
 
 #: inc/config.php:18 inc/i18n.php:223
 msgid "Salon fryzjerski w Białołęce"
@@ -577,7 +577,7 @@ msgstr "Beard & stubble"
 
 #: inc/config.php:107
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
-msgstr "[MT-REVIEW] Trimming, shaping and a precise beard outline."
+msgstr "Trimming, shaping and a precise beard outline."
 
 #: inc/config.php:109
 msgid "Korekta brody / zarostu"
@@ -597,7 +597,7 @@ msgstr "Packages"
 
 #: inc/config.php:119
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
-msgstr "[MT-REVIEW] A haircut and beard in one visit, at a lower combined price."
+msgstr "A haircut and beard in one visit, at a lower combined price."
 
 #: inc/config.php:121
 msgid "Strzyżenie męskie + broda (korekta)"
@@ -617,7 +617,7 @@ msgstr "Women's haircut"
 
 #: inc/config.php:132
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
-msgstr "[MT-REVIEW] Haircut and styling tailored to your hair's structure."
+msgstr "Haircut and styling tailored to your hair's structure."
 
 #: inc/config.php:135
 msgid "Mycie + modelowanie"
@@ -645,7 +645,7 @@ msgstr "Care & styling"
 
 #: inc/config.php:154
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
-msgstr "[MT-REVIEW] Washing, care and styling — for everyone, every day and for special occasions."
+msgstr "Washing, care and styling — for everyone, every day and for special occasions."
 
 #: inc/config.php:156
 msgid "Mycie włosów"
