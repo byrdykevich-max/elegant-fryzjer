@@ -73,7 +73,7 @@ msgstr "Контакти"
 #: footer.php:71 page-kontakt.php:76 page-polityka-prywatnosci.php:18
 #: inc/i18n.php:231
 msgid "Polityka prywatności"
-msgstr "[MT-REVIEW] Політика конфіденційності"
+msgstr "Політика конфіденційності"
 
 
 #: front-page.php:15
@@ -569,11 +569,11 @@ msgstr "Стрижка машинкою"
 
 #: inc/config.php:99
 msgid "Strzyżenie męskie + mycie"
-msgstr "[MT-REVIEW] Чоловіча стрижка + миття"
+msgstr "Чоловіча стрижка + миття"
 
 #: inc/config.php:106
 msgid "Broda i zarost"
-msgstr "[MT-REVIEW] Борода та щетина"
+msgstr "Борода та щетина"
 
 #: inc/config.php:107
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
@@ -581,19 +581,19 @@ msgstr "[MT-REVIEW] Корекція, моделювання та точний �
 
 #: inc/config.php:109
 msgid "Korekta brody / zarostu"
-msgstr "[MT-REVIEW] Корекція бороди / щетини"
+msgstr "Корекція бороди / щетини"
 
 #: inc/config.php:110
 msgid "Modelowanie brody"
-msgstr "[MT-REVIEW] Моделювання бороди"
+msgstr "Моделювання бороди"
 
 #: inc/config.php:111
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
-msgstr "[MT-REVIEW] Преміум (моделювання, контур, плавні переходи)"
+msgstr "Преміум (моделювання, контур, плавні переходи)"
 
 #: inc/config.php:118
 msgid "Pakiety"
-msgstr "[MT-REVIEW] Пакети"
+msgstr "Пакети"
 
 #: inc/config.php:119
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
@@ -601,15 +601,15 @@ msgstr "[MT-REVIEW] Стрижка та борода за один візит �
 
 #: inc/config.php:121
 msgid "Strzyżenie męskie + broda (korekta)"
-msgstr "[MT-REVIEW] Чоловіча стрижка + борода (корекція)"
+msgstr "Чоловіча стрижка + борода (корекція)"
 
 #: inc/config.php:122
 msgid "Strzyżenie męskie + broda (modelowanie)"
-msgstr "[MT-REVIEW] Чоловіча стрижка + борода (моделювання)"
+msgstr "Чоловіча стрижка + борода (моделювання)"
 
 #: inc/config.php:123
 msgid "Strzyżenie maszynką + broda"
-msgstr "[MT-REVIEW] Стрижка машинкою + борода"
+msgstr "Стрижка машинкою + борода"
 
 #: inc/config.php:131 inc/config.php:134
 msgid "Strzyżenie damskie"
@@ -621,11 +621,11 @@ msgstr "[MT-REVIEW] Стрижка та укладка, підібрані пі�
 
 #: inc/config.php:135
 msgid "Mycie + modelowanie"
-msgstr "[MT-REVIEW] Миття + укладка"
+msgstr "Миття + укладка"
 
 #: inc/config.php:136 inc/config.php:158
 msgid "Stylizacja / układanie"
-msgstr "[MT-REVIEW] Стилізація / укладка"
+msgstr "Стилізація / укладка"
 
 #: inc/config.php:143
 msgid "Strzyżenie dziecięce"
@@ -641,7 +641,7 @@ msgstr "Дитяча стрижка (до 12 років)"
 
 #: inc/config.php:153
 msgid "Pielęgnacja i stylizacja"
-msgstr "[MT-REVIEW] Догляд та стилізація"
+msgstr "Догляд та стилізація"
 
 #: inc/config.php:154
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
@@ -649,15 +649,15 @@ msgstr "[MT-REVIEW] Миття, догляд та стилізація — дл�
 
 #: inc/config.php:156
 msgid "Mycie włosów"
-msgstr "[MT-REVIEW] Миття волосся"
+msgstr "Миття волосся"
 
 #: inc/config.php:157
 msgid "Odżywka / maska"
-msgstr "[MT-REVIEW] Кондиціонер / маска"
+msgstr "Кондиціонер / маска"
 
 #: inc/config.php:159
 msgid "Stylizacja premium (produkty profesjonalne)"
-msgstr "[MT-REVIEW] Преміум-стилізація (професійні засоби)"
+msgstr "Преміум-стилізація (професійні засоби)"
 
 #: inc/gallery.php:22
 msgid "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"

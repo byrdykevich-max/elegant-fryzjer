@@ -73,7 +73,7 @@ msgstr "Contact"
 #: footer.php:71 page-kontakt.php:76 page-polityka-prywatnosci.php:18
 #: inc/i18n.php:231
 msgid "Polityka prywatności"
-msgstr "[MT-REVIEW] Privacy Policy"
+msgstr "Privacy Policy"
 
 
 #: front-page.php:15
@@ -569,11 +569,11 @@ msgstr "Clipper cut"
 
 #: inc/config.php:99
 msgid "Strzyżenie męskie + mycie"
-msgstr "[MT-REVIEW] Men's haircut + wash"
+msgstr "Men's haircut + wash"
 
 #: inc/config.php:106
 msgid "Broda i zarost"
-msgstr "[MT-REVIEW] Beard & stubble"
+msgstr "Beard & stubble"
 
 #: inc/config.php:107
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
@@ -581,19 +581,19 @@ msgstr "[MT-REVIEW] Trimming, shaping and a precise beard outline."
 
 #: inc/config.php:109
 msgid "Korekta brody / zarostu"
-msgstr "[MT-REVIEW] Beard / stubble trim"
+msgstr "Beard / stubble trim"
 
 #: inc/config.php:110
 msgid "Modelowanie brody"
-msgstr "[MT-REVIEW] Beard shaping"
+msgstr "Beard shaping"
 
 #: inc/config.php:111
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
-msgstr "[MT-REVIEW] Premium (shaping, outline, smooth fades)"
+msgstr "Premium (shaping, outline, smooth fades)"
 
 #: inc/config.php:118
 msgid "Pakiety"
-msgstr "[MT-REVIEW] Packages"
+msgstr "Packages"
 
 #: inc/config.php:119
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
@@ -601,15 +601,15 @@ msgstr "[MT-REVIEW] A haircut and beard in one visit, at a lower combined price.
 
 #: inc/config.php:121
 msgid "Strzyżenie męskie + broda (korekta)"
-msgstr "[MT-REVIEW] Men's haircut + beard (trim)"
+msgstr "Men's haircut + beard (trim)"
 
 #: inc/config.php:122
 msgid "Strzyżenie męskie + broda (modelowanie)"
-msgstr "[MT-REVIEW] Men's haircut + beard (shaping)"
+msgstr "Men's haircut + beard (shaping)"
 
 #: inc/config.php:123
 msgid "Strzyżenie maszynką + broda"
-msgstr "[MT-REVIEW] Clipper cut + beard"
+msgstr "Clipper cut + beard"
 
 #: inc/config.php:131 inc/config.php:134
 msgid "Strzyżenie damskie"
@@ -621,11 +621,11 @@ msgstr "[MT-REVIEW] Haircut and styling tailored to your hair's structure."
 
 #: inc/config.php:135
 msgid "Mycie + modelowanie"
-msgstr "[MT-REVIEW] Wash + blow-dry styling"
+msgstr "Wash + blow-dry styling"
 
 #: inc/config.php:136 inc/config.php:158
 msgid "Stylizacja / układanie"
-msgstr "[MT-REVIEW] Styling / blow-dry"
+msgstr "Styling / blow-dry"
 
 #: inc/config.php:143
 msgid "Strzyżenie dziecięce"
@@ -641,7 +641,7 @@ msgstr "Children's haircut (up to 12 years)"
 
 #: inc/config.php:153
 msgid "Pielęgnacja i stylizacja"
-msgstr "[MT-REVIEW] Care & styling"
+msgstr "Care & styling"
 
 #: inc/config.php:154
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
@@ -649,15 +649,15 @@ msgstr "[MT-REVIEW] Washing, care and styling — for everyone, every day and fo
 
 #: inc/config.php:156
 msgid "Mycie włosów"
-msgstr "[MT-REVIEW] Hair wash"
+msgstr "Hair wash"
 
 #: inc/config.php:157
 msgid "Odżywka / maska"
-msgstr "[MT-REVIEW] Conditioner / hair mask"
+msgstr "Conditioner / hair mask"
 
 #: inc/config.php:159
 msgid "Stylizacja premium (produkty profesjonalne)"
-msgstr "[MT-REVIEW] Premium styling (professional products)"
+msgstr "Premium styling (professional products)"
 
 #: inc/gallery.php:22
 msgid "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
