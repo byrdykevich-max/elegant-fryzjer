@@ -373,93 +373,93 @@ msgstr "Спокійна, доброзичлива атмосфера — так
 
 #: page-polityka-prywatnosci.php:17
 msgid "RODO"
-msgstr "[MT-REVIEW] GDPR"
+msgstr "GDPR"
 
 
 #: page-polityka-prywatnosci.php:19
 msgid "Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant Fryzjer."
-msgstr "[MT-REVIEW] Як ми обробляємо персональні дані відвідувачів і клієнтів салону Elegant Fryzjer."
+msgstr "Як ми обробляємо персональні дані відвідувачів і клієнтів салону Elegant Fryzjer."
 
 
 #: page-polityka-prywatnosci.php:23
 msgid "Administrator danych"
-msgstr "[MT-REVIEW] Адміністратор даних"
+msgstr "Адміністратор даних"
 
 
 #: page-polityka-prywatnosci.php:28
 #, php-format
 msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest podmiot prowadzący salon Elegant Fryzjer, %s."
-msgstr "[MT-REVIEW] Адміністратором персональних даних, що обробляються через сайт elegantfryzjer.pl, є підприємство, яке веде салон Elegant Fryzjer, %s."
+msgstr "Адміністратором персональних даних, що обробляються через сайт elegantfryzjer.pl, є підприємство, яке веде салон Elegant Fryzjer, %s."
 
 
 #: page-polityka-prywatnosci.php:32
 msgid "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
-msgstr "[MT-REVIEW] Контакт з питань захисту даних: телефоном або через контактну форму на сайті."
+msgstr "Контакт з питань захисту даних: телефоном або через контактну форму на сайті."
 
 
 #: page-polityka-prywatnosci.php:35
 msgid "Formularz kontaktowy"
-msgstr "[MT-REVIEW] Контактна форма"
+msgstr "Контактна форма"
 
 
 #: page-polityka-prywatnosci.php:36
 msgid "Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do celów marketingowych bez odrębnej zgody."
-msgstr "[MT-REVIEW] Через контактну форму ми збираємо ім'я та прізвище, електронну адресу та зміст повідомлення. Ці дані використовуються виключно для відповіді на надіслане запитання і не використовуються з маркетинговою метою без окремої згоди."
+msgstr "Через контактну форму ми збираємо ім'я та прізвище, електронну адресу та зміст повідомлення. Ці дані використовуються виключно для відповіді на надіслане запитання і не використовуються з маркетинговою метою без окремої згоди."
 
 
 #: page-polityka-prywatnosci.php:37
 msgid "Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie uzasadniony interes administratora polegający na udzieleniu odpowiedzi na przesłane zapytanie."
-msgstr "[MT-REVIEW] Правовою підставою обробки є ст. 6 п. 1 (f) GDPR — законний інтерес адміністратора, що полягає у наданні відповіді на надіслане запитання."
+msgstr "Правовою підставою обробки є ст. 6 п. 1 (f) GDPR — законний інтерес адміністратора, що полягає у наданні відповіді на надіслане запитання."
 
 
 #: page-polityka-prywatnosci.php:38
 msgid "Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail administratora i nie są zapisywane w bazie danych strony. Przechowujemy je tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej korespondencji."
-msgstr "[MT-REVIEW] Повідомлення з форми надсилаються безпосередньо на електронну пошту адміністратора і не зберігаються в базі даних сайту. Ми зберігаємо їх стільки, скільки потрібно для обробки запитання та подальшого листування."
+msgstr "Повідомлення з форми надсилаються безпосередньо на електронну пошту адміністратора і не зберігаються в базі даних сайту. Ми зберігаємо їх стільки, скільки потрібно для обробки запитання та подальшого листування."
 
 
 #: page-polityka-prywatnosci.php:40
 msgid "Komu przekazujemy dane"
-msgstr "[MT-REVIEW] Кому ми передаємо дані"
+msgstr "Кому ми передаємо дані"
 
 
 #: page-polityka-prywatnosci.php:41
 msgid "Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych witryny przechowywanych na koncie Google Drive administratora — w tym zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz Google jako podmioty przetwarzające."
-msgstr "[MT-REVIEW] Ми користуємося зовнішнім хостингом та автоматичними резервними копіями сайту, що зберігаються на обліковому записі Google Drive адміністратора — у цьому обсязі дані можуть тимчасово оброблятися постачальником хостингу та Google як обробниками даних."
+msgstr "Ми користуємося зовнішнім хостингом та автоматичними резервними копіями сайту, що зберігаються на обліковому записі Google Drive адміністратора — у цьому обсязі дані можуть тимчасово оброблятися постачальником хостингу та Google як обробниками даних."
 
 
 #: page-polityka-prywatnosci.php:43
 msgid "Pliki cookie i mapa dojazdu"
-msgstr "[MT-REVIEW] Файли cookie та карта проїзду"
+msgstr "Файли cookie та карта проїзду"
 
 
 #: page-polityka-prywatnosci.php:44
 msgid "Strona nie wykorzystuje plików cookie do śledzenia ani profilowania odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest przesyłany na serwer."
-msgstr "[MT-REVIEW] Сайт не використовує файли cookie для відстеження чи профілювання відвідувачів. Вибір світлої або темної теми відображення зберігається лише локально у вашому браузері (local storage) і ніколи не надсилається на сервер."
+msgstr "Сайт не використовує файли cookie для відстеження чи профілювання відвідувачів. Вибір світлої або темної теми відображення зберігається лише локально у вашому браузері (local storage) і ніколи не надсилається на сервер."
 
 
 #: page-polityka-prywatnosci.php:45
 msgid "Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
-msgstr "[MT-REVIEW] Карта проїзду (Google Maps) на сторінці Контакти завантажується лише після натискання кнопки «Показати карту проїзду» — лише тоді встановлюється з'єднання з Google і починає діяти політика конфіденційності Google."
+msgstr "Карта проїзду (Google Maps) на сторінці Контакти завантажується лише після натискання кнопки «Показати карту проїзду» — лише тоді встановлюється з'єднання з Google і починає діяти політика конфіденційності Google."
 
 
 #: page-polityka-prywatnosci.php:47
 msgid "Twoje prawa"
-msgstr "[MT-REVIEW] Ваші права"
+msgstr "Ваші права"
 
 
 #: page-polityka-prywatnosci.php:48
 msgid "Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych."
-msgstr "[MT-REVIEW] Відповідно до GDPR ви маєте право на доступ до своїх даних, їх виправлення, видалення, обмеження обробки, перенесення даних, а також право заперечувати проти обробки. Ви також маєте право подати скаргу Голові Управління захисту персональних даних Польщі (UODO)."
+msgstr "Відповідно до GDPR ви маєте право на доступ до своїх даних, їх виправлення, видалення, обмеження обробки, перенесення даних, а також право заперечувати проти обробки. Ви також маєте право подати скаргу Голові Управління захисту персональних даних Польщі (UODO)."
 
 
 #: page-polityka-prywatnosci.php:50
 msgid "Zmiany w polityce"
-msgstr "[MT-REVIEW] Зміни в політиці"
+msgstr "Зміни в політиці"
 
 
 #: page-polityka-prywatnosci.php:51
 msgid "Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
-msgstr "[MT-REVIEW] Ця політика може періодично оновлюватися відповідно до змін на сайті. Актуальна версія завжди доступна за цією адресою."
+msgstr "Ця політика може періодично оновлюватися відповідно до змін на сайті. Актуальна версія завжди доступна за цією адресою."
 
 
 #: page-uslugi.php:28
