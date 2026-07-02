@@ -24,8 +24,10 @@ $c = ef_config();
 			<p>
 				<?php
 				printf(
-					/* translators: %s: business street address */
-					esc_html__( 'Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest podmiot prowadzący salon Elegant Fryzjer, %s.', 'elegant-fryzjer' ),
+					/* translators: %1$s: registered legal business name, %2$s: NIP, %3$s: business street address */
+					esc_html__( 'Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s.', 'elegant-fryzjer' ),
+					esc_html( $c['legal_name'] ),
+					esc_html( $c['nip'] ),
 					esc_html( $c['street'] . ', ' . trim( $c['postal'] . ' ' . $c['city'] ) . ' (' . $c['district'] . ')' )
 				);
 				?>
