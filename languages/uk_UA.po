@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Note: Machine-translation drafts — every entry needs native review. Remove the [MT-REVIEW] prefix once approved.\n"
+"X-Note: All translations human-reviewed 2026-07-02. Mark any new machine-translation draft with a [MT-REVIEW] prefix until it is reviewed.\n"
 
 #: footer.php:7
 msgid "Gotowa/gotowy na nowy look?"
@@ -746,11 +746,11 @@ msgstr "Кольорове перетворення: освітлення з т�
 
 #: inc/i18n.php:246
 msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
-msgstr "[MT-REVIEW] Elegant Fryzjer — перукарський і барбер-салон у варшавській Білоленці. Жіночі, чоловічі та дитячі стрижки, барбер, борода. Веде Юлія."
+msgstr "Elegant Fryzjer — перукарський і барбер-салон у варшавській Білоленці. Жіночі, чоловічі та дитячі стрижки, барбер, борода. Веде Юлія."
 
 #: inc/i18n.php:250
 msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
-msgstr "[MT-REVIEW] Повний перелік послуг та ціни салону Elegant Fryzjer у Білоленці — жіночі, чоловічі та дитячі стрижки, барбер, борода."
+msgstr "Повний перелік послуг та ціни салону Elegant Fryzjer у Білоленці — жіночі, чоловічі та дитячі стрижки, барбер, борода."
 
 #: inc/i18n.php:251
 msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
@@ -766,7 +766,7 @@ msgstr "Контакти та як дістатися салону Elegant Fryzj
 
 #: inc/i18n.php:254
 msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
-msgstr "[MT-REVIEW] Політика конфіденційності салону Elegant Fryzjer — як ми обробляємо персональні дані відвідувачів і клієнтів."
+msgstr "Політика конфіденційності салону Elegant Fryzjer — як ми обробляємо персональні дані відвідувачів і клієнтів."
 
 
 #: inc/i18n.php:272
@@ -775,7 +775,7 @@ msgstr "Вибір мови"
 
 #: inc/schema.php:52
 msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
-msgstr "[MT-REVIEW] Перукарський і барбер-салон у варшавській Білоленці — жіночі, чоловічі та дитячі стрижки, барбер і стилізація бороди. Веде Юлія."
+msgstr "Перукарський і барбер-салон у варшавській Білоленці — жіночі, чоловічі та дитячі стрижки, барбер і стилізація бороди. Веде Юлія."
 
 #: inc/schema.php:74
 msgid "Usługi fryzjerskie i barberskie"
