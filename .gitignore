@@ -3,6 +3,32 @@
 Thumbs.db
 *.swp
 *~
+.idea/
+.vscode/
 
 # Logs
 *.log
+debug.log
+
+# Secrets / local config (never commit these into a theme)
+.env
+.env.*
+wp-config.php
+*.sql
+*.sql.gz
+
+# WordPress-generated backups / leftovers
+*.bak
+*.orig
+*.rej
+upgrade/
+
+# Dependency & build tooling (if ever added to the theme)
+/node_modules/
+/vendor/
+npm-debug.log*
+yarn-error.log*
+
+# Media that belongs in wp-content/uploads, not in the theme
+# (theme ships its own curated assets under assets/)
+/uploads/
