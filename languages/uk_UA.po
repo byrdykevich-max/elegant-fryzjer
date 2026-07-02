@@ -1,531 +1,681 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Elegant Fryzjer 1.2.0\n"
-"Report-Msgid-Bugs-To: kontakt@elegantfryzjer.pl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 15:37+0000\n"
 "PO-Revision-Date: 2026-06-21 18:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: uk_UA\n"
+"Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Note: Machine-translation drafts — every entry needs native review. Remove the [MT-REVIEW] prefix once approved.\n"
 
-
-msgid "Menu główne"
-msgstr "Головне меню"
-
-msgid "Powiększone zdjęcie"
-msgstr "Збільшене фото"
-
-msgid "Zamknij"
-msgstr "Закрити"
-
-msgid "Zarezerwuj online"
-msgstr "Забронювати онлайн"
-
-msgid "Zadzwoń:"
-msgstr "Зателефонуйте:"
-
-msgid "Umów wizytę"
-msgstr "Записатися на візит"
-
-msgid "Przejdź do treści"
-msgstr "Перейти до вмісту"
-
-msgid "Elegant Fryzjer — strona główna"
-msgstr "Elegant Fryzjer — головна сторінка"
-
-msgid "Salon & Barber · Białołęka"
-msgstr "Салон & Барбер · Білоленка"
-
-msgid "Przełącz tryb jasny lub ciemny"
-msgstr "Перемкнути світлий або темний режим"
-
-msgid "Przełącz motyw"
-msgstr "Перемкнути тему"
-
-msgid "Menu"
-msgstr "Меню"
-
-msgid "Usługi i cennik"
-msgstr "Послуги та ціни"
-
-msgid "O nas"
-msgstr "Про нас"
-
-msgid "Galeria"
-msgstr "Галерея"
-
-msgid "Kontakt"
-msgstr "Контакти"
-
+#: footer.php:7
 msgid "Gotowa/gotowy na nowy look?"
 msgstr "Готові до нового образу?"
 
+#: footer.php:8
 msgid "Umów wizytę w Elegant Fryzjer na Białołęce."
 msgstr "Запишіться на візит до Elegant Fryzjer у Білоленці."
 
+#: footer.php:11 page-kontakt.php:82
 msgid "Jak dojechać"
 msgstr "Як дістатися"
 
+#: footer.php:35 front-page.php:100 page-kontakt.php:25
 msgid "Adres"
 msgstr "Адреса"
 
+#: footer.php:46 front-page.php:109 page-kontakt.php:33
 msgid "Godziny otwarcia"
 msgstr "Години роботи"
 
+#: footer.php:48
 msgid "Do potwierdzenia przez właściciela"
 msgstr "Підлягає підтвердженню власником"
 
+#: footer.php:48 front-page.php:110 page-kontakt.php:34
 msgid "[do potwierdzenia]"
 msgstr "[підлягає підтвердженню]"
 
+#: footer.php:56 front-page.php:114 page-kontakt.php:38
 msgid "nieczynne"
 msgstr "зачинено"
 
+#: footer.php:64
 msgid "Stopka"
 msgstr "Підвал"
 
+#: footer.php:65
 msgid "Nawigacja"
 msgstr "Навігація"
 
+#: footer.php:67 header.php:82 page-uslugi.php:46 inc/i18n.php:227
+msgid "Usługi i cennik"
+msgstr "Послуги та ціни"
+
+#: footer.php:68 header.php:83 page-o-nas.php:12 inc/i18n.php:228
+msgid "O nas"
+msgstr "Про нас"
+
+#: footer.php:69 header.php:84 page-galeria.php:13 inc/i18n.php:229
+msgid "Galeria"
+msgstr "Галерея"
+
+#: footer.php:70 header.php:85 page-kontakt.php:15 page-uslugi.php:121
+#: inc/i18n.php:230
+msgid "Kontakt"
+msgstr "Контакти"
+
+#: front-page.php:15
 msgid "Barber & Salon · Warszawa Białołęka"
 msgstr "Барбер & Салон · Варшава Білоленка"
 
+#: front-page.php:16
 msgid "Elegancka fryzura blisko domu — na Białołęce"
 msgstr "Елегантна зачіска поруч із домом — у Білоленці"
 
-msgid "Strzyżenie męskie, broda i barber — a także strzyżenie damskie, dziecięce i koloryzacja. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort."
-msgstr "Чоловічі стрижки, борода та барбер — а також жіночі й дитячі стрижки та фарбування. Салон веде <strong>Юлія</strong> — з увагою до кожної деталі та вашого комфорту."
+#: front-page.php:17
+msgid "Strzyżenie męskie, broda i barber — a także strzyżenie damskie i dziecięce. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort."
+msgstr "[MT-REVIEW] Чоловічі стрижки, борода та барбер — а також жіночі й дитячі стрижки. Салон веде <strong>Юлія</strong> — з увагою до кожної деталі та вашого комфорту."
 
+#: front-page.php:20
 msgid "Zobacz usługi i cennik"
 msgstr "Переглянути послуги та ціни"
 
-msgid "Metamorfozy koloru & strzyżenia"
-msgstr "Кольорові перетворення та стрижки"
+#: front-page.php:28
+msgid "Strzyżenia i stylizacja dla całej rodziny"
+msgstr "[MT-REVIEW] Стрижки та стилізація для всієї родини"
 
+#: front-page.php:37
 msgid "Co robimy"
 msgstr "Що ми робимо"
 
+#: front-page.php:38
 msgid "Barber i fryzjer dla całej rodziny"
 msgstr "Барбер і перукар для всієї родини"
 
-msgid "Jedno miejsce dla kobiet, mężczyzn i dzieci — od codziennego strzyżenia po pełną metamorfozę koloru i usługi barberskie."
-msgstr "Одне місце для жінок, чоловіків і дітей — від щоденних стрижок до повних кольорових перетворень і барбер-послуг."
+#: front-page.php:39
+msgid "Jedno miejsce dla mężczyzn, kobiet i dzieci — od barberskiego strzyżenia po pielęgnację i stylizację."
+msgstr "[MT-REVIEW] Одне місце для чоловіків, жінок і дітей — від барберської стрижки до догляду та стилізації."
 
-msgid "Strzyżenie damskie"
-msgstr "Жіноча стрижка"
-
-msgid "Strzyżenie, modelowanie i pielęgnacja dopasowane do Twoich włosów."
-msgstr "Стрижка, укладання та догляд, підібрані до вашого волосся."
-
-msgid "Strzyżenie męskie"
-msgstr "Чоловіча стрижка"
-
-msgid "Klasyczne i nowoczesne cięcia, stylizacja od ręki."
-msgstr "Класичні та сучасні стрижки, стилізація одразу."
-
-msgid "Barber — broda"
-msgstr "Барбер — борода"
-
-msgid "Modelowanie i stylizacja brody, tradycyjne golenie."
-msgstr "Моделювання та стилізація бороди, традиційне гоління."
-
-msgid "Strzyżenie dziecięce"
-msgstr "Дитяча стрижка"
-
-msgid "Spokojnie i bez stresu — także dla najmłodszych."
-msgstr "Спокійно та без стресу — також для найменших."
-
-msgid "Koloryzacja"
-msgstr "Фарбування"
-
-msgid "Balayage, rozjaśnianie i metamorfozy koloru po konsultacji."
-msgstr "Balayage, освітлення та кольорові перетворення після консультації."
-
-msgid "Stylizacja i modelowanie"
-msgstr "Стилізація та укладання"
-
-msgid "Układanie na specjalne okazje i na co dzień."
-msgstr "Укладання для особливих подій і на щодень."
-
+#: front-page.php:50
 msgid "Pełna lista usług i cennik →"
 msgstr "Повний перелік послуг і цін →"
 
+#: front-page.php:58
 msgid "Dlaczego my"
 msgstr "Чому ми"
 
+#: front-page.php:59
 msgid "Lokalny salon, w którym czujesz się dobrze"
 msgstr "Місцевий салон, де ви почуваєтеся добре"
 
+#: front-page.php:62
 msgid "Dla całej rodziny"
 msgstr "Для всієї родини"
 
+#: front-page.php:62
 msgid "Barber, strzyżenie męskie, damskie i dziecięce w jednym miejscu na Białołęce."
 msgstr "Барбер, чоловічі, жіночі та дитячі стрижки в одному місці в Білоленці."
 
+#: front-page.php:63
 msgid "Doświadczenie i pasja"
 msgstr "Досвід і пристрасть"
 
-msgid "Salon prowadzi Julia — strzyżenia i koloryzacja z dbałością o detal."
-msgstr "Салон веде Юлія — стрижки та фарбування з увагою до деталей."
+#: front-page.php:63
+msgid "Salon prowadzi Julia — strzyżenia i barber z dbałością o detal."
+msgstr "[MT-REVIEW] Салон веде Юлія — стрижки та барбер з увагою до деталей."
 
+#: front-page.php:64
 msgid "Wygodny dojazd"
 msgstr "Зручне розташування"
 
+#: front-page.php:64
+#, php-format
 msgid "W sercu Białołęki — %s."
 msgstr "У серці Білоленки — %s."
 
+#: front-page.php:73 page-galeria.php:14
 msgid "Nasze realizacje"
 msgstr "Наші роботи"
 
+#: front-page.php:74
 msgid "Efekty pracy salonu"
 msgstr "Результати роботи салону"
 
+#: front-page.php:75
 msgid "Prawdziwe metamorfozy i strzyżenia wykonane w Elegant Fryzjer."
 msgstr "Справжні перетворення та стрижки, виконані в Elegant Fryzjer."
 
+#: front-page.php:84
+#, php-format
 msgid "Powiększ: %s"
 msgstr "Збільшити: %s"
 
+#: front-page.php:89
 msgid "Zobacz całą galerię →"
 msgstr "Переглянути всю галерею →"
 
+#: front-page.php:97
 msgid "Odwiedź nas"
 msgstr "Завітайте до нас"
 
+#: front-page.php:98
 msgid "Adres i godziny"
 msgstr "Адреса та години"
 
+#: front-page.php:101 page-kontakt.php:26
 msgid "Telefon"
 msgstr "Телефон"
 
+#: front-page.php:105
 msgid "Mapa i dojazd"
 msgstr "Карта та як дістатися"
 
+#: front-page.php:126
 msgid "Opinie"
 msgstr "Відгуки"
 
+#: front-page.php:127
 msgid "Co mówią klienci"
 msgstr "Що кажуть клієнти"
 
+#: functions.php:26 header.php:39
+msgid "Menu główne"
+msgstr "Головне меню"
+
+#: functions.php:38
+msgid "Powiększone zdjęcie"
+msgstr "Збільшене фото"
+
+#: functions.php:39
+msgid "Zamknij"
+msgstr "Закрити"
+
+#: functions.php:68
+msgid "Zarezerwuj online"
+msgstr "Забронювати онлайн"
+
+#: functions.php:73
+msgid "Zadzwoń:"
+msgstr "Зателефонуйте:"
+
+#: functions.php:77 page-uslugi.php:124
+msgid "Umów wizytę"
+msgstr "Записатися на візит"
+
+#: functions.php:106
+msgid "Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje możliwość umówienia wizyty w innym terminie."
+msgstr "Не встигаєте в ці години? Зателефонуйте — за попередньою домовленістю можливо записатися на інший час."
+
+#: header.php:28
+msgid "Przejdź do treści"
+msgstr "Перейти до вмісту"
+
+#: header.php:33
+msgid "Elegant Fryzjer — strona główna"
+msgstr "Elegant Fryzjer — головна сторінка"
+
+#: header.php:35
+msgid "Salon & Barber · Białołęka"
+msgstr "Салон & Барбер · Білоленка"
+
+#: header.php:58
+msgid "Przełącz tryb jasny lub ciemny"
+msgstr "Перемкнути світлий або темний режим"
+
+#: header.php:65
+msgid "Przełącz motyw"
+msgstr "Перемкнути тему"
+
+#: header.php:71
+msgid "Menu"
+msgstr "Меню"
+
+#: index.php:18
 msgid "Nie znaleziono strony"
 msgstr "Сторінку не знайдено"
 
+#: index.php:19
 msgid "Strona, której szukasz, nie istnieje."
 msgstr "Сторінка, яку ви шукаєте, не існує."
 
+#: index.php:20
 msgid "Wróć na stronę główną"
 msgstr "Повернутися на головну"
 
-msgid "Cennik"
-msgstr "Ціни"
-
-msgid "Pełna oferta salonu Elegant Fryzjer na Białołęce. Ceny koloryzacji zależą od długości i gęstości włosów — dokładną wycenę podajemy po krótkiej konsultacji."
-msgstr "Повний перелік послуг салону Elegant Fryzjer у Білоленці. Ціни на фарбування залежать від довжини та густоти волосся — точну вартість повідомляємо після короткої консультації."
-
-msgid "Kategorie usług"
-msgstr "Категорії послуг"
-
-msgid "Cennik: %s"
-msgstr "Прайс-лист: %s"
-
-msgid "Salon prowadzi Julia"
-msgstr "Салон веде Юлія"
-
-msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
-msgstr "Elegant Fryzjer — це затишний перукарський і барбер-салон у варшавській Білоленці, де найважливіші індивідуальний підхід і добре самопочуття клієнта."
-
-msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych, koloryzacji i rozjaśnianiu oraz usługach barberskich — modelowaniu i stylizacji brody."
-msgstr "Ми спеціалізуємося на жіночих, чоловічих і дитячих стрижках, фарбуванні та освітленні, а також барбер-послугах — моделюванні та стилізації бороди."
-
-msgid "Zobacz realizacje"
-msgstr "Переглянути роботи"
-
-msgid "Nasze podejście"
-msgstr "Наш підхід"
-
-msgid "Na czym nam zależy"
-msgstr "Що для нас важливо"
-
-msgid "Konsultacja"
-msgstr "Консультація"
-
-msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
-msgstr "Перш ніж почати, ми обговорюємо ваші очікування та стан волосся."
-
-msgid "Jakość"
-msgstr "Якість"
-
-msgid "Sprawdzone produkty i staranne wykończenie każdej fryzury."
-msgstr "Перевірені продукти та ретельне завершення кожної зачіски."
-
-msgid "Komfort"
-msgstr "Комфорт"
-
-msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
-msgstr "Спокійна, доброзичлива атмосфера — також для дітей."
-
+#: page-galeria.php:15
 msgid "Prawdziwe metamorfozy, koloryzacje i strzyżenia wykonane w salonie Elegant Fryzjer. Kliknij zdjęcie, aby powiększyć."
 msgstr "Справжні перетворення, фарбування та стрижки, виконані в салоні Elegant Fryzjer. Натисніть на фото, щоб збільшити."
 
+#: page-galeria.php:22
+#, php-format
 msgid "Powiększ zdjęcie: %s"
 msgstr "Збільшити фото: %s"
 
+#: page-kontakt.php:16
 msgid "Skontaktuj się z nami"
 msgstr "Зв'яжіться з нами"
 
+#: page-kontakt.php:17
 msgid "Umów wizytę lub zadaj pytanie — odpowiemy najszybciej, jak to możliwe."
 msgstr "Запишіться на візит або поставте запитання — відповімо якнайшвидше."
 
+#: page-kontakt.php:50
 msgid "Napisz do nas"
 msgstr "Напишіть нам"
 
+#: page-kontakt.php:52
 msgid "Dziękujemy! Wiadomość została wysłana — odezwiemy się wkrótce."
 msgstr "Дякуємо! Повідомлення надіслано — ми скоро зв'яжемося."
 
+#: page-kontakt.php:54
 msgid "Nie udało się wysłać wiadomości. Sprawdź pola i spróbuj ponownie."
 msgstr "Не вдалося надіслати повідомлення. Перевірте поля та спробуйте ще раз."
 
+#: page-kontakt.php:61
 msgid "Nie wypełniaj"
 msgstr "Не заповнюйте"
 
+#: page-kontakt.php:64
 msgid "Imię i nazwisko"
 msgstr "Ім'я та прізвище"
 
+#: page-kontakt.php:68
 msgid "E-mail"
 msgstr "E-mail"
 
+#: page-kontakt.php:72
 msgid "Wiadomość"
 msgstr "Повідомлення"
 
+#: page-kontakt.php:75
 msgid "Wyślij wiadomość"
 msgstr "Надіслати повідомлення"
 
+#: page-kontakt.php:76
 msgid "Wysyłając formularz zgadzasz się na kontakt w sprawie zapytania."
 msgstr "Надсилаючи форму, ви погоджуєтеся на контакт щодо вашого запиту."
 
+#: page-kontakt.php:84
 msgid "Mapa Google ładuje się dopiero po kliknięciu (ochrona prywatności / RODO)."
 msgstr "Карта Google завантажується лише після натискання (захист приватності / GDPR)."
 
+#: page-kontakt.php:87
 msgid "Pokaż mapę dojazdu"
 msgstr "Показати карту проїзду"
 
+#: page-kontakt.php:89
 msgid "Otwórz w Mapach Google →"
 msgstr "Відкрити в Google Maps →"
 
+#: page-kontakt.php:99
 msgid "Mapa dojazdu do salonu Elegant Fryzjer"
 msgstr "Карта проїзду до салону Elegant Fryzjer"
 
+#: page-o-nas.php:13
+msgid "Salon prowadzi Julia"
+msgstr "Салон веде Юлія"
+
+#: page-o-nas.php:14
+msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
+msgstr "Elegant Fryzjer — це затишний перукарський і барбер-салон у варшавській Білоленці, де найважливіші індивідуальний підхід і добре самопочуття клієнта."
+
+#: page-o-nas.php:16
+msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
+msgstr "[MT-REVIEW] Ми спеціалізуємося на жіночих, чоловічих і дитячих стрижках, а також на барберських послугах — моделюванні та стилізації бороди."
+
+#: page-o-nas.php:19
+msgid "Zobacz realizacje"
+msgstr "Переглянути роботи"
+
+#: page-o-nas.php:36
+msgid "Nasze podejście"
+msgstr "Наш підхід"
+
+#: page-o-nas.php:37
+msgid "Na czym nam zależy"
+msgstr "Що для нас важливо"
+
+#: page-o-nas.php:40
+msgid "Konsultacja"
+msgstr "Консультація"
+
+#: page-o-nas.php:40
+msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
+msgstr "Перш ніж почати, ми обговорюємо ваші очікування та стан волосся."
+
+#: page-o-nas.php:41
+msgid "Jakość"
+msgstr "Якість"
+
+#: page-o-nas.php:41
+msgid "Sprawdzone produkty i staranne wykończenie każdej fryzury."
+msgstr "Перевірені продукти та ретельне завершення кожної зачіски."
+
+#: page-o-nas.php:42
+msgid "Komfort"
+msgstr "Комфорт"
+
+#: page-o-nas.php:42
+msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
+msgstr "Спокійна, доброзичлива атмосфера — також для дітей."
+
+#: page-uslugi.php:28
+#, php-format
+msgid "Cennik: %s"
+msgstr "Прайс-лист: %s"
+
+#: page-uslugi.php:45
+msgid "Cennik"
+msgstr "Ціни"
+
+#: page-uslugi.php:47
+msgid "Pełna oferta salonu Elegant Fryzjer na Białołęce — strzyżenia, broda i pielęgnacja dla całej rodziny."
+msgstr "[MT-REVIEW] Повний перелік послуг салону Elegant Fryzjer у Білоленці — стрижки, догляд за бородою та волоссям для всієї родини."
+
+#: page-uslugi.php:51
+msgid "Kategorie usług"
+msgstr "Категорії послуг"
+
+#: page-uslugi.php:63
+msgid "Dla niego"
+msgstr "[MT-REVIEW] Для нього"
+
+#: page-uslugi.php:64
+msgid "Strzyżenie, broda i barber"
+msgstr "[MT-REVIEW] Стрижки, борода та барбер"
+
+#: page-uslugi.php:75
+msgid "Cała rodzina w jednym miejscu"
+msgstr "[MT-REVIEW] Уся родина в одному місці"
+
+#: page-uslugi.php:76
+msgid "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
+msgstr "[MT-REVIEW] Барбер для нього, стрижка та стилізація для неї, спокійна стрижка для наймолодших — усе в Elegant Fryzjer у Білоленці."
+
+#: page-uslugi.php:84
+msgid "Dla niej i dla najmłodszych"
+msgstr "[MT-REVIEW] Для неї та наймолодших"
+
+#: page-uslugi.php:85
+msgid "Strzyżenie, stylizacja i pielęgnacja"
+msgstr "[MT-REVIEW] Стрижки, стилізація та догляд"
+
+#: page-uslugi.php:96
+msgid "Dlaczego Elegant Fryzjer"
+msgstr "[MT-REVIEW] Чому Elegant Fryzjer"
+
+#: page-uslugi.php:100
+msgid "Łatwa rezerwacja telefoniczna"
+msgstr "[MT-REVIEW] Легке бронювання телефоном"
+
+#: page-uslugi.php:104
+msgid "Punktualność"
+msgstr "[MT-REVIEW] Пунктуальність"
+
+#: page-uslugi.php:108
+msgid "Komfortowa atmosfera"
+msgstr "[MT-REVIEW] Комфортна атмосфера"
+
+#: page-uslugi.php:112
+msgid "Doświadczenie"
+msgstr "[MT-REVIEW] Досвід"
+
+#: inc/config.php:18 inc/i18n.php:223
 msgid "Salon fryzjerski w Białołęce"
 msgstr "Перукарський салон у Білоленці"
 
+#: inc/config.php:75
 msgid "Poniedziałek"
 msgstr "Понеділок"
 
+#: inc/config.php:75
 msgid "Wtorek"
 msgstr "Вівторок"
 
+#: inc/config.php:75
 msgid "Środa"
 msgstr "Середа"
 
+#: inc/config.php:76
 msgid "Czwartek"
 msgstr "Четвер"
 
+#: inc/config.php:76
 msgid "Piątek"
 msgstr "П'ятниця"
 
+#: inc/config.php:76
 msgid "Sobota"
 msgstr "Субота"
 
+#: inc/config.php:76
 msgid "Niedziela"
 msgstr "Неділя"
 
-msgid "Strzyżenie, modelowanie i pielęgnacja dopasowane do struktury Twoich włosów."
-msgstr "Стрижка, укладання та догляд, підібрані до структури вашого волосся."
+#: inc/config.php:92 inc/config.php:95
+msgid "Strzyżenie męskie"
+msgstr "Чоловіча стрижка"
 
-msgid "Strzyżenie damskie + modelowanie"
-msgstr "Жіноча стрижка + укладання"
-
-msgid "Modelowanie / układanie"
-msgstr "Укладання"
-
-msgid "Strzyżenie grzywki"
-msgstr "Стрижка чубчика"
-
+#: inc/config.php:93
 msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
 msgstr "Класичні та сучасні чоловічі стрижки, стилізація одразу."
 
+#: inc/config.php:96
 msgid "Strzyżenie maszynką"
 msgstr "Стрижка машинкою"
 
-msgid "Barber — broda i zarost"
-msgstr "Барбер — борода та щетина"
+#: inc/config.php:97
+msgid "Strzyżenie męskie + mycie"
+msgstr "[MT-REVIEW] Чоловіча стрижка + миття"
 
-msgid "Stylizacja brody, modelowanie i tradycyjne golenie."
-msgstr "Стилізація бороди, моделювання та традиційне гоління."
+#: inc/config.php:104
+msgid "Broda i zarost"
+msgstr "[MT-REVIEW] Борода та щетина"
 
-msgid "Strzyżenie brody / trymowanie"
-msgstr "Стрижка бороди / тримінг"
+#: inc/config.php:105
+msgid "Korekta, modelowanie i precyzyjny kontur brody."
+msgstr "[MT-REVIEW] Корекція, моделювання та точний контур бороди."
 
-msgid "Strzyżenie włosów + broda"
-msgstr "Стрижка волосся + борода"
+#: inc/config.php:107
+msgid "Korekta brody / zarostu"
+msgstr "[MT-REVIEW] Корекція бороди / щетини"
 
-msgid "Golenie maszynką / brzytwą"
-msgstr "Гоління машинкою / бритвою"
+#: inc/config.php:108
+msgid "Modelowanie brody"
+msgstr "[MT-REVIEW] Моделювання бороди"
 
+#: inc/config.php:109
+msgid "Premium (modelowanie, kontur, płynne przejścia)"
+msgstr "[MT-REVIEW] Преміум (моделювання, контур, плавні переходи)"
+
+#: inc/config.php:116
+msgid "Pakiety"
+msgstr "[MT-REVIEW] Пакети"
+
+#: inc/config.php:117
+msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
+msgstr "[MT-REVIEW] Стрижка та борода за один візит — за нижчою сукупною ціною."
+
+#: inc/config.php:119
+msgid "Strzyżenie męskie + broda (korekta)"
+msgstr "[MT-REVIEW] Чоловіча стрижка + борода (корекція)"
+
+#: inc/config.php:120
+msgid "Strzyżenie męskie + broda (modelowanie)"
+msgstr "[MT-REVIEW] Чоловіча стрижка + борода (моделювання)"
+
+#: inc/config.php:121
+msgid "Strzyżenie maszynką + broda"
+msgstr "[MT-REVIEW] Стрижка машинкою + борода"
+
+#: inc/config.php:129 inc/config.php:132
+msgid "Strzyżenie damskie"
+msgstr "Жіноча стрижка"
+
+#: inc/config.php:130
+msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
+msgstr "[MT-REVIEW] Стрижка та укладка, підібрані під структуру вашого волосся."
+
+#: inc/config.php:133
+msgid "Mycie + modelowanie"
+msgstr "[MT-REVIEW] Миття + укладка"
+
+#: inc/config.php:134 inc/config.php:156
+msgid "Stylizacja / układanie"
+msgstr "[MT-REVIEW] Стилізація / укладка"
+
+#: inc/config.php:141
+msgid "Strzyżenie dziecięce"
+msgstr "Дитяча стрижка"
+
+#: inc/config.php:142
 msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 msgstr "Спокійно та без стресу — стрижка для найменших."
 
+#: inc/config.php:144
 msgid "Strzyżenie dziecięce (do 12 lat)"
 msgstr "Дитяча стрижка (до 12 років)"
 
-msgid "Koloryzacja i rozjaśnianie"
-msgstr "Фарбування та освітлення"
+#: inc/config.php:151
+msgid "Pielęgnacja i stylizacja"
+msgstr "[MT-REVIEW] Догляд та стилізація"
 
-msgid "Koloryzacja, balayage, rozjaśnianie i metamorfozy koloru. Cena zależna od długości i gęstości włosów — dokładną wycenę podajemy po konsultacji."
-msgstr "Фарбування, balayage, освітлення та кольорові перетворення. Ціна залежить від довжини та густоти волосся — точну вартість повідомляємо після консультації."
+#: inc/config.php:152
+msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
+msgstr "[MT-REVIEW] Миття, догляд та стилізація — для кожного, на щодень і для особливих нагод."
 
-msgid "Koloryzacja jednolita"
-msgstr "Однотонне фарбування"
+#: inc/config.php:154
+msgid "Mycie włosów"
+msgstr "[MT-REVIEW] Миття волосся"
 
-msgid "Balayage / sombre"
-msgstr "Balayage / sombre"
+#: inc/config.php:155
+msgid "Odżywka / maska"
+msgstr "[MT-REVIEW] Кондиціонер / маска"
 
-msgid "Rozjaśnianie / dekoloryzacja"
-msgstr "Освітлення / знебарвлення"
+#: inc/config.php:157
+msgid "Stylizacja premium (produkty profesjonalne)"
+msgstr "[MT-REVIEW] Преміум-стилізація (професійні засоби)"
 
-msgid "Koloryzacja kreatywna"
-msgstr "Креативне фарбування"
-
-msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, stylizacja brody. Prowadzi Julia."
-msgstr "Перукарський і барбер-салон у варшавській Білоленці — жіночі, чоловічі та дитячі стрижки, фарбування, стилізація бороди. Веде Юлія."
-
-msgid "Usługi fryzjerskie i barberskie"
-msgstr "Перукарські та барбер-послуги"
-
-msgid "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
-msgstr "Перетворення: фарбування balayage та укладання м'яких хвиль — до та після"
-
-msgid "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
-msgstr "Кольорове перетворення: з темно-коричневого на освітлений блонд з хвилями — до та після"
-
-msgid "Rozjaśnianie włosów do platynowego blondu — efekt przed i po"
-msgstr "Освітлення волосся до платинового блонду — до та після"
-
-msgid "Metamorfoza koloru: z czerni na ciepły kasztan — przed i po"
-msgstr "Кольорове перетворення: з чорного на теплий каштан — до та після"
-
-msgid "Damskie cieniowane strzyżenie i koloryzacja, długie włosy blond — widok z tyłu"
-msgstr "Жіноча багатошарова стрижка та фарбування, довге світле волосся — вигляд ззаду"
-
-msgid "Strzyżenie cieniowane na długich włosach blond — widok z tyłu"
-msgstr "Багатошарова стрижка на довгому світлому волоссі — вигляд ззаду"
-
-msgid "Koloryzacja blond z delikatnymi rozjaśnieniami, włosy do ramion"
-msgstr "Світле фарбування з делікатними пасмами, волосся до плечей"
-
-msgid "Długie włosy w odcieniu miedzi po koloryzacji — widok z tyłu"
-msgstr "Довге волосся мідного відтінку після фарбування — вигляд ззаду"
-
-msgid "Długie, proste włosy w odcieniu kasztanu po koloryzacji"
-msgstr "Довге пряме волосся каштанового відтінку після фарбування"
-
-msgid "Przygotowanie do koloryzacji — długie ciemne włosy, widok z tyłu"
-msgstr "Підготовка до фарбування — довге темне волосся, вигляд ззаду"
-
-msgid "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
-msgstr "Кольорове перетворення: освітлення з темного блонду на платиновий блонд — до та після, вигляд ззаду"
-
-msgid "Kreatywna koloryzacja w odcieniach zieleni i żółci — widok z tyłu"
-msgstr "Креативне фарбування у відтінках зеленого та жовтого — вигляд ззаду"
-
-msgid "Kreatywna koloryzacja neonowa — widok z góry"
-msgstr "Креативне неонове фарбування — вигляд зверху"
-
-msgid "Krótkie damskie strzyżenie bob — widok z tyłu"
-msgstr "Коротка жіноча стрижка боб — вигляд ззаду"
-
-msgid "Strzyżenie bob z wycieniowanym tyłem głowy"
-msgstr "Стрижка боб з градуйованою потилицею"
-
-msgid "Precyzyjne krótkie strzyżenie bob — widok z tyłu"
-msgstr "Точна коротка стрижка боб — вигляд ззаду"
-
-msgid "Strzyżenie męskie, krótkie włosy — widok z tyłu"
-msgstr "Чоловіча стрижка, коротке волосся — вигляд ззаду"
-
+#: inc/gallery.php:22
 msgid "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
 msgstr "Чоловіча стрижка та стилізація — інтер'єр салону Elegant Fryzjer у Білоленці"
 
-msgid "Męskie strzyżenie — widok z tyłu, salon Elegant Fryzjer"
-msgstr "Чоловіча стрижка — вигляд ззаду, салон Elegant Fryzjer"
-
-msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, koloryzacja, broda. Prowadzi Julia."
-msgstr "Elegant Fryzjer — перукарський і барбер-салон у варшавській Білоленці. Жіночі, чоловічі та дитячі стрижки, фарбування, борода. Веде Юлія."
-
-msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, broda."
-msgstr "Повний перелік послуг та ціни салону Elegant Fryzjer у Білоленці — жіночі, чоловічі та дитячі стрижки, фарбування, борода."
-
-msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
-msgstr "Знайомтеся з Elegant Fryzjer — затишний перукарський і барбер-салон у варшавській Білоленці. Салон веде Юлія."
-
-msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
-msgstr "Галерея робіт салону Elegant Fryzjer — кольорові перетворення, фарбування та стрижки."
-
-msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
-msgstr "Контакти та як дістатися салону Elegant Fryzjer у Білоленці. Запишіться на візит або поставте запитання."
-
-msgid "Wybór języka"
-msgstr "Вибір мови"
-
 # --- Gallery: men's cut alt texts (added 2026-06-22) ---
+#: inc/gallery.php:23
 msgid "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
 msgstr "Чоловіча стрижка із зачесаним назад волоссям і повною бородою — профіль"
 
+#: inc/gallery.php:24
 msgid "Męskie strzyżenie: teksturowana góra z przejściem (fade) i krótka broda — z boku"
 msgstr "Чоловіча стрижка: текстурований верх із переходом (фейд) і коротка борода — збоку"
 
+#: inc/gallery.php:25
 msgid "Klasyczny pompadour z uniesioną górą — ujęcie trzy czwarte z przodu"
 msgstr "Класичний помпадур з об'ємним верхом — вигляд три чверті спереду"
 
+#: inc/gallery.php:26
 msgid "Rozłączony undercut z włosami zaczesanymi do tyłu i wysokim przejściem — profil"
 msgstr "Роз'єднаний андеркат із зачесаним назад волоссям і високим переходом — профіль"
 
+#: inc/gallery.php:27
 msgid "Krótkie strzyżenie na jeża ze skórnym przejściem (skin fade) — z boku"
 msgstr "Коротка стрижка «їжачок» зі шкірним переходом (скін-фейд) — збоку"
 
+#: inc/gallery.php:28
 msgid "Młodzieżowe strzyżenie typu crop z grzywką i niskim przejściem — z boku"
 msgstr "Молодіжна стрижка кроп із чубчиком і низьким переходом — збоку"
 
+#: inc/gallery.php:29
 msgid "Krótkie teksturowane strzyżenie męskie ze średnim przejściem — z boku"
 msgstr "Коротка текстурована чоловіча стрижка із середнім переходом — збоку"
 
+#: inc/gallery.php:30
 msgid "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — z boku"
 msgstr "Чоловіча стрижка з коротким текстурованим верхом і підстриженою бородою — збоку"
 
+#: inc/gallery.php:31
 msgid "Krótkie męskie strzyżenie z przejściem i lekkim zarostem — profil"
 msgstr "Коротка чоловіча стрижка з переходом і легкою щетиною — профіль"
 
+#: inc/gallery.php:32
 msgid "Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu"
 msgstr "Коротка чоловіча стрижка з переходом і повною бородою — спереду"
 
+#: inc/gallery.php:33
 msgid "Męskie strzyżenie z uniesioną górą i cieniowanym tyłem — widok z tyłu"
 msgstr "Чоловіча стрижка з піднятим верхом і градуйованою потилицею — вигляд ззаду"
 
+#: inc/gallery.php:34
 msgid "Męskie strzyżenie typu crop z teksturą — od przodu"
 msgstr "Чоловіча стрижка кроп із текстурою — спереду"
 
+#: inc/gallery.php:35
 msgid "Krótkie męskie strzyżenie z pełną, wymodelowaną brodą — od przodu"
 msgstr "Коротка чоловіча стрижка з повною доглянутою бородою — спереду"
 
+#: inc/gallery.php:36
 msgid "Bardzo krótkie strzyżenie na jeża ze skórnym przejściem — widok z tyłu"
 msgstr "Дуже коротка стрижка «їжачок» зі шкірним переходом — вигляд ззаду"
 
+#: inc/gallery.php:37
 msgid "Młodzieżowe strzyżenie typu crop z teksturą — widok z tyłu"
 msgstr "Молодіжна стрижка кроп із текстурою — вигляд ззаду"
 
-msgid "Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje możliwość umówienia wizyty w innym terminie."
-msgstr "Не встигаєте в ці години? Зателефонуйте — за попередньою домовленістю можливо записатися на інший час."
+#: inc/gallery.php:44
+msgid "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
+msgstr "Перетворення: фарбування balayage та укладання м'яких хвиль — до та після"
+
+#: inc/gallery.php:45
+msgid "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
+msgstr "Кольорове перетворення: з темно-коричневого на освітлений блонд з хвилями — до та після"
+
+#: inc/gallery.php:46
+msgid "Kreatywna koloryzacja w odcieniach zieleni i żółci — widok z tyłu"
+msgstr "Креативне фарбування у відтінках зеленого та жовтого — вигляд ззаду"
+
+#: inc/gallery.php:47
+msgid "Strzyżenie bob z wycieniowanym tyłem głowy"
+msgstr "Стрижка боб з градуйованою потилицею"
+
+#: inc/gallery.php:49
+msgid "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
+msgstr "Кольорове перетворення: освітлення з темного блонду на платиновий блонд — до та після, вигляд ззаду"
+
+#: inc/i18n.php:245
+msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
+msgstr "[MT-REVIEW] Elegant Fryzjer — перукарський і барбер-салон у варшавській Білоленці. Жіночі, чоловічі та дитячі стрижки, барбер, борода. Веде Юлія."
+
+#: inc/i18n.php:249
+msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
+msgstr "[MT-REVIEW] Повний перелік послуг та ціни салону Elegant Fryzjer у Білоленці — жіночі, чоловічі та дитячі стрижки, барбер, борода."
+
+#: inc/i18n.php:250
+msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
+msgstr "Знайомтеся з Elegant Fryzjer — затишний перукарський і барбер-салон у варшавській Білоленці. Салон веде Юлія."
+
+#: inc/i18n.php:251
+msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
+msgstr "Галерея робіт салону Elegant Fryzjer — кольорові перетворення, фарбування та стрижки."
+
+#: inc/i18n.php:252
+msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
+msgstr "Контакти та як дістатися салону Elegant Fryzjer у Білоленці. Запишіться на візит або поставте запитання."
+
+#: inc/i18n.php:270
+msgid "Wybór języka"
+msgstr "Вибір мови"
+
+#: inc/schema.php:52
+msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
+msgstr "[MT-REVIEW] Перукарський і барбер-салон у варшавській Білоленці — жіночі, чоловічі та дитячі стрижки, барбер і стилізація бороди. Веде Юлія."
+
+#: inc/schema.php:74
+msgid "Usługi fryzjerskie i barberskie"
+msgstr "Перукарські та барбер-послуги"
+

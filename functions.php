@@ -6,10 +6,11 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
-define( 'EF_VER', '1.2.15' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
+define( 'EF_VER', '1.2.16' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
 
 require_once get_template_directory() . '/inc/config.php';
 require_once get_template_directory() . '/inc/gallery.php';
+require_once get_template_directory() . '/inc/icons.php';
 require_once get_template_directory() . '/inc/schema.php';
 require_once get_template_directory() . '/inc/i18n.php';
 require_once get_template_directory() . '/inc/sitemap.php';

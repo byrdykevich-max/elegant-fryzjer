@@ -84,53 +84,85 @@ function ef_day_labels() {
  */
 function ef_services() {
 	return array(
-		array(
-			'id'    => 'damskie',
-			'title' => __( 'Strzyżenie damskie', 'elegant-fryzjer' ),
-			'lead'  => __( 'Strzyżenie, modelowanie i pielęgnacja dopasowane do struktury Twoich włosów.', 'elegant-fryzjer' ),
-			'items' => array(
-				array( 'name' => __( 'Strzyżenie damskie + modelowanie', 'elegant-fryzjer' ), 'price' => '90 zł' ),
-				array( 'name' => __( 'Modelowanie / układanie', 'elegant-fryzjer' ),           'price' => '60 zł' ),
-				array( 'name' => __( 'Strzyżenie grzywki', 'elegant-fryzjer' ),                 'price' => '40 zł' ),
-			),
-		),
+		// --- Men's (dark block; leads, dominant — client mix ~80% men) ---
 		array(
 			'id'    => 'meskie',
+			'block' => 'dark',
+			'icon'  => 'him',
 			'title' => __( 'Strzyżenie męskie', 'elegant-fryzjer' ),
 			'lead'  => __( 'Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki.', 'elegant-fryzjer' ),
 			'items' => array(
-				array( 'name' => __( 'Strzyżenie męskie', 'elegant-fryzjer' ),          'price' => '70 zł' ),
-				array( 'name' => __( 'Strzyżenie maszynką', 'elegant-fryzjer' ),        'price' => '50 zł' ),
+				array( 'name' => __( 'Strzyżenie męskie', 'elegant-fryzjer' ),         'price' => '80 zł' ),
+				array( 'name' => __( 'Strzyżenie maszynką', 'elegant-fryzjer' ),       'price' => '50 zł' ),
+				array( 'name' => __( 'Strzyżenie męskie + mycie', 'elegant-fryzjer' ), 'price' => '90 zł' ),
 			),
 		),
 		array(
-			'id'    => 'barber',
-			'title' => __( 'Barber — broda i zarost', 'elegant-fryzjer' ),
-			'lead'  => __( 'Stylizacja brody, modelowanie i tradycyjne golenie.', 'elegant-fryzjer' ),
+			'id'    => 'broda',
+			'block' => 'dark',
+			'icon'  => 'him',
+			'title' => __( 'Broda i zarost', 'elegant-fryzjer' ),
+			'lead'  => __( 'Korekta, modelowanie i precyzyjny kontur brody.', 'elegant-fryzjer' ),
 			'items' => array(
-				array( 'name' => __( 'Strzyżenie brody / trymowanie', 'elegant-fryzjer' ), 'price' => '50 zł' ),
-				array( 'name' => __( 'Strzyżenie włosów + broda', 'elegant-fryzjer' ),     'price' => '110 zł' ),
-				array( 'name' => __( 'Golenie maszynką / brzytwą', 'elegant-fryzjer' ),    'price' => '80 zł' ),
+				array( 'name' => __( 'Korekta brody / zarostu', 'elegant-fryzjer' ), 'price' => 'od 35 zł' ),
+				array( 'name' => __( 'Modelowanie brody', 'elegant-fryzjer' ),       'price' => 'od 45 zł' ),
+				array( 'name' => __( 'Premium (modelowanie, kontur, płynne przejścia)', 'elegant-fryzjer' ), 'price' => 'od 55 zł' ),
+			),
+		),
+		array(
+			'id'    => 'pakiety',
+			'block' => 'dark',
+			'icon'  => 'him',
+			'title' => __( 'Pakiety', 'elegant-fryzjer' ),
+			'lead'  => __( 'Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie.', 'elegant-fryzjer' ),
+			'items' => array(
+				array( 'name' => __( 'Strzyżenie męskie + broda (korekta)', 'elegant-fryzjer' ),     'price' => '110 zł' ),
+				array( 'name' => __( 'Strzyżenie męskie + broda (modelowanie)', 'elegant-fryzjer' ), 'price' => '125 zł' ),
+				array( 'name' => __( 'Strzyżenie maszynką + broda', 'elegant-fryzjer' ),             'price' => '85 zł' ),
+			),
+		),
+		// --- Women's, children's & care (light block; secondary but present) ---
+		array(
+			'id'    => 'damskie',
+			'block' => 'light',
+			'icon'  => 'her',
+			'title' => __( 'Strzyżenie damskie', 'elegant-fryzjer' ),
+			'lead'  => __( 'Strzyżenie i modelowanie dopasowane do struktury Twoich włosów.', 'elegant-fryzjer' ),
+			'items' => array(
+				array( 'name' => __( 'Strzyżenie damskie', 'elegant-fryzjer' ),     'price' => 'od 100 zł' ),
+				array( 'name' => __( 'Mycie + modelowanie', 'elegant-fryzjer' ),    'price' => '40 zł' ),
+				array( 'name' => __( 'Stylizacja / układanie', 'elegant-fryzjer' ), 'price' => 'od 50 zł' ),
 			),
 		),
 		array(
 			'id'    => 'dzieciece',
+			'block' => 'light',
+			'icon'  => 'kids',
 			'title' => __( 'Strzyżenie dziecięce', 'elegant-fryzjer' ),
 			'lead'  => __( 'Spokojnie i bez stresu — strzyżenie dla najmłodszych.', 'elegant-fryzjer' ),
 			'items' => array(
-				array( 'name' => __( 'Strzyżenie dziecięce (do 12 lat)', 'elegant-fryzjer' ), 'price' => '50 zł' ),
+				array( 'name' => __( 'Strzyżenie dziecięce (do 12 lat)', 'elegant-fryzjer' ), 'price' => '70 zł' ),
 			),
 		),
 		array(
-			'id'    => 'koloryzacja',
-			'title' => __( 'Koloryzacja i rozjaśnianie', 'elegant-fryzjer' ),
-			'lead'  => __( 'Koloryzacja, balayage, rozjaśnianie i metamorfozy koloru. Cena zależna od długości i gęstości włosów — dokładną wycenę podajemy po konsultacji.', 'elegant-fryzjer' ),
+			'id'    => 'pielegnacja',
+			'block' => 'light',
+			'icon'  => 'care',
+			'title' => __( 'Pielęgnacja i stylizacja', 'elegant-fryzjer' ),
+			'lead'  => __( 'Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje.', 'elegant-fryzjer' ),
 			'items' => array(
-				array( 'name' => __( 'Koloryzacja jednolita', 'elegant-fryzjer' ),            'price' => 'od 150 zł' ),
-				array( 'name' => __( 'Balayage / sombre', 'elegant-fryzjer' ),                'price' => 'od 250 zł' ),
-				array( 'name' => __( 'Rozjaśnianie / dekoloryzacja', 'elegant-fryzjer' ),     'price' => 'od 200 zł' ),
-				array( 'name' => __( 'Koloryzacja kreatywna', 'elegant-fryzjer' ),            'price' => 'od 300 zł' ),
+				array( 'name' => __( 'Mycie włosów', 'elegant-fryzjer' ),           'price' => '20 zł' ),
+				array( 'name' => __( 'Odżywka / maska', 'elegant-fryzjer' ),        'price' => '30 zł' ),
+				array( 'name' => __( 'Stylizacja / układanie', 'elegant-fryzjer' ), 'price' => 'od 40 zł' ),
+				array( 'name' => __( 'Stylizacja premium (produkty profesjonalne)', 'elegant-fryzjer' ), 'price' => 'od 60 zł' ),
 			),
 		),
 	);
+}
+
+/** Service categories belonging to one visual block ('dark' = men's, 'light' = women's/kids/care). */
+function ef_services_block( $block ) {
+	return array_values( array_filter( ef_services(), function ( $s ) use ( $block ) {
+		return $s['block'] === $block;
+	} ) );
 }

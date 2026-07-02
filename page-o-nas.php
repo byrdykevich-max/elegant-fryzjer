@@ -12,8 +12,8 @@ $gall = ef_gallery_images();
 			<span class="eyebrow"><?php esc_html_e( 'O nas', 'elegant-fryzjer' ); ?></span>
 			<h1 id="page-title"><?php esc_html_e( 'Salon prowadzi Julia', 'elegant-fryzjer' ); ?></h1>
 			<p class="lead"><?php esc_html_e( 'Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta.', 'elegant-fryzjer' ); ?></p>
-			<p>[PLACEHOLDER — krótka historia Julii: doświadczenie, specjalizacje (np. koloryzacja, metamorfozy, strzyżenia męskie), podejście do klienta. Napisz 2–3 akapity, a wstawię je tutaj.]</p>
-			<p><?php esc_html_e( 'Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych, koloryzacji i rozjaśnianiu oraz usługach barberskich — modelowaniu i stylizacji brody.', 'elegant-fryzjer' ); ?></p>
+			<p>[PLACEHOLDER — krótka historia Julii: doświadczenie, specjalizacje (np. strzyżenia męskie, barber, stylizacja damska), podejście do klienta. Napisz 2–3 akapity, a wstawię je tutaj.]</p>
+			<p><?php esc_html_e( 'Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody.', 'elegant-fryzjer' ); ?></p>
 			<div class="hero__actions">
 				<?php ef_cta( 'primary' ); ?>
 				<a class="btn btn--ghost" href="<?php echo esc_url( ef_url( '/galeria/' ) ); ?>"><?php esc_html_e( 'Zobacz realizacje', 'elegant-fryzjer' ); ?></a>

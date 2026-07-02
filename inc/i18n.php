@@ -242,11 +242,11 @@ add_filter( 'document_title_parts', 'ef_title_parts' );
  * distinct, localized description; everything else uses the localized default.
  */
 function ef_localized_description() {
-	$default = __( 'Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, koloryzacja, broda. Prowadzi Julia.', 'elegant-fryzjer' );
+	$default = __( 'Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia.', 'elegant-fryzjer' );
 	if ( is_page() ) {
 		$slug = get_post_field( 'post_name', get_queried_object_id() );
 		$map  = array(
-			'uslugi'  => __( 'Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, broda.', 'elegant-fryzjer' ),
+			'uslugi'  => __( 'Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda.', 'elegant-fryzjer' ),
 			'o-nas'   => __( 'Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia.', 'elegant-fryzjer' ),
 			'galeria' => __( 'Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia.', 'elegant-fryzjer' ),
 			'kontakt' => __( 'Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie.', 'elegant-fryzjer' ),

@@ -49,7 +49,7 @@ function ef_schema_jsonld() {
 		'@type'     => 'HairSalon',
 		'@id'       => $url . '#business',
 		'name'      => $c['name'],
-		'description' => __( 'Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, koloryzacja, stylizacja brody. Prowadzi Julia.', 'elegant-fryzjer' ),
+		'description' => __( 'Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia.', 'elegant-fryzjer' ),
 		'url'       => $url,
 		'image'     => ef_uploads_url() . '/' . ef_gallery_images()[0]['base'] . '-1024x1024.jpg',
 		'priceRange' => '$$',

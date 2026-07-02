@@ -314,16 +314,63 @@ section { padding-block: clamp(2.5rem, 6vw, 5rem); }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: var(--sp-4); box-shadow: var(--shadow); }
 .card h3 { margin-top: 0; }
 .card__icon { width: 40px; height: 40px; color: var(--accent); margin-bottom: var(--sp-2); }
+.card .pictogram { color: var(--accent); margin-bottom: var(--sp-2); }
 
 /* Price list (Usługi/cennik) */
 .pricelist { display: grid; gap: var(--sp-5); }
+@media (min-width: 780px) { .pricelist { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); align-items: start; } }
 .price-group { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(1.25rem,3vw,2rem); box-shadow: var(--shadow); }
+.price-group__head { display: flex; align-items: flex-start; gap: var(--sp-3); margin-bottom: var(--sp-2); }
+.price-group__head .pictogram { flex: none; color: var(--accent-dark); }
+.price-group__head h3 { margin-bottom: .2em; }
 .price-group__lead { color: var(--muted); margin-bottom: var(--sp-3); }
 .price-table { width: 100%; border-collapse: collapse; }
 .price-table th, .price-table td { text-align: left; padding: .8rem 0; border-bottom: 1px solid var(--line); }
 .price-table tr:last-child th, .price-table tr:last-child td { border-bottom: 0; }
 .price-table td { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--accent-dark); font-weight: 600; }
 .price-table th { font-weight: 500; font-family: var(--font-body); }
+
+/* =========================================================================
+   PRICE BLOCKS (Usługi — men's dark block leads, women's/kids/care light block)
+   Tokens are PINNED here (not derived from --paper/--accent's toggle-driven
+   values) so the dark/light contrast is a fixed design choice, matching the
+   reference layout, regardless of the visitor's light/dark toggle. Both pairs
+   reuse the site's already AA-verified dark-mode / light-mode color values.
+   ====================================================================== */
+.price-block { padding-block: clamp(2.5rem, 6vw, 5rem); }
+.price-block--dark {
+	--paper: #100F0D; --surface: #1C1915; --panel: #181511; --line: #3C352C;
+	--ink: #F5EDE1; --muted: #BBAE9C; --accent: #D9B45F; --accent-dark: #ECC987; --accent-soft: #2B2316;
+	background: var(--paper); color: var(--ink);
+}
+.price-block--light {
+	--paper: #FAF5EE; --surface: #FFFFFF; --panel: #F2EADF; --line: #E6DACB;
+	--ink: #221C17; --muted: #5C5247; --accent: #8F5424; --accent-dark: #6F3F18; --accent-soft: #F3E7D6;
+	background: var(--panel); color: var(--ink);
+}
+.price-block .eyebrow { color: var(--accent-dark); background: var(--accent-soft); }
+.price-block h1, .price-block h2, .price-block h3 { color: var(--ink); }
+
+/* "Cała rodzina w jednym miejscu" banner — fixed gold band between the two blocks */
+.family-banner { background: #D9B45F; color: #1A140B; text-align: center; padding-block: clamp(2rem, 5vw, 3rem); }
+.family-banner__inner { max-width: 60ch; margin-inline: auto; }
+.family-banner h2 { color: #1A140B; margin-bottom: .5rem; }
+.family-banner p { margin: 0; }
+
+/* Info icons row (booking / punctuality / atmosphere / experience) */
+.info-row { padding-block: clamp(2.5rem, 6vw, 4rem); }
+.info-row__grid { display: grid; gap: var(--sp-5); grid-template-columns: 1fr; text-align: center; }
+@media (min-width: 640px) { .info-row__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 980px) { .info-row__grid { grid-template-columns: repeat(4, 1fr); } }
+.info-row__item { display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); }
+.info-row__item .info-icon { color: var(--accent); }
+.info-row__item h3 { font-size: 1.05rem; margin: 0; }
+
+/* Contact strip — condensed real NAP + CTA, dark band (toggle-independent inverse tokens) */
+.contact-strip { background: var(--inverse-bg); color: var(--inverse-text); text-align: center; padding-block: clamp(2rem, 5vw, 3rem); }
+.contact-strip__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--sp-4); }
+.contact-strip__item { margin: 0; color: var(--inverse-text); font-weight: 600; }
+.contact-strip .phone-link { color: var(--inverse-heading); }
 
 /* =========================================================================
    GALLERY  (CSS columns masonry) + accessible lightbox

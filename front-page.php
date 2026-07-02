@@ -14,7 +14,7 @@ $gall = ef_gallery_images();
 		<div class="hero__copy">
 			<span class="eyebrow"><?php echo esc_html__( 'Barber & Salon · Warszawa Białołęka', 'elegant-fryzjer' ); ?></span>
 			<h1 class="hero__title" id="hero-title"><?php esc_html_e( 'Elegancka fryzura blisko domu — na Białołęce', 'elegant-fryzjer' ); ?></h1>
-			<p class="lead"><?php echo wp_kses( __( 'Strzyżenie męskie, broda i barber — a także strzyżenie damskie, dziecięce i koloryzacja. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort.', 'elegant-fryzjer' ), array( 'strong' => array() ) ); ?></p>
+			<p class="lead"><?php echo wp_kses( __( 'Strzyżenie męskie, broda i barber — a także strzyżenie damskie i dziecięce. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort.', 'elegant-fryzjer' ), array( 'strong' => array() ) ); ?></p>
 			<div class="hero__actions">
 				<?php ef_cta( 'primary' ); ?>
 				<a class="btn btn--ghost" href="<?php echo esc_url( ef_url( '/uslugi/' ) ); ?>"><?php esc_html_e( 'Zobacz usługi i cennik', 'elegant-fryzjer' ); ?></a>
@@ -25,7 +25,7 @@ $gall = ef_gallery_images();
 			// First approved gallery image as the LCP element (eager + high priority).
 			echo ef_picture( $gall[0]['base'], $gall[0]['alt'], '(max-width: 860px) 92vw, 520px', true );
 			?>
-			<span class="hero__badge"><?php echo esc_html__( 'Metamorfozy koloru & strzyżenia', 'elegant-fryzjer' ); ?></span>
+			<span class="hero__badge"><?php echo esc_html__( 'Strzyżenia i stylizacja dla całej rodziny', 'elegant-fryzjer' ); ?></span>
 		</div>
 	</div>
 </section>
@@ -36,22 +36,14 @@ $gall = ef_gallery_images();
 		<div class="section__head">
 			<span class="eyebrow"><?php esc_html_e( 'Co robimy', 'elegant-fryzjer' ); ?></span>
 			<h2 id="uslugi-title"><?php esc_html_e( 'Barber i fryzjer dla całej rodziny', 'elegant-fryzjer' ); ?></h2>
-			<p class="muted"><?php esc_html_e( 'Jedno miejsce dla kobiet, mężczyzn i dzieci — od codziennego strzyżenia po pełną metamorfozę koloru i usługi barberskie.', 'elegant-fryzjer' ); ?></p>
+			<p class="muted"><?php esc_html_e( 'Jedno miejsce dla mężczyzn, kobiet i dzieci — od barberskiego strzyżenia po pielęgnację i stylizację.', 'elegant-fryzjer' ); ?></p>
 		</div>
 		<div class="grid grid--3">
-			<?php
-			$overview = array(
-				array( __( 'Strzyżenie damskie', 'elegant-fryzjer' ), __( 'Strzyżenie, modelowanie i pielęgnacja dopasowane do Twoich włosów.', 'elegant-fryzjer' ) ),
-				array( __( 'Strzyżenie męskie', 'elegant-fryzjer' ), __( 'Klasyczne i nowoczesne cięcia, stylizacja od ręki.', 'elegant-fryzjer' ) ),
-				array( __( 'Barber — broda', 'elegant-fryzjer' ), __( 'Modelowanie i stylizacja brody, tradycyjne golenie.', 'elegant-fryzjer' ) ),
-				array( __( 'Strzyżenie dziecięce', 'elegant-fryzjer' ), __( 'Spokojnie i bez stresu — także dla najmłodszych.', 'elegant-fryzjer' ) ),
-				array( __( 'Koloryzacja', 'elegant-fryzjer' ), __( 'Balayage, rozjaśnianie i metamorfozy koloru po konsultacji.', 'elegant-fryzjer' ) ),
-				array( __( 'Stylizacja i modelowanie', 'elegant-fryzjer' ), __( 'Układanie na specjalne okazje i na co dzień.', 'elegant-fryzjer' ) ),
-			);
-			foreach ( $overview as $o ) : ?>
+			<?php foreach ( array_merge( ef_services_block( 'dark' ), ef_services_block( 'light' ) ) as $s ) : ?>
 				<article class="card">
-					<h3><?php echo esc_html( $o[0] ); ?></h3>
-					<p class="muted"><?php echo esc_html( $o[1] ); ?></p>
+					<?php echo ef_pictogram( $s['icon'] ); ?>
+					<h3><?php echo esc_html( $s['title'] ); ?></h3>
+					<p class="muted"><?php echo esc_html( $s['lead'] ); ?></p>
 				</article>
 			<?php endforeach; ?>
 		</div>
@@ -68,7 +60,7 @@ $gall = ef_gallery_images();
 		</div>
 		<div class="grid grid--3">
 			<article class="card"><h3><?php esc_html_e( 'Dla całej rodziny', 'elegant-fryzjer' ); ?></h3><p class="muted"><?php esc_html_e( 'Barber, strzyżenie męskie, damskie i dziecięce w jednym miejscu na Białołęce.', 'elegant-fryzjer' ); ?></p></article>
-			<article class="card"><h3><?php esc_html_e( 'Doświadczenie i pasja', 'elegant-fryzjer' ); ?></h3><p class="muted"><?php esc_html_e( 'Salon prowadzi Julia — strzyżenia i koloryzacja z dbałością o detal.', 'elegant-fryzjer' ); ?></p></article>
+			<article class="card"><h3><?php esc_html_e( 'Doświadczenie i pasja', 'elegant-fryzjer' ); ?></h3><p class="muted"><?php esc_html_e( 'Salon prowadzi Julia — strzyżenia i barber z dbałością o detal.', 'elegant-fryzjer' ); ?></p></article>
 			<article class="card"><h3><?php esc_html_e( 'Wygodny dojazd', 'elegant-fryzjer' ); ?></h3><p class="muted"><?php printf( esc_html__( 'W sercu Białołęki — %s.', 'elegant-fryzjer' ), esc_html( $c['street'] ) ); ?></p></article>
 		</div>
 	</div>
