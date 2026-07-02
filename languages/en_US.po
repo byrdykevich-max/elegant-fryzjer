@@ -385,7 +385,7 @@ msgstr "Data controller"
 #: page-polityka-prywatnosci.php:28
 #, php-format
 msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s."
-msgstr "[MT-REVIEW] The controller of personal data processed via elegantfryzjer.pl is %1$s (NIP: %2$s), %3$s."
+msgstr "The controller of personal data processed via elegantfryzjer.pl is %1$s (NIP: %2$s), %3$s."
 
 
 #: page-polityka-prywatnosci.php:34
