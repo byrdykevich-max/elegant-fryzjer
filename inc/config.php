@@ -17,6 +17,10 @@ function ef_config() {
 		'name'            => 'Elegant Fryzjer', // brand name — never translated
 		'tagline'         => __( 'Salon fryzjerski w Białołęce', 'elegant-fryzjer' ),
 
+		// --- Legal identity (registered business — used only on the privacy policy page) ---
+		'legal_name'      => 'Elegant Fryzjer Yuliya Burdukevich', // official CEIDG registered name, owner-confirmed 2026-07-02
+		'nip'             => '5243075503', // owner-confirmed 2026-07-02
+
 		// --- NAP (Name / Address / Phone) — used in footer, Kontakt page, and schema ---
 		'street'          => 'ul. Mariana Hemara 5',
 		'postal'          => '03-289',

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Elegant Fryzjer 1.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 17:02+0000\n"
+"POT-Creation-Date: 2026-07-02 18:45+0000\n"
 "PO-Revision-Date: 2026-06-21 18:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: uk_UA\n"
@@ -74,7 +74,6 @@ msgstr "Контакти"
 #: inc/i18n.php:231
 msgid "Polityka prywatności"
 msgstr "Політика конфіденційності"
-
 
 #: front-page.php:15
 msgid "Barber & Salon · Warszawa Białołęka"
@@ -375,92 +374,75 @@ msgstr "Спокійна, доброзичлива атмосфера — так
 msgid "RODO"
 msgstr "[MT-REVIEW] GDPR"
 
-
 #: page-polityka-prywatnosci.php:19
 msgid "Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant Fryzjer."
 msgstr "[MT-REVIEW] Як ми обробляємо персональні дані відвідувачів і клієнтів салону Elegant Fryzjer."
-
 
 #: page-polityka-prywatnosci.php:23
 msgid "Administrator danych"
 msgstr "[MT-REVIEW] Адміністратор даних"
 
-
 #: page-polityka-prywatnosci.php:28
 #, php-format
-msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest podmiot prowadzący salon Elegant Fryzjer, %s."
-msgstr "[MT-REVIEW] Адміністратором персональних даних, що обробляються через сайт elegantfryzjer.pl, є підприємство, яке веде салон Elegant Fryzjer, %s."
+msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s."
+msgstr "[MT-REVIEW] Адміністратором персональних даних, що обробляються через сайт elegantfryzjer.pl, є %1$s (NIP: %2$s), %3$s."
 
 
-#: page-polityka-prywatnosci.php:32
+#: page-polityka-prywatnosci.php:34
 msgid "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
 msgstr "[MT-REVIEW] Контакт з питань захисту даних: телефоном або через контактну форму на сайті."
 
-
-#: page-polityka-prywatnosci.php:35
+#: page-polityka-prywatnosci.php:37
 msgid "Formularz kontaktowy"
 msgstr "[MT-REVIEW] Контактна форма"
 
-
-#: page-polityka-prywatnosci.php:36
+#: page-polityka-prywatnosci.php:38
 msgid "Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do celów marketingowych bez odrębnej zgody."
 msgstr "[MT-REVIEW] Через контактну форму ми збираємо ім'я та прізвище, електронну адресу та зміст повідомлення. Ці дані використовуються виключно для відповіді на надіслане запитання і не використовуються з маркетинговою метою без окремої згоди."
 
-
-#: page-polityka-prywatnosci.php:37
+#: page-polityka-prywatnosci.php:39
 msgid "Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie uzasadniony interes administratora polegający na udzieleniu odpowiedzi na przesłane zapytanie."
 msgstr "[MT-REVIEW] Правовою підставою обробки є ст. 6 п. 1 (f) GDPR — законний інтерес адміністратора, що полягає у наданні відповіді на надіслане запитання."
 
-
-#: page-polityka-prywatnosci.php:38
+#: page-polityka-prywatnosci.php:40
 msgid "Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail administratora i nie są zapisywane w bazie danych strony. Przechowujemy je tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej korespondencji."
 msgstr "[MT-REVIEW] Повідомлення з форми надсилаються безпосередньо на електронну пошту адміністратора і не зберігаються в базі даних сайту. Ми зберігаємо їх стільки, скільки потрібно для обробки запитання та подальшого листування."
 
-
-#: page-polityka-prywatnosci.php:40
+#: page-polityka-prywatnosci.php:42
 msgid "Komu przekazujemy dane"
 msgstr "[MT-REVIEW] Кому ми передаємо дані"
 
-
-#: page-polityka-prywatnosci.php:41
+#: page-polityka-prywatnosci.php:43
 msgid "Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych witryny przechowywanych na koncie Google Drive administratora — w tym zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz Google jako podmioty przetwarzające."
 msgstr "[MT-REVIEW] Ми користуємося зовнішнім хостингом та автоматичними резервними копіями сайту, що зберігаються на обліковому записі Google Drive адміністратора — у цьому обсязі дані можуть тимчасово оброблятися постачальником хостингу та Google як обробниками даних."
 
-
-#: page-polityka-prywatnosci.php:43
+#: page-polityka-prywatnosci.php:45
 msgid "Pliki cookie i mapa dojazdu"
 msgstr "[MT-REVIEW] Файли cookie та карта проїзду"
 
-
-#: page-polityka-prywatnosci.php:44
+#: page-polityka-prywatnosci.php:46
 msgid "Strona nie wykorzystuje plików cookie do śledzenia ani profilowania odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest przesyłany na serwer."
 msgstr "[MT-REVIEW] Сайт не використовує файли cookie для відстеження чи профілювання відвідувачів. Вибір світлої або темної теми відображення зберігається лише локально у вашому браузері (local storage) і ніколи не надсилається на сервер."
 
-
-#: page-polityka-prywatnosci.php:45
+#: page-polityka-prywatnosci.php:47
 msgid "Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
 msgstr "[MT-REVIEW] Карта проїзду (Google Maps) на сторінці Контакти завантажується лише після натискання кнопки «Показати карту проїзду» — лише тоді встановлюється з'єднання з Google і починає діяти політика конфіденційності Google."
 
-
-#: page-polityka-prywatnosci.php:47
+#: page-polityka-prywatnosci.php:49
 msgid "Twoje prawa"
 msgstr "[MT-REVIEW] Ваші права"
 
-
-#: page-polityka-prywatnosci.php:48
+#: page-polityka-prywatnosci.php:50
 msgid "Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych."
 msgstr "[MT-REVIEW] Відповідно до GDPR ви маєте право на доступ до своїх даних, їх виправлення, видалення, обмеження обробки, перенесення даних, а також право заперечувати проти обробки. Ви також маєте право подати скаргу Голові Управління захисту персональних даних Польщі (UODO)."
 
-
-#: page-polityka-prywatnosci.php:50
+#: page-polityka-prywatnosci.php:52
 msgid "Zmiany w polityce"
 msgstr "[MT-REVIEW] Зміни в політиці"
 
-
-#: page-polityka-prywatnosci.php:51
+#: page-polityka-prywatnosci.php:53
 msgid "Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
 msgstr "[MT-REVIEW] Ця політика може періодично оновлюватися відповідно до змін на сайті. Актуальна версія завжди доступна за цією адресою."
-
 
 #: page-uslugi.php:28
 #, php-format
@@ -527,135 +509,135 @@ msgstr "Досвід"
 msgid "Salon fryzjerski w Białołęce"
 msgstr "Перукарський салон у Білоленці"
 
-#: inc/config.php:77
+#: inc/config.php:81
 msgid "Poniedziałek"
 msgstr "Понеділок"
 
-#: inc/config.php:77
+#: inc/config.php:81
 msgid "Wtorek"
 msgstr "Вівторок"
 
-#: inc/config.php:77
+#: inc/config.php:81
 msgid "Środa"
 msgstr "Середа"
 
-#: inc/config.php:78
+#: inc/config.php:82
 msgid "Czwartek"
 msgstr "Четвер"
 
-#: inc/config.php:78
+#: inc/config.php:82
 msgid "Piątek"
 msgstr "П'ятниця"
 
-#: inc/config.php:78
+#: inc/config.php:82
 msgid "Sobota"
 msgstr "Субота"
 
-#: inc/config.php:78
+#: inc/config.php:82
 msgid "Niedziela"
 msgstr "Неділя"
 
-#: inc/config.php:94 inc/config.php:97
+#: inc/config.php:98 inc/config.php:101
 msgid "Strzyżenie męskie"
 msgstr "Чоловіча стрижка"
 
-#: inc/config.php:95
+#: inc/config.php:99
 msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
 msgstr "Класичні та сучасні чоловічі стрижки, стилізація одразу."
 
-#: inc/config.php:98
+#: inc/config.php:102
 msgid "Strzyżenie maszynką"
 msgstr "Стрижка машинкою"
 
-#: inc/config.php:99
+#: inc/config.php:103
 msgid "Strzyżenie męskie + mycie"
 msgstr "Чоловіча стрижка + миття"
 
-#: inc/config.php:106
+#: inc/config.php:110
 msgid "Broda i zarost"
 msgstr "Борода та щетина"
 
-#: inc/config.php:107
+#: inc/config.php:111
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
 msgstr "Корекція, моделювання та точний контур бороди."
 
-#: inc/config.php:109
+#: inc/config.php:113
 msgid "Korekta brody / zarostu"
 msgstr "Корекція бороди / щетини"
 
-#: inc/config.php:110
+#: inc/config.php:114
 msgid "Modelowanie brody"
 msgstr "Моделювання бороди"
 
-#: inc/config.php:111
+#: inc/config.php:115
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
 msgstr "Преміум (моделювання, контур, плавні переходи)"
 
-#: inc/config.php:118
+#: inc/config.php:122
 msgid "Pakiety"
 msgstr "Пакети"
 
-#: inc/config.php:119
+#: inc/config.php:123
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 msgstr "Стрижка та борода за один візит — за нижчою сукупною ціною."
 
-#: inc/config.php:121
+#: inc/config.php:125
 msgid "Strzyżenie męskie + broda (korekta)"
 msgstr "Чоловіча стрижка + борода (корекція)"
 
-#: inc/config.php:122
+#: inc/config.php:126
 msgid "Strzyżenie męskie + broda (modelowanie)"
 msgstr "Чоловіча стрижка + борода (моделювання)"
 
-#: inc/config.php:123
+#: inc/config.php:127
 msgid "Strzyżenie maszynką + broda"
 msgstr "Стрижка машинкою + борода"
 
-#: inc/config.php:131 inc/config.php:134
+#: inc/config.php:135 inc/config.php:138
 msgid "Strzyżenie damskie"
 msgstr "Жіноча стрижка"
 
-#: inc/config.php:132
+#: inc/config.php:136
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 msgstr "Стрижка та укладка, підібрані під структуру вашого волосся."
 
-#: inc/config.php:135
+#: inc/config.php:139
 msgid "Mycie + modelowanie"
 msgstr "Миття + укладка"
 
-#: inc/config.php:136 inc/config.php:158
+#: inc/config.php:140 inc/config.php:162
 msgid "Stylizacja / układanie"
 msgstr "Стилізація / укладка"
 
-#: inc/config.php:143
+#: inc/config.php:147
 msgid "Strzyżenie dziecięce"
 msgstr "Дитяча стрижка"
 
-#: inc/config.php:144
+#: inc/config.php:148
 msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 msgstr "Спокійно та без стресу — стрижка для найменших."
 
-#: inc/config.php:146
+#: inc/config.php:150
 msgid "Strzyżenie dziecięce (do 12 lat)"
 msgstr "Дитяча стрижка (до 12 років)"
 
-#: inc/config.php:153
+#: inc/config.php:157
 msgid "Pielęgnacja i stylizacja"
 msgstr "Догляд та стилізація"
 
-#: inc/config.php:154
+#: inc/config.php:158
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
 msgstr "Миття, догляд та стилізація — для кожного, на щодень і для особливих нагод."
 
-#: inc/config.php:156
+#: inc/config.php:160
 msgid "Mycie włosów"
 msgstr "Миття волосся"
 
-#: inc/config.php:157
+#: inc/config.php:161
 msgid "Odżywka / maska"
 msgstr "Кондиціонер / маска"
 
-#: inc/config.php:159
+#: inc/config.php:163
 msgid "Stylizacja premium (produkty profesjonalne)"
 msgstr "Преміум-стилізація (професійні засоби)"
 
@@ -767,7 +749,6 @@ msgstr "Контакти та як дістатися салону Elegant Fryzj
 #: inc/i18n.php:254
 msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
 msgstr "[MT-REVIEW] Політика конфіденційності салону Elegant Fryzjer — як ми обробляємо персональні дані відвідувачів і клієнтів."
-
 
 #: inc/i18n.php:272
 msgid "Wybór języka"

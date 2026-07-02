@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Elegant Fryzjer 1.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 17:02+0000\n"
+"POT-Creation-Date: 2026-07-02 18:45+0000\n"
 "PO-Revision-Date: 2026-06-21 18:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: pl_PL\n"
@@ -73,7 +73,6 @@ msgstr "Kontakt"
 #: inc/i18n.php:231
 msgid "Polityka prywatności"
 msgstr "Polityka prywatności"
-
 
 #: front-page.php:15
 msgid "Barber & Salon · Warszawa Białołęka"
@@ -374,92 +373,75 @@ msgstr "Spokojna, przyjazna atmosfera — także dla dzieci."
 msgid "RODO"
 msgstr "RODO"
 
-
 #: page-polityka-prywatnosci.php:19
 msgid "Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant Fryzjer."
 msgstr "Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant Fryzjer."
-
 
 #: page-polityka-prywatnosci.php:23
 msgid "Administrator danych"
 msgstr "Administrator danych"
 
-
 #: page-polityka-prywatnosci.php:28
 #, php-format
-msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest podmiot prowadzący salon Elegant Fryzjer, %s."
-msgstr "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest podmiot prowadzący salon Elegant Fryzjer, %s."
+msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s."
+msgstr "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s."
 
 
-#: page-polityka-prywatnosci.php:32
+#: page-polityka-prywatnosci.php:34
 msgid "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
 msgstr "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
 
-
-#: page-polityka-prywatnosci.php:35
+#: page-polityka-prywatnosci.php:37
 msgid "Formularz kontaktowy"
 msgstr "Formularz kontaktowy"
 
-
-#: page-polityka-prywatnosci.php:36
+#: page-polityka-prywatnosci.php:38
 msgid "Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do celów marketingowych bez odrębnej zgody."
 msgstr "Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do celów marketingowych bez odrębnej zgody."
 
-
-#: page-polityka-prywatnosci.php:37
+#: page-polityka-prywatnosci.php:39
 msgid "Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie uzasadniony interes administratora polegający na udzieleniu odpowiedzi na przesłane zapytanie."
 msgstr "Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie uzasadniony interes administratora polegający na udzieleniu odpowiedzi na przesłane zapytanie."
 
-
-#: page-polityka-prywatnosci.php:38
+#: page-polityka-prywatnosci.php:40
 msgid "Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail administratora i nie są zapisywane w bazie danych strony. Przechowujemy je tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej korespondencji."
 msgstr "Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail administratora i nie są zapisywane w bazie danych strony. Przechowujemy je tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej korespondencji."
 
-
-#: page-polityka-prywatnosci.php:40
+#: page-polityka-prywatnosci.php:42
 msgid "Komu przekazujemy dane"
 msgstr "Komu przekazujemy dane"
 
-
-#: page-polityka-prywatnosci.php:41
+#: page-polityka-prywatnosci.php:43
 msgid "Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych witryny przechowywanych na koncie Google Drive administratora — w tym zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz Google jako podmioty przetwarzające."
 msgstr "Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych witryny przechowywanych na koncie Google Drive administratora — w tym zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz Google jako podmioty przetwarzające."
 
-
-#: page-polityka-prywatnosci.php:43
+#: page-polityka-prywatnosci.php:45
 msgid "Pliki cookie i mapa dojazdu"
 msgstr "Pliki cookie i mapa dojazdu"
 
-
-#: page-polityka-prywatnosci.php:44
+#: page-polityka-prywatnosci.php:46
 msgid "Strona nie wykorzystuje plików cookie do śledzenia ani profilowania odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest przesyłany na serwer."
 msgstr "Strona nie wykorzystuje plików cookie do śledzenia ani profilowania odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest przesyłany na serwer."
 
-
-#: page-polityka-prywatnosci.php:45
+#: page-polityka-prywatnosci.php:47
 msgid "Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
 msgstr "Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
 
-
-#: page-polityka-prywatnosci.php:47
+#: page-polityka-prywatnosci.php:49
 msgid "Twoje prawa"
 msgstr "Twoje prawa"
 
-
-#: page-polityka-prywatnosci.php:48
+#: page-polityka-prywatnosci.php:50
 msgid "Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych."
 msgstr "Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych."
 
-
-#: page-polityka-prywatnosci.php:50
+#: page-polityka-prywatnosci.php:52
 msgid "Zmiany w polityce"
 msgstr "Zmiany w polityce"
 
-
-#: page-polityka-prywatnosci.php:51
+#: page-polityka-prywatnosci.php:53
 msgid "Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
 msgstr "Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
-
 
 #: page-uslugi.php:28
 #, php-format
@@ -526,135 +508,135 @@ msgstr "Doświadczenie"
 msgid "Salon fryzjerski w Białołęce"
 msgstr "Salon fryzjerski w Białołęce"
 
-#: inc/config.php:77
+#: inc/config.php:81
 msgid "Poniedziałek"
 msgstr "Poniedziałek"
 
-#: inc/config.php:77
+#: inc/config.php:81
 msgid "Wtorek"
 msgstr "Wtorek"
 
-#: inc/config.php:77
+#: inc/config.php:81
 msgid "Środa"
 msgstr "Środa"
 
-#: inc/config.php:78
+#: inc/config.php:82
 msgid "Czwartek"
 msgstr "Czwartek"
 
-#: inc/config.php:78
+#: inc/config.php:82
 msgid "Piątek"
 msgstr "Piątek"
 
-#: inc/config.php:78
+#: inc/config.php:82
 msgid "Sobota"
 msgstr "Sobota"
 
-#: inc/config.php:78
+#: inc/config.php:82
 msgid "Niedziela"
 msgstr "Niedziela"
 
-#: inc/config.php:94 inc/config.php:97
+#: inc/config.php:98 inc/config.php:101
 msgid "Strzyżenie męskie"
 msgstr "Strzyżenie męskie"
 
-#: inc/config.php:95
+#: inc/config.php:99
 msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
 msgstr "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
 
-#: inc/config.php:98
+#: inc/config.php:102
 msgid "Strzyżenie maszynką"
 msgstr "Strzyżenie maszynką"
 
-#: inc/config.php:99
+#: inc/config.php:103
 msgid "Strzyżenie męskie + mycie"
 msgstr "Strzyżenie męskie + mycie"
 
-#: inc/config.php:106
+#: inc/config.php:110
 msgid "Broda i zarost"
 msgstr "Broda i zarost"
 
-#: inc/config.php:107
+#: inc/config.php:111
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
 msgstr "Korekta, modelowanie i precyzyjny kontur brody."
 
-#: inc/config.php:109
+#: inc/config.php:113
 msgid "Korekta brody / zarostu"
 msgstr "Korekta brody / zarostu"
 
-#: inc/config.php:110
+#: inc/config.php:114
 msgid "Modelowanie brody"
 msgstr "Modelowanie brody"
 
-#: inc/config.php:111
+#: inc/config.php:115
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
 msgstr "Premium (modelowanie, kontur, płynne przejścia)"
 
-#: inc/config.php:118
+#: inc/config.php:122
 msgid "Pakiety"
 msgstr "Pakiety"
 
-#: inc/config.php:119
+#: inc/config.php:123
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 msgstr "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 
-#: inc/config.php:121
+#: inc/config.php:125
 msgid "Strzyżenie męskie + broda (korekta)"
 msgstr "Strzyżenie męskie + broda (korekta)"
 
-#: inc/config.php:122
+#: inc/config.php:126
 msgid "Strzyżenie męskie + broda (modelowanie)"
 msgstr "Strzyżenie męskie + broda (modelowanie)"
 
-#: inc/config.php:123
+#: inc/config.php:127
 msgid "Strzyżenie maszynką + broda"
 msgstr "Strzyżenie maszynką + broda"
 
-#: inc/config.php:131 inc/config.php:134
+#: inc/config.php:135 inc/config.php:138
 msgid "Strzyżenie damskie"
 msgstr "Strzyżenie damskie"
 
-#: inc/config.php:132
+#: inc/config.php:136
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 msgstr "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 
-#: inc/config.php:135
+#: inc/config.php:139
 msgid "Mycie + modelowanie"
 msgstr "Mycie + modelowanie"
 
-#: inc/config.php:136 inc/config.php:158
+#: inc/config.php:140 inc/config.php:162
 msgid "Stylizacja / układanie"
 msgstr "Stylizacja / układanie"
 
-#: inc/config.php:143
+#: inc/config.php:147
 msgid "Strzyżenie dziecięce"
 msgstr "Strzyżenie dziecięce"
 
-#: inc/config.php:144
+#: inc/config.php:148
 msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 msgstr "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 
-#: inc/config.php:146
+#: inc/config.php:150
 msgid "Strzyżenie dziecięce (do 12 lat)"
 msgstr "Strzyżenie dziecięce (do 12 lat)"
 
-#: inc/config.php:153
+#: inc/config.php:157
 msgid "Pielęgnacja i stylizacja"
 msgstr "Pielęgnacja i stylizacja"
 
-#: inc/config.php:154
+#: inc/config.php:158
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
 msgstr "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
 
-#: inc/config.php:156
+#: inc/config.php:160
 msgid "Mycie włosów"
 msgstr "Mycie włosów"
 
-#: inc/config.php:157
+#: inc/config.php:161
 msgid "Odżywka / maska"
 msgstr "Odżywka / maska"
 
-#: inc/config.php:159
+#: inc/config.php:163
 msgid "Stylizacja premium (produkty profesjonalne)"
 msgstr "Stylizacja premium (produkty profesjonalne)"
 
@@ -766,7 +748,6 @@ msgstr "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizyt�
 #: inc/i18n.php:254
 msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
 msgstr "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
-
 
 #: inc/i18n.php:272
 msgid "Wybór języka"
