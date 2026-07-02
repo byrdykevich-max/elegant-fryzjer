@@ -325,15 +325,15 @@ msgstr "Elegant Fryzjer — це затишний перукарський і б
 
 #: page-o-nas.php:15
 msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
-msgstr "[MT-REVIEW] Ми спеціалізуємося на жіночих, чоловічих і дитячих стрижках, а також на барберських послугах — моделюванні та стилізації бороди."
+msgstr "Ми спеціалізуємося на жіночих, чоловічих і дитячих стрижках, а також на барберських послугах — моделюванні та стилізації бороди."
 
 #: page-o-nas.php:16
 msgid "Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich — fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą starannością podchodząc do strzyżeń damskich i dziecięcych."
-msgstr "[MT-REVIEW] Юлія має понад десять років досвіду та професійну кваліфікацію перукаря. Вона спеціалізується на чоловічих стрижках і барберських послугах — фейдах, класичних стрижках, моделюванні та голінні бороди — приділяючи таку саму увагу жіночим і дитячим стрижкам."
+msgstr "Юлія має понад десять років досвіду та професійну кваліфікацію перукаря. Вона спеціалізується на чоловічих стрижках і барберських послугах — фейдах, класичних стрижках, моделюванні та голінні бороди — приділяючи таку саму увагу жіночим і дитячим стрижкам."
 
 #: page-o-nas.php:17
 msgid "Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później."
-msgstr "[MT-REVIEW] Її підхід прямий: вона слухає, радить, виходячи з реального стану вашого волосся, а не з модних тенденцій, і відверто каже, що вам справді пасуватиме. Мета — не просто вдала стрижка в кріслі, а така, що добре виглядає ще й через тиждень."
+msgstr "Її підхід прямий: вона слухає, радить, виходячи з реального стану вашого волосся, а не зі скороминущих трендів, і відверто каже, що вам справді пасуватиме. Мета — не просто вдала стрижка в кріслі, а така, що добре виглядає ще й через тиждень."
 
 #: page-o-nas.php:20
 msgid "Zobacz realizacje"
