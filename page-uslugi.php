@@ -18,7 +18,7 @@ function ef_price_group( $s ) {
 	?>
 	<section class="price-group" id="<?php echo esc_attr( $s['id'] ); ?>" aria-labelledby="h-<?php echo esc_attr( $s['id'] ); ?>">
 		<div class="price-group__head">
-			<?php echo ef_pictogram( $s['icon'] ); ?>
+			<?php echo ef_service_icon( $s['icon'] ); ?>
 			<div>
 				<h3 id="h-<?php echo esc_attr( $s['id'] ); ?>"><?php echo esc_html( $s['title'] ); ?></h3>
 				<p class="price-group__lead"><?php echo esc_html( $s['lead'] ); ?></p>
@@ -69,14 +69,6 @@ function ef_price_group( $s ) {
 	</div>
 </section>
 
-<!-- FAMILY BANNER -->
-<section class="family-banner" aria-labelledby="family-title">
-	<div class="container family-banner__inner">
-		<h2 id="family-title"><?php esc_html_e( 'Cała rodzina w jednym miejscu', 'elegant-fryzjer' ); ?></h2>
-		<p><?php esc_html_e( 'Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce.', 'elegant-fryzjer' ); ?></p>
-	</div>
-</section>
-
 <!-- WOMEN'S / KIDS / CARE BLOCK — light, secondary but present -->
 <section class="price-block price-block--light" aria-labelledby="block-her-title">
 	<div class="container">
@@ -115,12 +107,21 @@ function ef_price_group( $s ) {
 	</div>
 </section>
 
+<!-- FAMILY BANNER -->
+<section class="family-banner" aria-labelledby="family-title">
+	<div class="container family-banner__inner">
+		<span class="icon-badge"><?php ef_pictogram_img( 'family.png', 43, 34 ); ?></span>
+		<h2 id="family-title"><?php esc_html_e( 'Cała rodzina w jednym miejscu', 'elegant-fryzjer' ); ?></h2>
+		<p><?php esc_html_e( 'Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce.', 'elegant-fryzjer' ); ?></p>
+	</div>
+</section>
+
 <!-- CONTACT STRIP -->
 <section class="contact-strip" aria-labelledby="contact-strip-title">
 	<div class="container contact-strip__inner">
 		<h2 id="contact-strip-title" class="screen-reader-text"><?php esc_html_e( 'Kontakt', 'elegant-fryzjer' ); ?></h2>
-		<p class="contact-strip__item"><?php echo ef_phone_link(); // escaped inside helper ?></p>
-		<p class="contact-strip__item"><?php echo esc_html( $c['street'] . ', ' . $c['district'] . ', ' . $c['city'] ); ?></p>
+		<p class="contact-strip__item"><?php echo ef_phone_link(); // already renders its own ☎ icon — no phone.png here, would duplicate ?></p>
+		<p class="contact-strip__item"><?php ef_pictogram_img( 'location.png', 14, 18 ); ?><?php echo esc_html( $c['street'] . ', ' . $c['district'] . ', ' . $c['city'] ); ?></p>
 		<div class="contact-strip__cta"><?php ef_cta( 'primary', __( 'Umów wizytę', 'elegant-fryzjer' ) ); ?></div>
 	</div>
 </section>

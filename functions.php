@@ -6,7 +6,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
-define( 'EF_VER', '1.2.16' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
+define( 'EF_VER', '1.2.25' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
 
 require_once get_template_directory() . '/inc/config.php';
 require_once get_template_directory() . '/inc/gallery.php';
@@ -110,10 +110,11 @@ function ef_hours_note() {
 /* -------------------------------------------------------------------------
  * Responsive <picture> with WebP + JPEG fallback for gallery images.
  * Uses pre-generated 768 / 1024 sizes; lazy-loaded, with explicit dimensions
- * to avoid layout shift (CLS).
+ * to avoid layout shift (CLS). Pass $base_url to point at theme assets
+ * (e.g. the hero image) instead of the gallery's uploads folder.
  * ---------------------------------------------------------------------- */
-function ef_picture( $base, $alt, $sizes = '(max-width: 700px) 90vw, 360px', $eager = false ) {
-	$url = ef_uploads_url();
+function ef_picture( $base, $alt, $sizes = '(max-width: 700px) 90vw, 360px', $eager = false, $base_url = null ) {
+	$url = $base_url ? $base_url : ef_uploads_url();
 	$w768 = "$url/$base-768x768"; $w1024 = "$url/$base-1024x1024";
 	$loading = $eager ? 'eager' : 'lazy';
 	$fetch   = $eager ? ' fetchpriority="high"' : '';
@@ -131,6 +132,22 @@ function ef_picture( $base, $alt, $sizes = '(max-width: 700px) 90vw, 360px', $ea
 	</picture>
 	<?php
 	return ob_get_clean();
+}
+
+/* -------------------------------------------------------------------------
+ * Decorative raster pictogram (contact/audience icons). Always alt="" since
+ * it's paired with visible text; explicit width/height avoid layout shift.
+ * These are fixed-color PNGs (unlike inc/icons.php's currentColor SVGs), so
+ * callers must only place them on backgrounds where the fixed gold tone is
+ * legible — pinned-dark sections directly, or wrapped in .icon-badge on
+ * sections whose background follows the light/dark toggle.
+ * ---------------------------------------------------------------------- */
+function ef_pictogram_img( $file, $w, $h, $class = '' ) {
+	$src = get_template_directory_uri() . '/assets/pictograms/' . $file;
+	printf(
+		'<img src="%s" width="%d" height="%d" alt="" loading="lazy" decoding="async" class="%s">',
+		esc_url( $src ), (int) $w, (int) $h, esc_attr( $class )
+	);
 }
 
 /* -------------------------------------------------------------------------
@@ -175,7 +192,7 @@ function ef_head_meta() {
 	// OG image: first gallery image (1024 webp) as a representative share image.
 	$g = ef_gallery_images();
 	if ( ! empty( $g ) ) {
-		echo '<meta property="og:image" content="' . esc_url( ef_uploads_url() . '/' . $g[0]['base'] . '-1024x1024.jpg' ) . "\">\n";
+		echo '<meta property="og:image" content="' . esc_url( ef_uploads_url( $g[0]['month'] ?? '2026/06' ) . '/' . $g[0]['base'] . '-1024x1024.jpg' ) . "\">\n";
 	}
 }
 add_action( 'wp_head', 'ef_head_meta', 5 );
