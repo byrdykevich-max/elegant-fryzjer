@@ -51,7 +51,7 @@ function ef_schema_jsonld() {
 		'name'      => $c['name'],
 		'description' => __( 'Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia.', 'elegant-fryzjer' ),
 		'url'       => $url,
-		'image'     => ef_uploads_url() . '/' . ef_gallery_images()[0]['base'] . '-1024x1024.jpg',
+		'image'     => ef_uploads_url( ef_gallery_images()[0]['month'] ?? '2026/06' ) . '/' . ef_gallery_images()[0]['base'] . '-1024x1024.jpg',
 		'priceRange' => '$$',
 		'currenciesAccepted' => 'PLN',
 		'address'   => array(

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Elegant Fryzjer 1.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 18:45+0000\n"
+"POT-Creation-Date: 2026-07-08 19:48+0000\n"
 "PO-Revision-Date: 2026-06-21 18:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: pl_PL\n"
@@ -24,11 +24,11 @@ msgstr "Umów wizytę w Elegant Fryzjer na Białołęce."
 msgid "Jak dojechać"
 msgstr "Jak dojechać"
 
-#: footer.php:35 front-page.php:100 page-kontakt.php:25
+#: footer.php:35 front-page.php:101 page-kontakt.php:25
 msgid "Adres"
 msgstr "Adres"
 
-#: footer.php:46 front-page.php:109 page-kontakt.php:33
+#: footer.php:46 front-page.php:110 page-kontakt.php:33
 msgid "Godziny otwarcia"
 msgstr "Godziny otwarcia"
 
@@ -36,11 +36,11 @@ msgstr "Godziny otwarcia"
 msgid "Do potwierdzenia przez właściciela"
 msgstr "Do potwierdzenia przez właściciela"
 
-#: footer.php:48 front-page.php:110 page-kontakt.php:34
+#: footer.php:48 front-page.php:111 page-kontakt.php:34
 msgid "[do potwierdzenia]"
 msgstr "[do potwierdzenia]"
 
-#: footer.php:56 front-page.php:114 page-kontakt.php:38
+#: footer.php:56 front-page.php:115 page-kontakt.php:38
 msgid "nieczynne"
 msgstr "nieczynne"
 
@@ -52,27 +52,59 @@ msgstr "Stopka"
 msgid "Nawigacja"
 msgstr "Nawigacja"
 
-#: footer.php:67 header.php:82 page-uslugi.php:46 inc/i18n.php:227
+#: footer.php:67 inc/i18n.php:227 header.php:90 page-uslugi.php:46
 msgid "Usługi i cennik"
 msgstr "Usługi i cennik"
 
-#: footer.php:68 header.php:83 page-o-nas.php:12 inc/i18n.php:228
+#: footer.php:68 inc/i18n.php:228 header.php:91 page-o-nas.php:13
 msgid "O nas"
 msgstr "O nas"
 
-#: footer.php:69 header.php:84 page-galeria.php:13 inc/i18n.php:229
+#: footer.php:69 inc/i18n.php:229 header.php:92 page-galeria.php:13
 msgid "Galeria"
 msgstr "Galeria"
 
-#: footer.php:70 header.php:85 page-kontakt.php:15 page-uslugi.php:121
-#: inc/i18n.php:230
+#: footer.php:70 inc/i18n.php:230 header.php:93 page-kontakt.php:15
+#: page-uslugi.php:122
 msgid "Kontakt"
 msgstr "Kontakt"
 
-#: footer.php:71 page-kontakt.php:76 page-polityka-prywatnosci.php:18
-#: inc/i18n.php:231
+#: footer.php:71 inc/i18n.php:231 page-kontakt.php:76
+#: page-polityka-prywatnosci.php:18
 msgid "Polityka prywatności"
 msgstr "Polityka prywatności"
+
+#: inc/i18n.php:223 inc/config.php:18
+msgid "Salon fryzjerski w Białołęce"
+msgstr "Salon fryzjerski w Białołęce"
+
+#: inc/i18n.php:246
+msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
+msgstr "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
+
+#: inc/i18n.php:250
+msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
+msgstr "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
+
+#: inc/i18n.php:251
+msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
+msgstr "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
+
+#: inc/i18n.php:252
+msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
+msgstr "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
+
+#: inc/i18n.php:253
+msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
+msgstr "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
+
+#: inc/i18n.php:254
+msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
+msgstr "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
+
+#: inc/i18n.php:272
+msgid "Wybór języka"
+msgstr "Wybór języka"
 
 #: front-page.php:15
 msgid "Barber & Salon · Warszawa Białołęka"
@@ -91,96 +123,100 @@ msgid "Zobacz usługi i cennik"
 msgstr "Zobacz usługi i cennik"
 
 #: front-page.php:28
+msgid "Elegant Fryzjer — barber & salon"
+msgstr "Elegant Fryzjer — barber & salon"
+
+#: front-page.php:30
 msgid "Strzyżenia i stylizacja dla całej rodziny"
 msgstr "Strzyżenia i stylizacja dla całej rodziny"
 
-#: front-page.php:37
+#: front-page.php:39
 msgid "Co robimy"
 msgstr "Co robimy"
 
-#: front-page.php:38
+#: front-page.php:40
 msgid "Barber i fryzjer dla całej rodziny"
 msgstr "Barber i fryzjer dla całej rodziny"
 
-#: front-page.php:39
+#: front-page.php:41
 msgid "Jedno miejsce dla mężczyzn, kobiet i dzieci — od barberskiego strzyżenia po pielęgnację i stylizację."
 msgstr "Jedno miejsce dla mężczyzn, kobiet i dzieci — od barberskiego strzyżenia po pielęgnację i stylizację."
 
-#: front-page.php:50
+#: front-page.php:52
 msgid "Pełna lista usług i cennik →"
 msgstr "Pełna lista usług i cennik →"
 
-#: front-page.php:58
+#: front-page.php:60
 msgid "Dlaczego my"
 msgstr "Dlaczego my"
 
-#: front-page.php:59
+#: front-page.php:61
 msgid "Lokalny salon, w którym czujesz się dobrze"
 msgstr "Lokalny salon, w którym czujesz się dobrze"
 
-#: front-page.php:62
+#: front-page.php:64
 msgid "Dla całej rodziny"
 msgstr "Dla całej rodziny"
 
-#: front-page.php:62
+#: front-page.php:64
 msgid "Barber, strzyżenie męskie, damskie i dziecięce w jednym miejscu na Białołęce."
 msgstr "Barber, strzyżenie męskie, damskie i dziecięce w jednym miejscu na Białołęce."
 
-#: front-page.php:63
+#: front-page.php:65
 msgid "Doświadczenie i pasja"
 msgstr "Doświadczenie i pasja"
 
-#: front-page.php:63
+#: front-page.php:65
 msgid "Salon prowadzi Julia — strzyżenia i barber z dbałością o detal."
 msgstr "Salon prowadzi Julia — strzyżenia i barber z dbałością o detal."
 
-#: front-page.php:64
+#: front-page.php:66
 msgid "Wygodny dojazd"
 msgstr "Wygodny dojazd"
 
-#: front-page.php:64
+#: front-page.php:66
 #, php-format
 msgid "W sercu Białołęki — %s."
 msgstr "W sercu Białołęki — %s."
 
-#: front-page.php:73 page-galeria.php:14
+#: front-page.php:75 page-galeria.php:14
 msgid "Nasze realizacje"
 msgstr "Nasze realizacje"
 
-#: front-page.php:74
+#: front-page.php:76
 msgid "Efekty pracy salonu"
 msgstr "Efekty pracy salonu"
 
-#: front-page.php:75
+#: front-page.php:77
 msgid "Prawdziwe metamorfozy i strzyżenia wykonane w Elegant Fryzjer."
 msgstr "Prawdziwe metamorfozy i strzyżenia wykonane w Elegant Fryzjer."
 
-#: front-page.php:84
+#: front-page.php:85
 #, php-format
 msgid "Powiększ: %s"
 msgstr "Powiększ: %s"
 
-#: front-page.php:89
+#: front-page.php:90
 msgid "Zobacz całą galerię →"
 msgstr "Zobacz całą galerię →"
 
-#: front-page.php:97
+#: front-page.php:98
 msgid "Odwiedź nas"
 msgstr "Odwiedź nas"
 
-#: front-page.php:98
+#: front-page.php:99
 msgid "Adres i godziny"
 msgstr "Adres i godziny"
 
-#: front-page.php:101 page-kontakt.php:26
+#: front-page.php:102 page-kontakt.php:26
 msgid "Telefon"
 msgstr "Telefon"
 
-#: front-page.php:105
+#: front-page.php:106
 msgid "Mapa i dojazd"
 msgstr "Mapa i dojazd"
 
-#: functions.php:26 header.php:39
+#: functions.php:26 header.php:47
 msgid "Menu główne"
 msgstr "Menu główne"
 
@@ -200,7 +236,7 @@ msgstr "Zarezerwuj online"
 msgid "Zadzwoń:"
 msgstr "Zadzwoń:"
 
-#: functions.php:77 page-uslugi.php:124
+#: functions.php:77 page-uslugi.php:125
 msgid "Umów wizytę"
 msgstr "Umów wizytę"
 
@@ -208,27 +244,27 @@ msgstr "Umów wizytę"
 msgid "Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje możliwość umówienia wizyty w innym terminie."
 msgstr "Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje możliwość umówienia wizyty w innym terminie."
 
-#: header.php:28
+#: header.php:36
 msgid "Przejdź do treści"
 msgstr "Przejdź do treści"
 
-#: header.php:33
+#: header.php:41
 msgid "Elegant Fryzjer — strona główna"
 msgstr "Elegant Fryzjer — strona główna"
 
-#: header.php:35
+#: header.php:43
 msgid "Salon & Barber · Białołęka"
 msgstr "Salon & Barber · Białołęka"
 
-#: header.php:58
+#: header.php:66
 msgid "Przełącz tryb jasny lub ciemny"
 msgstr "Przełącz tryb jasny lub ciemny"
 
-#: header.php:65
+#: header.php:73
 msgid "Przełącz motyw"
 msgstr "Przełącz motyw"
 
-#: header.php:71
+#: header.php:79
 msgid "Menu"
 msgstr "Menu"
 
@@ -313,59 +349,59 @@ msgstr "Otwórz w Mapach Google →"
 msgid "Mapa dojazdu do salonu Elegant Fryzjer"
 msgstr "Mapa dojazdu do salonu Elegant Fryzjer"
 
-#: page-o-nas.php:13
+#: page-o-nas.php:14
 msgid "Salon prowadzi Julia"
 msgstr "Salon prowadzi Julia"
 
-#: page-o-nas.php:14
+#: page-o-nas.php:15
 msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
 msgstr "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
 
-#: page-o-nas.php:15
+#: page-o-nas.php:16
 msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
 msgstr "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
 
-#: page-o-nas.php:16
+#: page-o-nas.php:17
 msgid "Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich — fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą starannością podchodząc do strzyżeń damskich i dziecięcych."
 msgstr "Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich — fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą starannością podchodząc do strzyżeń damskich i dziecięcych."
 
-#: page-o-nas.php:17
+#: page-o-nas.php:18
 msgid "Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później."
 msgstr "Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później."
 
-#: page-o-nas.php:20
+#: page-o-nas.php:21
 msgid "Zobacz realizacje"
 msgstr "Zobacz realizacje"
 
-#: page-o-nas.php:37
+#: page-o-nas.php:38
 msgid "Nasze podejście"
 msgstr "Nasze podejście"
 
-#: page-o-nas.php:38
+#: page-o-nas.php:39
 msgid "Na czym nam zależy"
 msgstr "Na czym nam zależy"
 
-#: page-o-nas.php:41
+#: page-o-nas.php:42
 msgid "Konsultacja"
 msgstr "Konsultacja"
 
-#: page-o-nas.php:41
+#: page-o-nas.php:42
 msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
 msgstr "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
 
-#: page-o-nas.php:42
+#: page-o-nas.php:43
 msgid "Jakość"
 msgstr "Jakość"
 
-#: page-o-nas.php:42
+#: page-o-nas.php:43
 msgid "Sprawdzone produkty i staranne wykończenie każdej fryzury."
 msgstr "Sprawdzone produkty i staranne wykończenie każdej fryzury."
 
-#: page-o-nas.php:43
+#: page-o-nas.php:44
 msgid "Komfort"
 msgstr "Komfort"
 
-#: page-o-nas.php:43
+#: page-o-nas.php:44
 msgid "Spokojna, przyjazna atmosfera — także dla dzieci."
 msgstr "Spokojna, przyjazna atmosfera — także dla dzieci."
 
@@ -385,7 +421,6 @@ msgstr "Administrator danych"
 #, php-format
 msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s."
 msgstr "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s."
-
 
 #: page-polityka-prywatnosci.php:34
 msgid "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
@@ -468,45 +503,41 @@ msgstr "Dla niego"
 msgid "Strzyżenie, broda i barber"
 msgstr "Strzyżenie, broda i barber"
 
-#: page-uslugi.php:75
-msgid "Cała rodzina w jednym miejscu"
-msgstr "Cała rodzina w jednym miejscu"
-
 #: page-uslugi.php:76
-msgid "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
-msgstr "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
-
-#: page-uslugi.php:84
 msgid "Dla niej i dla najmłodszych"
 msgstr "Dla niej i dla najmłodszych"
 
-#: page-uslugi.php:85
+#: page-uslugi.php:77
 msgid "Strzyżenie, stylizacja i pielęgnacja"
 msgstr "Strzyżenie, stylizacja i pielęgnacja"
 
-#: page-uslugi.php:96
+#: page-uslugi.php:88
 msgid "Dlaczego Elegant Fryzjer"
 msgstr "Dlaczego Elegant Fryzjer"
 
-#: page-uslugi.php:100
+#: page-uslugi.php:92
 msgid "Łatwa rezerwacja telefoniczna"
 msgstr "Łatwa rezerwacja telefoniczna"
 
-#: page-uslugi.php:104
+#: page-uslugi.php:96
 msgid "Punktualność"
 msgstr "Punktualność"
 
-#: page-uslugi.php:108
+#: page-uslugi.php:100
 msgid "Komfortowa atmosfera"
 msgstr "Komfortowa atmosfera"
 
-#: page-uslugi.php:112
+#: page-uslugi.php:104
 msgid "Doświadczenie"
 msgstr "Doświadczenie"
 
-#: inc/config.php:18 inc/i18n.php:223
-msgid "Salon fryzjerski w Białołęce"
-msgstr "Salon fryzjerski w Białołęce"
+#: page-uslugi.php:114
+msgid "Cała rodzina w jednym miejscu"
+msgstr "Cała rodzina w jednym miejscu"
+
+#: page-uslugi.php:115
+msgid "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
+msgstr "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
 
 #: inc/config.php:81
 msgid "Poniedziałek"
@@ -536,118 +567,129 @@ msgstr "Sobota"
 msgid "Niedziela"
 msgstr "Niedziela"
 
-#: inc/config.php:98 inc/config.php:101
+#: inc/config.php:98 inc/config.php:102
 msgid "Strzyżenie męskie"
 msgstr "Strzyżenie męskie"
 
 #: inc/config.php:99
-msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
-msgstr "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki."
+msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki. Mycie włosów wliczone w cenę."
+msgstr "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki. Mycie włosów wliczone w cenę."
 
-#: inc/config.php:102
-msgid "Strzyżenie maszynką"
-msgstr "Strzyżenie maszynką"
+#: inc/config.php:101
+msgid "Strzyżenie męskie (1 nakładka)"
+msgstr "Strzyżenie męskie (1 nakładka)"
 
 #: inc/config.php:103
+msgid "Strzyżenie męskie (nożyczki)"
+msgstr "Strzyżenie męskie (nożyczki)"
+
+#: inc/config.php:104
 msgid "Strzyżenie męskie + mycie"
 msgstr "Strzyżenie męskie + mycie"
 
-#: inc/config.php:110
+#: inc/config.php:105
+msgid "Farbowanie siwych włosów (kamuflaż)"
+msgstr "Farbowanie siwych włosów (kamuflaż)"
+
+#: inc/config.php:112
 msgid "Broda i zarost"
 msgstr "Broda i zarost"
 
-#: inc/config.php:111
+#: inc/config.php:113
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
 msgstr "Korekta, modelowanie i precyzyjny kontur brody."
 
-#: inc/config.php:113
+#: inc/config.php:115
 msgid "Korekta brody / zarostu"
 msgstr "Korekta brody / zarostu"
 
-#: inc/config.php:114
+#: inc/config.php:116
 msgid "Modelowanie brody"
 msgstr "Modelowanie brody"
 
-#: inc/config.php:115
+#: inc/config.php:117
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
 msgstr "Premium (modelowanie, kontur, płynne przejścia)"
 
-#: inc/config.php:122
+#: inc/config.php:124
 msgid "Pakiety"
 msgstr "Pakiety"
 
-#: inc/config.php:123
+#: inc/config.php:125
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 msgstr "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 
-#: inc/config.php:125
+#: inc/config.php:127
 msgid "Strzyżenie męskie + broda (korekta)"
 msgstr "Strzyżenie męskie + broda (korekta)"
 
-#: inc/config.php:126
+#: inc/config.php:128
 msgid "Strzyżenie męskie + broda (modelowanie)"
 msgstr "Strzyżenie męskie + broda (modelowanie)"
 
-#: inc/config.php:127
+#: inc/config.php:129
 msgid "Strzyżenie maszynką + broda"
 msgstr "Strzyżenie maszynką + broda"
 
-#: inc/config.php:135 inc/config.php:138
+#: inc/config.php:130
+msgid "Strzyżenie męskie + farbowanie siwych włosów (kamuflaż)"
+msgstr "Strzyżenie męskie + farbowanie siwych włosów (kamuflaż)"
+
+#: inc/config.php:138 inc/config.php:141
 msgid "Strzyżenie damskie"
 msgstr "Strzyżenie damskie"
 
-#: inc/config.php:136
+#: inc/config.php:139
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 msgstr "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 
-#: inc/config.php:139
-msgid "Mycie + modelowanie"
-msgstr "Mycie + modelowanie"
+#: inc/config.php:142
+msgid "Strzyżenie grzywki"
+msgstr "Strzyżenie grzywki"
 
-#: inc/config.php:140 inc/config.php:162
-msgid "Stylizacja / układanie"
-msgstr "Stylizacja / układanie"
+#: inc/config.php:143
+msgid "Mycie + stylizacja / układanie"
+msgstr "Mycie + stylizacja / układanie"
 
-#: inc/config.php:147
+#: inc/config.php:150
 msgid "Strzyżenie dziecięce"
 msgstr "Strzyżenie dziecięce"
 
-#: inc/config.php:148
+#: inc/config.php:151
 msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 msgstr "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 
-#: inc/config.php:150
-msgid "Strzyżenie dziecięce (do 12 lat)"
-msgstr "Strzyżenie dziecięce (do 12 lat)"
+#: inc/config.php:153
+msgid "Strzyżenie dziecięce (do 10 lat)"
+msgstr "Strzyżenie dziecięce (do 10 lat)"
 
-#: inc/config.php:157
+#: inc/config.php:160
 msgid "Pielęgnacja i stylizacja"
 msgstr "Pielęgnacja i stylizacja"
 
-#: inc/config.php:158
+#: inc/config.php:161
 msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
 msgstr "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
 
-#: inc/config.php:160
+#: inc/config.php:163
 msgid "Mycie włosów"
 msgstr "Mycie włosów"
 
-#: inc/config.php:161
+#: inc/config.php:164
 msgid "Odżywka / maska"
 msgstr "Odżywka / maska"
 
-#: inc/config.php:163
+#: inc/config.php:165
+msgid "Stylizacja / układanie"
+msgstr "Stylizacja / układanie"
+
+#: inc/config.php:166
 msgid "Stylizacja premium (produkty profesjonalne)"
 msgstr "Stylizacja premium (produkty profesjonalne)"
 
-#: inc/gallery.php:22
+#: inc/gallery.php:23
 msgid "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
 msgstr "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
-
-# --- Gallery: men's cut alt texts (added 2026-06-22) ---
-#: inc/gallery.php:23
-msgid "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
-msgstr "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
 
 #: inc/gallery.php:24
 msgid "Męskie strzyżenie: teksturowana góra z przejściem (fade) i krótka broda — z boku"
@@ -658,100 +700,124 @@ msgid "Klasyczny pompadour z uniesioną górą — ujęcie trzy czwarte z przodu
 msgstr "Klasyczny pompadour z uniesioną górą — ujęcie trzy czwarte z przodu"
 
 #: inc/gallery.php:26
-msgid "Rozłączony undercut z włosami zaczesanymi do tyłu i wysokim przejściem — profil"
-msgstr "Rozłączony undercut z włosami zaczesanymi do tyłu i wysokim przejściem — profil"
-
-#: inc/gallery.php:27
 msgid "Krótkie strzyżenie na jeża ze skórnym przejściem (skin fade) — z boku"
 msgstr "Krótkie strzyżenie na jeża ze skórnym przejściem (skin fade) — z boku"
 
-#: inc/gallery.php:28
+#: inc/gallery.php:27
 msgid "Młodzieżowe strzyżenie typu crop z grzywką i niskim przejściem — z boku"
 msgstr "Młodzieżowe strzyżenie typu crop z grzywką i niskim przejściem — z boku"
 
-#: inc/gallery.php:29
+#: inc/gallery.php:28
 msgid "Krótkie teksturowane strzyżenie męskie ze średnim przejściem — z boku"
 msgstr "Krótkie teksturowane strzyżenie męskie ze średnim przejściem — z boku"
 
-#: inc/gallery.php:30
-msgid "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — z boku"
-msgstr "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — z boku"
-
-#: inc/gallery.php:31
+#: inc/gallery.php:29
 msgid "Krótkie męskie strzyżenie z przejściem i lekkim zarostem — profil"
 msgstr "Krótkie męskie strzyżenie z przejściem i lekkim zarostem — profil"
 
-#: inc/gallery.php:32
+#: inc/gallery.php:30
 msgid "Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu"
 msgstr "Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu"
 
-#: inc/gallery.php:33
+#: inc/gallery.php:31
 msgid "Męskie strzyżenie z uniesioną górą i cieniowanym tyłem — widok z tyłu"
 msgstr "Męskie strzyżenie z uniesioną górą i cieniowanym tyłem — widok z tyłu"
 
-#: inc/gallery.php:34
+#: inc/gallery.php:32
 msgid "Męskie strzyżenie typu crop z teksturą — od przodu"
 msgstr "Męskie strzyżenie typu crop z teksturą — od przodu"
 
-#: inc/gallery.php:35
-msgid "Krótkie męskie strzyżenie z pełną, wymodelowaną brodą — od przodu"
-msgstr "Krótkie męskie strzyżenie z pełną, wymodelowaną brodą — od przodu"
-
-#: inc/gallery.php:36
+#: inc/gallery.php:33
 msgid "Bardzo krótkie strzyżenie na jeża ze skórnym przejściem — widok z tyłu"
 msgstr "Bardzo krótkie strzyżenie na jeża ze skórnym przejściem — widok z tyłu"
 
-#: inc/gallery.php:37
+#: inc/gallery.php:34
 msgid "Młodzieżowe strzyżenie typu crop z teksturą — widok z tyłu"
 msgstr "Młodzieżowe strzyżenie typu crop z teksturą — widok z tyłu"
 
+#: inc/gallery.php:36
+msgid "Krótkie męskie strzyżenie z przejściem — profil, wnętrze zakładu"
+msgstr "Krótkie męskie strzyżenie z przejściem — profil, wnętrze zakładu"
+
+#: inc/gallery.php:37
+msgid "Krótkie męskie strzyżenie z wysokim przejściem — profil"
+msgstr "Krótkie męskie strzyżenie z wysokim przejściem — profil"
+
+#: inc/gallery.php:38
+msgid "Męskie strzyżenie z zarostem w klimacie barbershopu — profil"
+msgstr "Męskie strzyżenie z zarostem w klimacie barbershopu — profil"
+
+#: inc/gallery.php:39
+msgid "Teksturowany, zaczesany do tyłu wierzch z przejściem — profil"
+msgstr "Teksturowany, zaczesany do tyłu wierzch z przejściem — profil"
+
+#: inc/gallery.php:40
+msgid "Zaczesane do tyłu włosy z przejściem — widok z tyłu"
+msgstr "Zaczesane do tyłu włosy z przejściem — widok z tyłu"
+
+#: inc/gallery.php:41
+msgid "Krótkie strzyżenie z przejściem i zarostem — widok z tyłu"
+msgstr "Krótkie strzyżenie z przejściem i zarostem — widok z tyłu"
+
+#: inc/gallery.php:42
+msgid "Bardzo krótkie strzyżenie na jeża — profil"
+msgstr "Bardzo krótkie strzyżenie na jeża — profil"
+
+#: inc/gallery.php:43
+msgid "Krótkie strzyżenie z wyraźnym przejściem — profil"
+msgstr "Krótkie strzyżenie z wyraźnym przejściem — profil"
+
 #: inc/gallery.php:44
-msgid "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
-msgstr "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
+msgid "Krótkie, jasne strzyżenie z przejściem — profil"
+msgstr "Krótkie, jasne strzyżenie z przejściem — profil"
 
 #: inc/gallery.php:45
-msgid "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
-msgstr "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
+msgid "Jasne, krótkie strzyżenie z przejściem — profil, wnętrze barbershopu"
+msgstr "Jasne, krótkie strzyżenie z przejściem — profil, wnętrze barbershopu"
 
 #: inc/gallery.php:46
-msgid "Kreatywna koloryzacja w odcieniach zieleni i żółci — widok z tyłu"
-msgstr "Kreatywna koloryzacja w odcieniach zieleni i żółci — widok z tyłu"
+msgid "Teksturowany wierzch z przejściem — profil"
+msgstr "Teksturowany wierzch z przejściem — profil"
 
 #: inc/gallery.php:47
+msgid "Krótkie strzyżenie z wyraźnym przejściem — profil, wnętrze barbershopu"
+msgstr "Krótkie strzyżenie z wyraźnym przejściem — profil, wnętrze barbershopu"
+
+#: inc/gallery.php:48
+msgid "Detal strzyżenia męskiego — przedziałek i przejście z góry"
+msgstr "Detal strzyżenia męskiego — przedziałek i przejście z góry"
+
+#: inc/gallery.php:50
 msgid "Strzyżenie bob z wycieniowanym tyłem głowy"
 msgstr "Strzyżenie bob z wycieniowanym tyłem głowy"
 
-#: inc/gallery.php:49
-msgid "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
-msgstr "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
+#: inc/gallery.php:52
+msgid "Koloryzacja: blond z delikatnymi refleksami — widok z tyłu"
+msgstr "Koloryzacja: blond z delikatnymi refleksami — widok z tyłu"
 
-#: inc/i18n.php:246
-msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
-msgstr "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
+#: inc/gallery.php:53
+msgid "Koloryzacja: platynowy blond, krótkie cięcie pixie — profil"
+msgstr "Koloryzacja: platynowy blond, krótkie cięcie pixie — profil"
 
-#: inc/i18n.php:250
-msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
-msgstr "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
+#: inc/gallery.php:54
+msgid "Koloryzacja balayage w odcieniach brązu i blondu — profil"
+msgstr "Koloryzacja balayage w odcieniach brązu i blondu — profil"
 
-#: inc/i18n.php:251
-msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
-msgstr "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
+#: inc/gallery.php:55
+msgid "Koloryzacja: platynowy blond, undercut — profil"
+msgstr "Koloryzacja: platynowy blond, undercut — profil"
 
-#: inc/i18n.php:252
-msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
-msgstr "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
+#: inc/gallery.php:57
+msgid "Chłopięce strzyżenie z teksturą i przejściem"
+msgstr "Chłopięce strzyżenie z teksturą i przejściem"
 
-#: inc/i18n.php:253
-msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
-msgstr "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
+#: inc/gallery.php:58
+msgid "Dziewczęce strzyżenie bob — portret"
+msgstr "Dziewczęce strzyżenie bob — portret"
 
-#: inc/i18n.php:254
-msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
-msgstr "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
-
-#: inc/i18n.php:272
-msgid "Wybór języka"
-msgstr "Wybór języka"
+#: inc/gallery.php:59
+msgid "Dziewczęce strzyżenie bob — widok z tyłu"
+msgstr "Dziewczęce strzyżenie bob — widok z tyłu"
 
 #: inc/schema.php:52
 msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
@@ -760,3 +826,25 @@ msgstr "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie da
 #: inc/schema.php:74
 msgid "Usługi fryzjerskie i barberskie"
 msgstr "Usługi fryzjerskie i barberskie"
+
+# --- Gallery: men's cut alt texts (added 2026-06-22) ---
+#~ msgid "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
+#~ msgstr "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
+
+#~ msgid "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — z boku"
+#~ msgstr "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — z boku"
+
+#~ msgid "Krótkie męskie strzyżenie z pełną, wymodelowaną brodą — od przodu"
+#~ msgstr "Krótkie męskie strzyżenie z pełną, wymodelowaną brodą — od przodu"
+
+#~ msgid "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
+#~ msgstr "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
+
+#~ msgid "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
+#~ msgstr "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
+
+#~ msgid "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
+#~ msgstr "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
+
+#~ msgid "Mycie + modelowanie"
+#~ msgstr "Mycie + modelowanie"

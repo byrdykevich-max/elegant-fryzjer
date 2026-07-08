@@ -16,11 +16,11 @@ $gall = ef_gallery_images();
 		</div>
 
 		<div class="gallery">
-			<?php foreach ( $gall as $g ) : ?>
+			<?php foreach ( $gall as $g ) : $g_url = ef_uploads_url( $g['month'] ?? '2026/06' ); ?>
 				<button class="gallery__item<?php echo ! empty( $g['zoom'] ) ? ' gallery__item--zoom' : ''; ?>"
-				        data-full="<?php echo esc_url( ef_uploads_url() . '/' . $g['base'] . '-1024x1024.jpg' ); ?>"
+				        data-full="<?php echo esc_url( $g_url . '/' . $g['base'] . '-1024x1024.jpg' ); ?>"
 				        aria-label="<?php printf( esc_attr__( 'Powiększ zdjęcie: %s', 'elegant-fryzjer' ), esc_attr( $g['alt'] ) ); ?>">
-					<?php echo ef_picture( $g['base'], $g['alt'], '(max-width: 700px) 45vw, 300px' ); ?>
+					<?php echo ef_picture( $g['base'], $g['alt'], '(max-width: 700px) 45vw, 300px', false, $g_url ); ?>
 				</button>
 			<?php endforeach; ?>
 		</div>

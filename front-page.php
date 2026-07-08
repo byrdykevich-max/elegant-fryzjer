@@ -22,8 +22,10 @@ $gall = ef_gallery_images();
 		</div>
 		<div class="hero__media">
 			<?php
-			// First approved gallery image as the LCP element (eager + high priority).
-			echo ef_picture( $gall[0]['base'], $gall[0]['alt'], '(max-width: 860px) 92vw, 520px', true );
+			// Branding hero photo (theme asset, not a gallery item) — LCP element (eager + high priority).
+			// Rollback: swap back to `ef_picture( $gall[0]['base'], $gall[0]['alt'], '(max-width: 860px) 92vw, 520px', true );`
+			// to restore the previous real client-photo hero (gallery is untouched either way).
+			echo ef_picture( 'hero-barber', esc_html__( 'Elegant Fryzjer — barber & salon', 'elegant-fryzjer' ), '(max-width: 860px) 92vw, 520px', true, get_template_directory_uri() . '/assets/img' );
 			?>
 			<span class="hero__badge"><?php echo esc_html__( 'Strzyżenia i stylizacja dla całej rodziny', 'elegant-fryzjer' ); ?></span>
 		</div>
@@ -41,7 +43,7 @@ $gall = ef_gallery_images();
 		<div class="grid grid--3">
 			<?php foreach ( array_merge( ef_services_block( 'dark' ), ef_services_block( 'light' ) ) as $s ) : ?>
 				<article class="card">
-					<?php echo ef_pictogram( $s['icon'] ); ?>
+					<?php echo ef_service_icon( $s['icon'] ); ?>
 					<h3><?php echo esc_html( $s['title'] ); ?></h3>
 					<p class="muted"><?php echo esc_html( $s['lead'] ); ?></p>
 				</article>
@@ -76,13 +78,12 @@ $gall = ef_gallery_images();
 		</div>
 		<div class="gallery">
 			<?php
-			// Featured strip leads with men's/barber work (client mix ~80% men), then
-			// women's colour work. Indices 0–2 are the men's photos; the hero already
-			// uses index 0, so the strip starts at the other two men's shots (2, 1).
-			$featured = array( 2, 4, 5, 7, 11, 16 );
-			foreach ( $featured as $fi ) : $g = $gall[ $fi ]; ?>
-				<button class="gallery__item<?php echo ! empty( $g['zoom'] ) ? ' gallery__item--zoom' : ''; ?>" data-full="<?php echo esc_url( ef_uploads_url() . '/' . $g['base'] . '-1024x1024.jpg' ); ?>" aria-label="<?php printf( esc_attr__( 'Powiększ: %s', 'elegant-fryzjer' ), esc_attr( $g['alt'] ) ); ?>">
-					<?php echo ef_picture( $g['base'], $g['alt'] ); ?>
+			// Featured strip leads with men's/barber work (client mix ~80% men), mixing
+			// the original batch with the 2026-07-06 batch, plus one women's shot.
+			$featured = array( 1, 8, 12, 16, 23, 25 );
+			foreach ( $featured as $fi ) : $g = $gall[ $fi ]; $g_url = ef_uploads_url( $g['month'] ?? '2026/06' ); ?>
+				<button class="gallery__item<?php echo ! empty( $g['zoom'] ) ? ' gallery__item--zoom' : ''; ?>" data-full="<?php echo esc_url( $g_url . '/' . $g['base'] . '-1024x1024.jpg' ); ?>" aria-label="<?php printf( esc_attr__( 'Powiększ: %s', 'elegant-fryzjer' ), esc_attr( $g['alt'] ) ); ?>">
+					<?php echo ef_picture( $g['base'], $g['alt'], '(max-width: 700px) 90vw, 360px', false, $g_url ); ?>
 				</button>
 			<?php endforeach; ?>
 		</div>
