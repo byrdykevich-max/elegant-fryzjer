@@ -20,6 +20,14 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo esc_url( $ef_icons . '/favicon-16.png?ver=' . EF_VER ); ?>">
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url( $ef_icons . '/apple-touch-icon.png?ver=' . EF_VER ); ?>">
 	<link rel="manifest" href="<?php echo esc_url( $ef_icons . '/site.webmanifest?ver=' . EF_VER ); ?>">
+	<?php if ( is_front_page() ) :
+		// Preload the hero (LCP element) so the browser fetches it before it discovers the <img> in the body.
+		$ef_hero = get_template_directory_uri() . '/assets/img/hero-barber';
+	?>
+	<link rel="preload" as="image" type="image/webp"
+	      imagesrcset="<?php echo esc_url( $ef_hero . '-768x768.webp' ); ?> 768w, <?php echo esc_url( $ef_hero . '-1024x1024.webp' ); ?> 1024w"
+	      imagesizes="(max-width: 860px) 92vw, 520px">
+	<?php endif; ?>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

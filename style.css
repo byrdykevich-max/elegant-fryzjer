@@ -322,6 +322,7 @@ section { padding-block: clamp(2.5rem, 6vw, 5rem); }
 .price-group { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(1.25rem,3vw,2rem); box-shadow: var(--shadow); }
 .price-group__head { display: flex; align-items: flex-start; gap: var(--sp-3); margin-bottom: var(--sp-2); }
 .price-group__head .pictogram { flex: none; color: var(--accent-dark); }
+.price-group__head .icon-badge { flex: none; }
 .price-group__head h3 { margin-bottom: .2em; }
 .price-group__lead { color: var(--muted); margin-bottom: var(--sp-3); }
 .price-table { width: 100%; border-collapse: collapse; }
@@ -357,6 +358,20 @@ section { padding-block: clamp(2.5rem, 6vw, 5rem); }
 .family-banner h2 { color: #1A140B; margin-bottom: .5rem; }
 .family-banner p { margin: 0; }
 
+/* Dark chip behind the fixed-gold-toned raster pictograms (Family, barber pole):
+   the banner/eyebrow backgrounds they sit on don't reliably contrast with that gold
+   tone (or are gold themselves), so a fixed-dark circle guarantees legibility
+   regardless of the light/dark toggle. See ef_pictogram_img(). */
+.icon-badge {
+	display: inline-flex; align-items: center; justify-content: center;
+	width: 64px; height: 64px; border-radius: 50%;
+	background: #1A140B; margin-bottom: var(--sp-2);
+}
+.family-banner .icon-badge { margin-inline: auto; }
+/* Smaller variant for the 6 service-card icons (homepage grid + /uslugi/ headers) —
+   scaled to roughly match the footprint of the SVG pictogram it replaces (40x40). */
+.icon-badge--sm { width: 48px; height: 48px; }
+
 /* Info icons row (booking / punctuality / atmosphere / experience) */
 .info-row { padding-block: clamp(2.5rem, 6vw, 4rem); }
 .info-row__grid { display: grid; gap: var(--sp-5); grid-template-columns: 1fr; text-align: center; }
@@ -369,8 +384,13 @@ section { padding-block: clamp(2.5rem, 6vw, 5rem); }
 /* Contact strip — condensed real NAP + CTA, dark band (toggle-independent inverse tokens) */
 .contact-strip { background: var(--inverse-bg); color: var(--inverse-text); text-align: center; padding-block: clamp(2rem, 5vw, 3rem); }
 .contact-strip__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--sp-4); }
-.contact-strip__item { margin: 0; color: var(--inverse-text); font-weight: 600; }
+.contact-strip__item { margin: 0; color: var(--inverse-text); font-weight: 600; display: inline-flex; align-items: center; gap: .4em; }
 .contact-strip .phone-link { color: var(--inverse-heading); }
+/* contact-strip / footer are pinned-dark (--inverse-bg) regardless of the site
+   theme toggle, so the fixed-gold pictograms sit directly on them, no chip needed. */
+.contact-strip__item img, .social img { flex: none; vertical-align: middle; }
+.social { display: flex; gap: var(--sp-3); align-items: center; }
+.social a { display: inline-flex; align-items: center; gap: .4em; }
 
 /* =========================================================================
    GALLERY  (CSS columns masonry) + accessible lightbox
@@ -450,4 +470,3 @@ section { padding-block: clamp(2.5rem, 6vw, 5rem); }
 .footer-nav { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
 .site-footer__bar { border-top: 1px solid var(--inverse-border); margin-top: var(--sp-5); padding-block: var(--sp-3); }
 .site-footer__bar .muted { color: var(--inverse-muted); }
-.social { display: flex; gap: var(--sp-3); }

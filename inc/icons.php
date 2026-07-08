@@ -29,3 +29,30 @@ function ef_info_icon( $key ) {
 	if ( ! isset( $paths[ $key ] ) ) { return ''; }
 	return '<svg class="info-icon" viewBox="0 0 40 40" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' . $paths[ $key ] . '</svg>';
 }
+
+/**
+ * Service-card pictogram (client-supplied raster PNG) — replaces ef_pictogram()
+ * for the 6 homepage/uslugi service cards. Wrapped in the shared dark .icon-badge
+ * chip (--sm variant): 3 of the 6 source PNGs are gold-toned and unreadable on
+ * light backgrounds, and the /uslugi/ women's/kids/care block is pinned light
+ * regardless of the site-wide theme toggle, so a fixed-dark chip is required
+ * rather than relying on the toggle. ef_pictogram()/inc/icons.php's old SVG
+ * paths are left in place for rollback — see ef_services() in inc/config.php.
+ */
+function ef_service_icon( $key ) {
+	$map = array(
+		'man'      => array( 'man.png', 28, 30 ),
+		'woman'    => array( 'woman.png', 25, 30 ),
+		'children' => array( 'children.png', 24, 30 ),
+		'bottle'   => array( 'bottle.png', 14, 30 ),
+		'scissors' => array( 'scissors.png', 26, 30 ),
+		'chair'    => array( 'chair.png', 26, 30 ),
+	);
+	if ( ! isset( $map[ $key ] ) ) { return ''; }
+	list( $file, $w, $h ) = $map[ $key ];
+	ob_start();
+	?>
+	<span class="icon-badge icon-badge--sm"><?php ef_pictogram_img( $file, $w, $h ); ?></span>
+	<?php
+	return ob_get_clean();
+}

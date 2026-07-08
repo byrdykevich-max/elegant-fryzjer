@@ -9,6 +9,7 @@ $gall = ef_gallery_images();
 <section aria-labelledby="page-title">
 	<div class="container hero__grid">
 		<div>
+			<span class="icon-badge" style="display:flex;width:48px;height:48px"><?php ef_pictogram_img( 'barber-pole.png', 17, 40, 'about-icon' ); ?></span>
 			<span class="eyebrow"><?php esc_html_e( 'O nas', 'elegant-fryzjer' ); ?></span>
 			<h1 id="page-title"><?php esc_html_e( 'Salon prowadzi Julia', 'elegant-fryzjer' ); ?></h1>
 			<p class="lead"><?php esc_html_e( 'Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta.', 'elegant-fryzjer' ); ?></p>

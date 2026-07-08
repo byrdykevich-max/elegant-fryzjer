@@ -22,7 +22,7 @@
 			<?php if ( $c['instagram'] || $c['facebook'] ) : ?>
 			<p class="social">
 				<?php if ( $c['instagram'] ) : ?>
-					<a href="<?php echo esc_url( $c['instagram'] ); ?>" target="_blank" rel="noopener me">Instagram</a>
+					<a href="<?php echo esc_url( $c['instagram'] ); ?>" target="_blank" rel="noopener me"><?php ef_pictogram_img( 'instagram.png', 18, 18 ); ?>Instagram</a>
 				<?php endif; ?>
 				<?php if ( $c['facebook'] ) : ?>
 					<a href="<?php echo esc_url( $c['facebook'] ); ?>" target="_blank" rel="noopener me">Facebook</a>
