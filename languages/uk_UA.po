@@ -650,7 +650,7 @@ msgstr "[MT-REVIEW] Підстригання чубчика"
 
 #: inc/config.php:143
 msgid "Mycie + stylizacja / układanie"
-msgstr "[MT-REVIEW] Миття + стилізація / укладка"
+msgstr "Миття + стилізація / укладка"
 
 #: inc/config.php:150
 msgid "Strzyżenie dziecięce"
@@ -810,7 +810,7 @@ msgstr "[MT-REVIEW] Фарбування: платиновий блонд, ан�
 
 #: inc/gallery.php:57
 msgid "Chłopięce strzyżenie z teksturą i przejściem"
-msgstr "[MT-REVIEW] Хлопчача стрижка з текстурою і переходом"
+msgstr "Хлопчача стрижка з текстурою і переходом"
 
 #: inc/gallery.php:58
 msgid "Dziewczęce strzyżenie bob — portret"

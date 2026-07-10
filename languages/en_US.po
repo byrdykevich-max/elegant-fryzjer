@@ -650,7 +650,7 @@ msgstr "[MT-REVIEW] Fringe trim"
 
 #: inc/config.php:143
 msgid "Mycie + stylizacja / układanie"
-msgstr "[MT-REVIEW] Wash + styling / blow-dry"
+msgstr "Wash + styling / blow-dry"
 
 #: inc/config.php:150
 msgid "Strzyżenie dziecięce"
@@ -810,7 +810,7 @@ msgstr "[MT-REVIEW] Colouring: platinum blonde, undercut — side profile"
 
 #: inc/gallery.php:57
 msgid "Chłopięce strzyżenie z teksturą i przejściem"
-msgstr "[MT-REVIEW] Boy's haircut with texture and a fade"
+msgstr "Boy's haircut with texture and a fade"
 
 #: inc/gallery.php:58
 msgid "Dziewczęce strzyżenie bob — portret"
