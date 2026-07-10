@@ -125,7 +125,7 @@ msgstr "Переглянути послуги та ціни"
 
 #: front-page.php:28
 msgid "Elegant Fryzjer — barber & salon"
-msgstr "[MT-REVIEW] Elegant Fryzjer — Барбер & Салон"
+msgstr "Elegant Fryzjer — Барбер & Салон"
 
 #: front-page.php:30
 msgid "Strzyżenia i stylizacja dla całej rodziny"
@@ -814,7 +814,7 @@ msgstr "Хлопчача стрижка з текстурою і переход�
 
 #: inc/gallery.php:58
 msgid "Dziewczęce strzyżenie bob — portret"
-msgstr "[MT-REVIEW] Дівчача стрижка боб — портрет"
+msgstr "Дівчача стрижка боб — портрет"
 
 #: inc/gallery.php:59
 msgid "Dziewczęce strzyżenie bob — widok z tyłu"
