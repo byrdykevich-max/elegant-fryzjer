@@ -750,7 +750,7 @@ msgstr "Чоловіча стрижка зі щетиною в атмосфер�
 
 #: inc/gallery.php:39
 msgid "Teksturowany, zaczesany do tyłu wierzch z przejściem — profil"
-msgstr "[MT-REVIEW] Текстурований зачесаний назад верх з переходом — профіль"
+msgstr "Текстурований зачесаний назад верх з переходом — профіль"
 
 #: inc/gallery.php:40
 msgid "Zaczesane do tyłu włosy z przejściem — widok z tyłu"
@@ -818,7 +818,7 @@ msgstr "Дівчача стрижка боб — портрет"
 
 #: inc/gallery.php:59
 msgid "Dziewczęce strzyżenie bob — widok z tyłu"
-msgstr "[MT-REVIEW] Дівчача стрижка боб — вигляд ззаду"
+msgstr "Дівчача стрижка боб — вигляд ззаду"
 
 #: inc/schema.php:52
 msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
