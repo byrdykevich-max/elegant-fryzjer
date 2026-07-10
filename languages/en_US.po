@@ -574,7 +574,7 @@ msgstr "Men's haircut"
 
 #: inc/config.php:99
 msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki. Mycie włosów wliczone w cenę."
-msgstr "[MT-REVIEW] Classic and modern men's haircuts, styling on the spot. Hair wash included in the price."
+msgstr "Classic and modern men's haircuts, styling on the spot. Hair wash included in the price."
 
 #: inc/config.php:101
 msgid "Strzyżenie męskie (1 nakładka)"
@@ -662,7 +662,7 @@ msgstr "Calm and stress-free — haircuts for the youngest."
 
 #: inc/config.php:153
 msgid "Strzyżenie dziecięce (do 10 lat)"
-msgstr "[MT-REVIEW] Children's haircut (up to 10 years)"
+msgstr "Children's haircut (up to 10 years)"
 
 #: inc/config.php:160
 msgid "Pielęgnacja i stylizacja"

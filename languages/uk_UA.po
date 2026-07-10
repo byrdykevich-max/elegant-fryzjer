@@ -574,7 +574,7 @@ msgstr "Чоловіча стрижка"
 
 #: inc/config.php:99
 msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki. Mycie włosów wliczone w cenę."
-msgstr "[MT-REVIEW] Класичні та сучасні чоловічі стрижки, стилізація одразу. Миття волосся входить у вартість."
+msgstr "Класичні та сучасні чоловічі стрижки, стилізація одразу. Миття волосся входить у вартість."
 
 #: inc/config.php:101
 msgid "Strzyżenie męskie (1 nakładka)"
@@ -662,7 +662,7 @@ msgstr "Спокійно та без стресу — стрижка для на
 
 #: inc/config.php:153
 msgid "Strzyżenie dziecięce (do 10 lat)"
-msgstr "[MT-REVIEW] Дитяча стрижка (до 10 років)"
+msgstr "Дитяча стрижка (до 10 років)"
 
 #: inc/config.php:160
 msgid "Pielęgnacja i stylizacja"
