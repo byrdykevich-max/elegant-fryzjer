@@ -750,7 +750,7 @@ msgstr "Men's haircut with stubble, barbershop atmosphere — side profile"
 
 #: inc/gallery.php:39
 msgid "Teksturowany, zaczesany do tyłu wierzch z przejściem — profil"
-msgstr "[MT-REVIEW] Textured slicked-back top with a fade — side profile"
+msgstr "Textured slicked-back top with a fade — side profile"
 
 #: inc/gallery.php:40
 msgid "Zaczesane do tyłu włosy z przejściem — widok z tyłu"
@@ -818,7 +818,7 @@ msgstr "Girl's bob haircut — portrait"
 
 #: inc/gallery.php:59
 msgid "Dziewczęce strzyżenie bob — widok z tyłu"
-msgstr "[MT-REVIEW] Girl's bob haircut — rear view"
+msgstr "Girl's bob haircut — rear view"
 
 #: inc/schema.php:52
 msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
