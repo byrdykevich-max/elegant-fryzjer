@@ -754,7 +754,7 @@ msgstr "Textured slicked-back top with a fade — side profile"
 
 #: inc/gallery.php:40
 msgid "Zaczesane do tyłu włosy z przejściem — widok z tyłu"
-msgstr "[MT-REVIEW] Slicked-back hair with a fade — rear view"
+msgstr "Slicked-back hair with a fade — rear view"
 
 #: inc/gallery.php:41
 msgid "Krótkie strzyżenie z przejściem i zarostem — widok z tyłu"
@@ -778,7 +778,7 @@ msgstr "Light-coloured short cut with a fade — side profile, barbershop interi
 
 #: inc/gallery.php:46
 msgid "Teksturowany wierzch z przejściem — profil"
-msgstr "[MT-REVIEW] Textured top with a fade — side profile"
+msgstr "Textured top with a fade — side profile"
 
 #: inc/gallery.php:47
 msgid "Krótkie strzyżenie z wyraźnym przejściem — profil, wnętrze barbershopu"
