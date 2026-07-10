@@ -766,11 +766,11 @@ msgstr "[MT-REVIEW] Дуже коротка стрижка «їжачок» — 
 
 #: inc/gallery.php:43
 msgid "Krótkie strzyżenie z wyraźnym przejściem — profil"
-msgstr "[MT-REVIEW] Коротка стрижка з чітким переходом — профіль"
+msgstr "Коротка стрижка з чітким переходом — профіль"
 
 #: inc/gallery.php:44
 msgid "Krótkie, jasne strzyżenie z przejściem — profil"
-msgstr "[MT-REVIEW] Коротка світла стрижка з переходом — профіль"
+msgstr "Коротка світла стрижка з переходом — профіль"
 
 #: inc/gallery.php:45
 msgid "Jasne, krótkie strzyżenie z przejściem — profil, wnętrze barbershopu"
