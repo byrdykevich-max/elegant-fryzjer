@@ -762,7 +762,7 @@ msgstr "Short cut with a fade and stubble — rear view"
 
 #: inc/gallery.php:42
 msgid "Bardzo krótkie strzyżenie na jeża — profil"
-msgstr "[MT-REVIEW] Very short buzz cut — side profile"
+msgstr "Very short buzz cut — side profile"
 
 #: inc/gallery.php:43
 msgid "Krótkie strzyżenie z wyraźnym przejściem — profil"
@@ -806,7 +806,7 @@ msgstr "Balayage colouring in brown and blonde tones — side profile"
 
 #: inc/gallery.php:55
 msgid "Koloryzacja: platynowy blond, undercut — profil"
-msgstr "[MT-REVIEW] Colouring: platinum blonde, undercut — side profile"
+msgstr "Colouring: platinum blonde, undercut — side profile"
 
 #: inc/gallery.php:57
 msgid "Chłopięce strzyżenie z teksturą i przejściem"

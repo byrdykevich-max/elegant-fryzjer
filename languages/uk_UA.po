@@ -762,7 +762,7 @@ msgstr "Коротка стрижка з переходом і щетиною �
 
 #: inc/gallery.php:42
 msgid "Bardzo krótkie strzyżenie na jeża — profil"
-msgstr "[MT-REVIEW] Дуже коротка стрижка «їжачок» — профіль"
+msgstr "Дуже коротка стрижка «їжачок» — профіль"
 
 #: inc/gallery.php:43
 msgid "Krótkie strzyżenie z wyraźnym przejściem — profil"
@@ -806,7 +806,7 @@ msgstr "Фарбування балаяж у відтінках брюнету �
 
 #: inc/gallery.php:55
 msgid "Koloryzacja: platynowy blond, undercut — profil"
-msgstr "[MT-REVIEW] Фарбування: платиновий блонд, андеркат — профіль"
+msgstr "Фарбування: платиновий блонд, андеркат — профіль"
 
 #: inc/gallery.php:57
 msgid "Chłopięce strzyżenie z teksturą i przejściem"
