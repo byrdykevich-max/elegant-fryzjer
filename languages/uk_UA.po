@@ -742,7 +742,7 @@ msgstr "Коротка чоловіча стрижка з переходом —
 
 #: inc/gallery.php:37
 msgid "Krótkie męskie strzyżenie z wysokim przejściem — profil"
-msgstr "[MT-REVIEW] Коротка чоловіча стрижка з високим переходом — профіль"
+msgstr "Коротка чоловіча стрижка з високим переходом — профіль"
 
 #: inc/gallery.php:38
 msgid "Męskie strzyżenie z zarostem w klimacie barbershopu — profil"
@@ -758,7 +758,7 @@ msgstr "[MT-REVIEW] Зачесане назад волосся з переход
 
 #: inc/gallery.php:41
 msgid "Krótkie strzyżenie z przejściem i zarostem — widok z tyłu"
-msgstr "[MT-REVIEW] Коротка стрижка з переходом і щетиною — вигляд ззаду"
+msgstr "Коротка стрижка з переходом і щетиною — вигляд ззаду"
 
 #: inc/gallery.php:42
 msgid "Bardzo krótkie strzyżenie na jeża — profil"

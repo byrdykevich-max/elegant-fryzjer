@@ -742,7 +742,7 @@ msgstr "Short men's cut with a fade — side profile, inside the shop"
 
 #: inc/gallery.php:37
 msgid "Krótkie męskie strzyżenie z wysokim przejściem — profil"
-msgstr "[MT-REVIEW] Short men's cut with a high fade — side profile"
+msgstr "Short men's cut with a high fade — side profile"
 
 #: inc/gallery.php:38
 msgid "Męskie strzyżenie z zarostem w klimacie barbershopu — profil"
@@ -758,7 +758,7 @@ msgstr "[MT-REVIEW] Slicked-back hair with a fade — rear view"
 
 #: inc/gallery.php:41
 msgid "Krótkie strzyżenie z przejściem i zarostem — widok z tyłu"
-msgstr "[MT-REVIEW] Short fade with stubble — rear view"
+msgstr "Short cut with a fade and stubble — rear view"
 
 #: inc/gallery.php:42
 msgid "Bardzo krótkie strzyżenie na jeża — profil"
