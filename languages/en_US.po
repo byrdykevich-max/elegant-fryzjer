@@ -578,7 +578,7 @@ msgstr "Classic and modern men's haircuts, styling on the spot. Hair wash includ
 
 #: inc/config.php:101
 msgid "Strzyżenie męskie (1 nakładka)"
-msgstr "[MT-REVIEW] Men's haircut (clipper guard)"
+msgstr "Men's haircut (1 clipper guard)"
 
 #: inc/config.php:103
 msgid "Strzyżenie męskie (nożyczki)"
@@ -802,7 +802,7 @@ msgstr "[MT-REVIEW] Colouring: platinum blonde, short pixie cut — side profile
 
 #: inc/gallery.php:54
 msgid "Koloryzacja balayage w odcieniach brązu i blondu — profil"
-msgstr "[MT-REVIEW] Balayage colouring in brown and blonde tones — side profile"
+msgstr "Balayage colouring in brown and blonde tones — side profile"
 
 #: inc/gallery.php:55
 msgid "Koloryzacja: platynowy blond, undercut — profil"

@@ -578,7 +578,7 @@ msgstr "Класичні та сучасні чоловічі стрижки, с
 
 #: inc/config.php:101
 msgid "Strzyżenie męskie (1 nakładka)"
-msgstr "[MT-REVIEW] Чоловіча стрижка (машинка з насадкою)"
+msgstr "Чоловіча стрижка (1 насадка)"
 
 #: inc/config.php:103
 msgid "Strzyżenie męskie (nożyczki)"
@@ -802,7 +802,7 @@ msgstr "[MT-REVIEW] Фарбування: платиновий блонд, ко�
 
 #: inc/gallery.php:54
 msgid "Koloryzacja balayage w odcieniach brązu i blondu — profil"
-msgstr "[MT-REVIEW] Фарбування балаяж у відтінках брюнету та блонду — профіль"
+msgstr "Фарбування балаяж у відтінках брюнету та блонду — профіль"
 
 #: inc/gallery.php:55
 msgid "Koloryzacja: platynowy blond, undercut — profil"
