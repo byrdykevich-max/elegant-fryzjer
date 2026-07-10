@@ -646,7 +646,7 @@ msgstr "Стрижка та укладка, підібрані під струк
 
 #: inc/config.php:142
 msgid "Strzyżenie grzywki"
-msgstr "[MT-REVIEW] Підстригання чубчика"
+msgstr "Підстригання чубчика"
 
 #: inc/config.php:143
 msgid "Mycie + stylizacja / układanie"
@@ -746,7 +746,7 @@ msgstr "[MT-REVIEW] Коротка чоловіча стрижка з висок
 
 #: inc/gallery.php:38
 msgid "Męskie strzyżenie z zarostem w klimacie barbershopu — profil"
-msgstr "[MT-REVIEW] Чоловіча стрижка зі щетиною в атмосфері барбершопу — профіль"
+msgstr "Чоловіча стрижка зі щетиною в атмосфері барбершопу — профіль"
 
 #: inc/gallery.php:39
 msgid "Teksturowany, zaczesany do tyłu wierzch z przejściem — profil"

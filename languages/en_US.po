@@ -646,7 +646,7 @@ msgstr "Haircut and styling tailored to your hair's structure."
 
 #: inc/config.php:142
 msgid "Strzyżenie grzywki"
-msgstr "[MT-REVIEW] Fringe trim"
+msgstr "Fringe trim"
 
 #: inc/config.php:143
 msgid "Mycie + stylizacja / układanie"
@@ -746,7 +746,7 @@ msgstr "[MT-REVIEW] Short men's cut with a high fade — side profile"
 
 #: inc/gallery.php:38
 msgid "Męskie strzyżenie z zarostem w klimacie barbershopu — profil"
-msgstr "[MT-REVIEW] Men's haircut with stubble, barbershop setting — side profile"
+msgstr "Men's haircut with stubble, barbershop atmosphere — side profile"
 
 #: inc/gallery.php:39
 msgid "Teksturowany, zaczesany do tyłu wierzch z przejściem — profil"
