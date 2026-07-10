@@ -590,7 +590,7 @@ msgstr "Men's haircut + wash"
 
 #: inc/config.php:105
 msgid "Farbowanie siwych włosów (kamuflaż)"
-msgstr "[MT-REVIEW] Grey hair coverage (camouflage)"
+msgstr "Grey hair coverage (camouflage)"
 
 #: inc/config.php:112
 msgid "Broda i zarost"
@@ -634,7 +634,7 @@ msgstr "Clipper cut + beard"
 
 #: inc/config.php:130
 msgid "Strzyżenie męskie + farbowanie siwych włosów (kamuflaż)"
-msgstr "[MT-REVIEW] Men's haircut + grey hair coverage (camouflage)"
+msgstr "Men's haircut + grey hair coverage (camouflage)"
 
 #: inc/config.php:138 inc/config.php:141
 msgid "Strzyżenie damskie"
@@ -794,7 +794,7 @@ msgstr "Bob cut with a tapered back"
 
 #: inc/gallery.php:52
 msgid "Koloryzacja: blond z delikatnymi refleksami — widok z tyłu"
-msgstr "[MT-REVIEW] Colouring: blonde with subtle highlights — rear view"
+msgstr "Colouring: blonde with subtle highlights — rear view"
 
 #: inc/gallery.php:53
 msgid "Koloryzacja: platynowy blond, krótkie cięcie pixie — profil"

@@ -590,7 +590,7 @@ msgstr "Чоловіча стрижка + миття"
 
 #: inc/config.php:105
 msgid "Farbowanie siwych włosów (kamuflaż)"
-msgstr "[MT-REVIEW] Тонування сивого волосся (камуфляж)"
+msgstr "Фарбування сивого волосся (камуфляж)"
 
 #: inc/config.php:112
 msgid "Broda i zarost"
@@ -634,7 +634,7 @@ msgstr "Стрижка машинкою + борода"
 
 #: inc/config.php:130
 msgid "Strzyżenie męskie + farbowanie siwych włosów (kamuflaż)"
-msgstr "[MT-REVIEW] Чоловіча стрижка + тонування сивого волосся (камуфляж)"
+msgstr "Чоловіча стрижка + фарбування сивого волосся (камуфляж)"
 
 #: inc/config.php:138 inc/config.php:141
 msgid "Strzyżenie damskie"
@@ -794,7 +794,7 @@ msgstr "Стрижка боб з градуйованою потилицею"
 
 #: inc/gallery.php:52
 msgid "Koloryzacja: blond z delikatnymi refleksami — widok z tyłu"
-msgstr "[MT-REVIEW] Фарбування: блонд з делікатними бліками — вигляд ззаду"
+msgstr "Фарбування: блонд з делікатними бліками — вигляд ззаду"
 
 #: inc/gallery.php:53
 msgid "Koloryzacja: platynowy blond, krótkie cięcie pixie — profil"
