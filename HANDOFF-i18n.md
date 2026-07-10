@@ -1,11 +1,70 @@
 # Elegant Fryzjer — Theme Handoff (Dark/Light + Multilingual)
 
-_Last updated: 2026-06-22 · Theme version `EF_VER = 1.2.9`_
+_Last updated: 2026-07-10 · Theme version `EF_VER = 1.2.26`_
 
-> **i18n COMPLETE (2026-06-22): EN and UK are both DONE.** All 171 strings in each of
-> `en_US.po` and `uk_UA.po` are reviewed, finalized, and live (0 `[MT-REVIEW]` in any of
-> pl/en/uk). No translation work is pending. See §3 for the wording/transliteration
-> conventions that were locked in (useful if any string is ever edited again).
+> **i18n MT-REVIEW backlog: CLEARED to 0/lang again as of 2026-07-10 (PR #28).** This is the
+> **third** time it's hit 0 — it previously cleared 2026-06-22, reopened to 41 on 2026-07-02,
+> cleared again, reopened to 29 on 2026-07-08 (PR #12, cennik restructure + kamuflaż + gallery
+> expansion), and was reviewed back down to 0 across PRs #15–#28 (2026-07-10). **`en_US.po` /
+> `uk_UA.po` currently hold 203 msgids each** (not the 171 this document originally described
+> — the string count has grown across several content sessions since 2026-06-22).
+>
+> **⚠ Sections below dated 2026-06-22 are a historical snapshot, not current state.**
+> Specifically: the price table in §1 and **all of Appendix A are stale** (superseded by the
+> 2026-07-02/2026-07-08 cennik restructure and multiple gallery-content sessions) — for
+> current prices read `inc/config.php` (`ef_services()`) directly, and for the current
+> translation table read `languages/*.po` directly rather than trusting the numbers below.
+> This doc was not fully regenerated for those changes; see `SESSION-LOG-*.md` files in this
+> directory and the auto-memory `elegant-fryzjer-*` entries for what actually changed and why.
+> §3–§5 (translation workflow, wording conventions, `.po`/`.mo` mechanics) remain accurate and
+> are the reason this doc is still worth keeping.
+>
+> **The backlog WILL reopen** the next time a Polish source string changes or a new
+> translatable string is added — that's expected, not a bug. When it does, resume the
+> **pair-at-a-time review method** used in the 2026-07-10 session (see below): pull each
+> `msgid` + both `msgstr`s, cross-check terminology against already-reviewed strings in the
+> same file (exact-match precedent when one exists), verify grammar/idiom by reasoning rather
+> than assuming the machine translation is right, then clear the marker only after actually
+> reading the string — the `[MT-REVIEW]` prefix only means "not yet reviewed," not "wrong."
+
+## i18n MT-REVIEW backlog review — 2026-07-10 (PRs #15–#28)
+
+**Backlog: 29 → 0 strings/language, 14 review rounds, ~2 strings per round.** The backlog
+had reopened to 29 on 2026-07-08 (PR #12: cennik restructure + kamuflaż service + a large
+gallery-content expansion added many new translatable strings). Rather than batch-clearing
+the `[MT-REVIEW]` markers, each round manually reviewed 2 strings' full `msgid` + both
+`msgstr`s, cross-checking terminology against already-reviewed strings in the same file.
+
+**6 real mistranslations/inconsistencies were found and fixed** (not just marker-clearing):
+- **UK "kamuflaż"** (grey-hair dyeing/coverage) was rendered «Тонування» (toning — a
+  different, narrower technique) instead of the established glossary term «Фарбування». Fixed
+  in `inc/config.php:105` and its combo sibling.
+- **Dropped "1" in "Strzyżenie męskie (1 nakładka)"** — both EN ("clipper guard") and UK
+  ("машинка з насадкою") lost the number, erasing the detail that explains why this is the
+  *cheapest* of the 3 men's-cut price tiers (60/80/100 zł). Fixed to "Men's haircut (1
+  clipper guard)" / «Чоловіча стрижка (1 насадка)».
+- **EN "part" → "parting"** for a hair-parting gallery caption — the American form, house
+  style is British English throughout (colour, specialise, enquiry, etc.).
+- **EN "setting" → "atmosphere"** for "klimat" (atmosphere/vibe) in a barbershop-vibe gallery
+  caption — "setting" under-translated it and collided with a *different* Polish word
+  ("wnętrze" = interior) used for a literal inside-the-shop meaning in two other captions.
+- **Gallery "cut"-drop pattern** — several near-identical "Krótkie [męskie] strzyżenie z
+  przejściem" captions had EN compressed to just "Short [men's] fade," dropping "cut" as the
+  head noun, inconsistent with sibling captions and with their own UK translations (which kept
+  "стрижка"). Fixed to the house pattern "Short [qualifiers] cut with a [qualifier] fade."
+
+**8 of 14 rounds found the strings already accurate** — still valuable, since several used
+direct precedent-matching against already-fixed sibling strings rather than fresh judgment
+calls each time (review got cheaper as more of the file was covered).
+
+All wording-convention findings above are folded into the "Wording / transliteration
+conventions" list in §3 below. Full per-round detail lives in the `elegant-fryzjer-github-repo`
+and `elegant-fryzjer-i18n` auto-memory entries, not duplicated here. Every round: `.mo`
+recompiled with `msgfmt -c`, deployed live (no `EF_VER` bump — translation-only), verified
+rendering on the live site in both languages, then committed/PR'd/merged (`php -l` CI on
+7.4/8.1/8.3, squash-merge, branch deleted). Site stayed noindexed throughout.
+
+---
 
 ## Post-launch changes — 2026-06-22
 
@@ -188,6 +247,13 @@ marks the current one with `aria-current`. The visitor's pick is also stored in
 - "Pełna oferta…" rendered as **"full range of services"**, not "full offer".
 - "Golenie maszynką / brzytwą" → **"Clipper / razor shave"** ("maszynką" = "Clipper",
   matching "Strzyżenie maszynką" → "Clipper cut").
+- **"przedziałek" (hair parting) → "parting"**, not the American "part" (added 2026-07-10).
+- **"klimat" (atmosphere/vibe) → "atmosphere"**, not "setting" — keep distinct from "wnętrze"
+  (interior), used elsewhere for a literal inside-the-shop meaning (added 2026-07-10).
+- **Gallery fade captions always keep "cut"/"haircut" as the head noun** — "Short [qualifiers]
+  cut with a [qualifier] fade," never let "fade" stand alone as the subject even though "a
+  fade" is idiomatic barber-speak on its own (added 2026-07-10).
+- International loanwords (**pixie, bob, balayage, undercut**) are kept as-is in EN.
 
 **Ukrainian (UK):**
 - **Białołęka → «Білоленка»** (Cyrillic transliteration, declined — chosen over keeping the
@@ -195,8 +261,26 @@ marks the current one with `aria-current`. The visitor's pick is also stored in
 - **Warszawa → «Варшава»**, **Julia → «Юлія»** (standard established UA forms).
 - **RODO → «GDPR»**.
 - "Pełna oferta…" → **«Повний перелік послуг»**.
+- **Only the brand NAME "Elegant Fryzjer" stays Latin — the "Salon & Barber" tagline is
+  transliterated to Cyrillic** «Салон & Барбер» (corrects the "Both" line below, which was
+  wrong about this; verified against the live, already-approved translation, 2026-07-10).
+- **"kamuflaż" / any hair-dyeing concept ("koloryzacja", "farbowanie") → «Фарбування»**,
+  consistently — NOT «Тонування» (toning is a different, narrower technique). Check existing
+  occurrences in the `.po` before trusting a new machine-translation draft on this term
+  (added 2026-07-10).
+- **"X nakładka" (numbered clipper-guard/attachment) — keep the number**, e.g. "1 nakładka" →
+  «1 насадка». These numbers are load-bearing in price-tier names, not decorative
+  (added 2026-07-10).
+- International loanwords are **transliterated**, not translated: pixie → «піксі», bob →
+  «боб», balayage → «балаяж», undercut → «андеркат». The Polish idiom "na jeża" (hedgehog-
+  style buzz cut) → «їжачок» (in guillemets, as a named style), not a literal translation
+  (added 2026-07-10).
+- «відтінках брюнету» ("brunette shades," genitive of the person-noun used as a shade-category
+  term) looks like a possible case-agreement error on first read but is standard Slavic
+  hairdressing jargon, parallel to English "brunette tones" — not an error (added 2026-07-10).
 
-**Both:** brand **"Elegant Fryzjer"** and **"Salon & Barber"** left untranslated (Latin).
+**Both:** brand **"Elegant Fryzjer"** left untranslated (Latin) everywhere. The **"Salon &
+Barber"** tagline itself is NOT untranslated in UK — see the transliteration note above.
 
 Priority order for review:
 1. **Header/nav, buttons, form labels, titles & meta** (rows touching `header.php`,
