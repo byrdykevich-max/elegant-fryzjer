@@ -766,11 +766,11 @@ msgstr "[MT-REVIEW] Very short buzz cut — side profile"
 
 #: inc/gallery.php:43
 msgid "Krótkie strzyżenie z wyraźnym przejściem — profil"
-msgstr "[MT-REVIEW] Short cut with a crisp fade — side profile"
+msgstr "Short cut with a crisp fade — side profile"
 
 #: inc/gallery.php:44
 msgid "Krótkie, jasne strzyżenie z przejściem — profil"
-msgstr "[MT-REVIEW] Short, light-coloured cut with a fade — side profile"
+msgstr "Short, light-coloured cut with a fade — side profile"
 
 #: inc/gallery.php:45
 msgid "Jasne, krótkie strzyżenie z przejściem — profil, wnętrze barbershopu"
