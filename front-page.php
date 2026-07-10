@@ -91,35 +91,6 @@ $gall = ef_gallery_images();
 	</div>
 </section>
 
-<!-- LOCATION + HOURS SNIPPET -->
-<section aria-labelledby="loc-title">
-	<div class="container contact-grid">
-		<div>
-			<span class="eyebrow"><?php esc_html_e( 'Odwiedź nas', 'elegant-fryzjer' ); ?></span>
-			<h2 id="loc-title"><?php esc_html_e( 'Adres i godziny', 'elegant-fryzjer' ); ?></h2>
-			<ul class="info-list">
-				<li><span class="k"><?php esc_html_e( 'Adres', 'elegant-fryzjer' ); ?></span><span><?php echo esc_html( $c['street'] . ', ' . $c['district'] . ', ' . $c['city'] ); ?></span></li>
-				<li><span class="k"><?php esc_html_e( 'Telefon', 'elegant-fryzjer' ); ?></span><span><?php echo ef_phone_link(); ?></span></li>
-			</ul>
-			<div class="hero__actions">
-				<?php ef_cta( 'primary' ); ?>
-				<a class="btn btn--ghost" href="<?php echo esc_url( ef_url( '/kontakt/' ) ); ?>"><?php esc_html_e( 'Mapa i dojazd', 'elegant-fryzjer' ); ?></a>
-			</div>
-		</div>
-		<div>
-			<p class="site-footer__h" style="color:var(--ink)"><?php esc_html_e( 'Godziny otwarcia', 'elegant-fryzjer' ); ?>
-				<?php if ( empty( $c['hours_confirmed'] ) ) : ?><span class="badge-todo"><?php esc_html_e( '[do potwierdzenia]', 'elegant-fryzjer' ); ?></span><?php endif; ?>
-			</p>
-			<table class="hours">
-				<?php $labels = ef_day_labels(); foreach ( $c['hours'] as $d => $r ) : ?>
-					<tr><th scope="row"><?php echo esc_html( $labels[ $d ] ); ?></th><td><?php echo $r ? esc_html( $r[0] . '–' . $r[1] ) : esc_html__( 'nieczynne', 'elegant-fryzjer' ); ?></td></tr>
-				<?php endforeach; ?>
-			</table>
-			<?php ef_hours_note(); ?>
-		</div>
-	</div>
-</section>
-
 <?php /* TODO: Reviews section (real Google/Booksy testimonials only, no fabricated content) goes here once supplied. See memory elegant-fryzjer-launch for context. */ ?>
 
 <?php get_footer(); ?>
