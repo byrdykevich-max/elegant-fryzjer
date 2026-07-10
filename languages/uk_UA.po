@@ -582,7 +582,7 @@ msgstr "Чоловіча стрижка (1 насадка)"
 
 #: inc/config.php:103
 msgid "Strzyżenie męskie (nożyczki)"
-msgstr "[MT-REVIEW] Чоловіча стрижка (ножиці)"
+msgstr "Чоловіча стрижка (ножиці)"
 
 #: inc/config.php:104
 msgid "Strzyżenie męskie + mycie"
@@ -786,7 +786,7 @@ msgstr "[MT-REVIEW] Коротка стрижка з чітким переход
 
 #: inc/gallery.php:48
 msgid "Detal strzyżenia męskiego — przedziałek i przejście z góry"
-msgstr "[MT-REVIEW] Деталь чоловічої стрижки — проділ і перехід зверху"
+msgstr "Деталь чоловічої стрижки — проділ і перехід зверху"
 
 #: inc/gallery.php:50
 msgid "Strzyżenie bob z wycieniowanym tyłem głowy"

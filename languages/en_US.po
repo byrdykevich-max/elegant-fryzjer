@@ -582,7 +582,7 @@ msgstr "Men's haircut (1 clipper guard)"
 
 #: inc/config.php:103
 msgid "Strzyżenie męskie (nożyczki)"
-msgstr "[MT-REVIEW] Men's haircut (scissors)"
+msgstr "Men's haircut (scissors)"
 
 #: inc/config.php:104
 msgid "Strzyżenie męskie + mycie"
@@ -786,7 +786,7 @@ msgstr "[MT-REVIEW] Short cut with a crisp fade — side profile, barbershop int
 
 #: inc/gallery.php:48
 msgid "Detal strzyżenia męskiego — przedziałek i przejście z góry"
-msgstr "[MT-REVIEW] Men's haircut detail — part and fade from above"
+msgstr "Men's haircut detail — parting and fade from above"
 
 #: inc/gallery.php:50
 msgid "Strzyżenie bob z wycieniowanym tyłem głowy"
