@@ -774,7 +774,7 @@ msgstr "[MT-REVIEW] Short, light-coloured cut with a fade — side profile"
 
 #: inc/gallery.php:45
 msgid "Jasne, krótkie strzyżenie z przejściem — profil, wnętrze barbershopu"
-msgstr "[MT-REVIEW] Light-coloured short cut with a fade — side profile, barbershop interior"
+msgstr "Light-coloured short cut with a fade — side profile, barbershop interior"
 
 #: inc/gallery.php:46
 msgid "Teksturowany wierzch z przejściem — profil"
@@ -782,7 +782,7 @@ msgstr "[MT-REVIEW] Textured top with a fade — side profile"
 
 #: inc/gallery.php:47
 msgid "Krótkie strzyżenie z wyraźnym przejściem — profil, wnętrze barbershopu"
-msgstr "[MT-REVIEW] Short cut with a crisp fade — side profile, barbershop interior"
+msgstr "Short cut with a crisp fade — side profile, barbershop interior"
 
 #: inc/gallery.php:48
 msgid "Detal strzyżenia męskiego — przedziałek i przejście z góry"

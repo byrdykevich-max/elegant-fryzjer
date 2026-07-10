@@ -774,7 +774,7 @@ msgstr "[MT-REVIEW] Коротка світла стрижка з переход
 
 #: inc/gallery.php:45
 msgid "Jasne, krótkie strzyżenie z przejściem — profil, wnętrze barbershopu"
-msgstr "[MT-REVIEW] Світла коротка стрижка з переходом — профіль, всередині барбершопу"
+msgstr "Світла коротка стрижка з переходом — профіль, всередині барбершопу"
 
 #: inc/gallery.php:46
 msgid "Teksturowany wierzch z przejściem — profil"
@@ -782,7 +782,7 @@ msgstr "[MT-REVIEW] Текстурований верх з переходом �
 
 #: inc/gallery.php:47
 msgid "Krótkie strzyżenie z wyraźnym przejściem — profil, wnętrze barbershopu"
-msgstr "[MT-REVIEW] Коротка стрижка з чітким переходом — профіль, всередині барбершопу"
+msgstr "Коротка стрижка з чітким переходом — профіль, всередині барбершопу"
 
 #: inc/gallery.php:48
 msgid "Detal strzyżenia męskiego — przedziałek i przejście z góry"
