@@ -738,7 +738,7 @@ msgstr "Textured crop — rear view"
 
 #: inc/gallery.php:36
 msgid "Krótkie męskie strzyżenie z przejściem — profil, wnętrze zakładu"
-msgstr "[MT-REVIEW] Short men's fade — side profile, inside the shop"
+msgstr "Short men's cut with a fade — side profile, inside the shop"
 
 #: inc/gallery.php:37
 msgid "Krótkie męskie strzyżenie z wysokim przejściem — profil"
@@ -798,7 +798,7 @@ msgstr "Colouring: blonde with subtle highlights — rear view"
 
 #: inc/gallery.php:53
 msgid "Koloryzacja: platynowy blond, krótkie cięcie pixie — profil"
-msgstr "[MT-REVIEW] Colouring: platinum blonde, short pixie cut — side profile"
+msgstr "Colouring: platinum blonde, short pixie cut — side profile"
 
 #: inc/gallery.php:54
 msgid "Koloryzacja balayage w odcieniach brązu i blondu — profil"
