@@ -738,7 +738,7 @@ msgstr "Молодіжна стрижка кроп із текстурою — �
 
 #: inc/gallery.php:36
 msgid "Krótkie męskie strzyżenie z przejściem — profil, wnętrze zakładu"
-msgstr "[MT-REVIEW] Коротка чоловіча стрижка з переходом — профіль, всередині закладу"
+msgstr "Коротка чоловіча стрижка з переходом — профіль, всередині закладу"
 
 #: inc/gallery.php:37
 msgid "Krótkie męskie strzyżenie z wysokim przejściem — profil"
@@ -798,7 +798,7 @@ msgstr "Фарбування: блонд з делікатними блікам�
 
 #: inc/gallery.php:53
 msgid "Koloryzacja: platynowy blond, krótkie cięcie pixie — profil"
-msgstr "[MT-REVIEW] Фарбування: платиновий блонд, коротка стрижка піксі — профіль"
+msgstr "Фарбування: платиновий блонд, коротка стрижка піксі — профіль"
 
 #: inc/gallery.php:54
 msgid "Koloryzacja balayage w odcieniach brązu i blondu — profil"
