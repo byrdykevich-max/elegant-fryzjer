@@ -6,7 +6,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
-define( 'EF_VER', '1.2.30' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
+define( 'EF_VER', '1.2.31' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
 
 require_once get_template_directory() . '/inc/config.php';
 require_once get_template_directory() . '/inc/gallery.php';
