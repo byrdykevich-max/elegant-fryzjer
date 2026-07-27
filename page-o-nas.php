@@ -18,6 +18,7 @@ $gall = ef_gallery_images();
 			<p><?php esc_html_e( 'Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później.', 'elegant-fryzjer' ); ?></p>
 			<div class="hero__actions">
 				<?php ef_cta( 'primary' ); ?>
+				<?php echo ef_phone_link( true ); ?>
 				<a class="btn btn--ghost" href="<?php echo esc_url( ef_url( '/galeria/' ) ); ?>"><?php esc_html_e( 'Zobacz realizacje', 'elegant-fryzjer' ); ?></a>
 			</div>
 		</div>

@@ -27,6 +27,7 @@ $gall = ef_gallery_images();
 
 		<div class="hero__actions" style="margin-top:var(--sp-5)">
 			<?php ef_cta( 'primary' ); ?>
+			<?php echo ef_phone_link( true ); ?>
 		</div>
 	</div>
 </section>

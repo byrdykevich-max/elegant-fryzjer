@@ -17,6 +17,7 @@ $gall = ef_gallery_images();
 			<p class="lead"><?php echo wp_kses( __( 'Strzyżenie męskie, broda i barber — a także strzyżenie damskie i dziecięce. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort.', 'elegant-fryzjer' ), array( 'strong' => array() ) ); ?></p>
 			<div class="hero__actions">
 				<?php ef_cta( 'primary' ); ?>
+				<?php echo ef_phone_link( true ); ?>
 				<a class="btn btn--ghost" href="<?php echo esc_url( ef_url( '/uslugi/' ) ); ?>"><?php esc_html_e( 'Zobacz usługi i cennik', 'elegant-fryzjer' ); ?></a>
 			</div>
 		</div>

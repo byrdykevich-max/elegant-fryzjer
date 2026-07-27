@@ -8,6 +8,7 @@
 		<p class="cta-band__text"><?php esc_html_e( 'Umów wizytę w Elegant Fryzjer na Białołęce.', 'elegant-fryzjer' ); ?></p>
 		<div class="cta-band__actions">
 			<?php ef_cta( 'primary' ); ?>
+			<?php echo ef_phone_link( true ); ?>
 			<a class="btn btn--ghost" href="<?php echo esc_url( ef_url( '/kontakt/' ) ); ?>"><?php esc_html_e( 'Jak dojechać', 'elegant-fryzjer' ); ?></a>
 		</div>
 	</div>

@@ -6,7 +6,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
-define( 'EF_VER', '1.2.26' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
+define( 'EF_VER', '1.2.30' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
 
 require_once get_template_directory() . '/inc/config.php';
 require_once get_template_directory() . '/inc/gallery.php';
@@ -62,11 +62,13 @@ remove_action( 'wp_head', 'wp_site_icon', 99 );
 function ef_cta( $variant = 'primary', $label = '' ) {
 	$c     = ef_config();
 	$class = 'btn btn--' . ( $variant === 'ghost' ? 'ghost' : 'primary' );
+	$hint  = '';
 
 	if ( ! empty( $c['booksy_url'] ) ) {
 		$href  = esc_url( $c['booksy_url'] );
 		$text  = $label ?: __( 'Zarezerwuj online', 'elegant-fryzjer' );
-		$attrs = ' target="_blank" rel="noopener"';
+		$attrs = ' target="_blank" rel="noopener noreferrer"';
+		$hint  = ' <span class="screen-reader-text">' . esc_html__( '(otwiera się w nowej karcie)', 'elegant-fryzjer' ) . '</span>';
 	} elseif ( ! empty( $c['phone_tel'] ) ) {
 		$href  = 'tel:' . preg_replace( '/[^+0-9]/', '', $c['phone_tel'] );
 		// "Zadzwoń:" is translated; the number itself is a business fact, never translated.
@@ -78,21 +80,28 @@ function ef_cta( $variant = 'primary', $label = '' ) {
 		$attrs = '';
 	}
 	printf(
-		'<a class="%1$s" href="%2$s"%3$s>%4$s</a>',
-		esc_attr( $class ), $href, $attrs, esc_html( $text )
+		'<a class="%1$s" href="%2$s"%3$s>%4$s%5$s</a>',
+		esc_attr( $class ), $href, $attrs, esc_html( $text ), $hint
 	);
 }
 
-/** Telephone link for the header utility bar (only when a real number exists). */
-function ef_phone_link() {
+/**
+ * Telephone link for the header utility bar (only when a real number exists).
+ *
+ * @param bool $as_button Style as a secondary (.btn--ghost) button — used next to
+ *                         ef_cta() at the spots where Booksy is now the primary CTA,
+ *                         so click-to-call stays visible instead of being swapped away.
+ */
+function ef_phone_link( $as_button = false ) {
 	$c = ef_config();
 	if ( empty( $c['phone_tel'] ) ) {
 		return '<span class="phone-placeholder">[PLACEHOLDER – numer telefonu]</span>';
 	}
-	$tel = preg_replace( '/[^+0-9]/', '', $c['phone_tel'] );
+	$tel   = preg_replace( '/[^+0-9]/', '', $c['phone_tel'] );
+	$class = 'phone-link' . ( $as_button ? ' btn btn--ghost' : '' );
 	return sprintf(
-		'<a class="phone-link" href="tel:%s"><span class="phone-link__icon" aria-hidden="true">☎</span> %s</a>',
-		esc_attr( $tel ), esc_html( $c['phone_display'] )
+		'<a class="%s" href="tel:%s"><span class="phone-link__icon" aria-hidden="true">☎</span> %s</a>',
+		esc_attr( $class ), esc_attr( $tel ), esc_html( $c['phone_display'] )
 	);
 }
 
