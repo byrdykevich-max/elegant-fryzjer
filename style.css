@@ -274,15 +274,15 @@ section { padding-block: clamp(2.5rem, 6vw, 5rem); }
 .primary-nav__list { list-style: none; margin: 0; padding: 0 clamp(1rem,4vw,2rem); display: flex; flex-direction: column; gap: .25rem; }
 .primary-nav__list a { display: block; padding: .75rem .5rem; text-decoration: none; color: var(--ink); font-weight: 600; border-radius: 8px; }
 .primary-nav__list a:hover, .primary-nav__list .current-menu-item > a { background: var(--accent-soft); color: var(--accent-dark); }
-.primary-nav__cta { padding: var(--sp-3) clamp(1rem,4vw,2rem) 0; }
+.primary-nav__cta { padding: var(--sp-3) clamp(1rem,4vw,2rem) 0; display: flex; flex-direction: column; gap: .5rem; }
 .primary-nav__cta .btn { width: 100%; }
 
-@media (min-width: 900px) {
+@media (min-width: 1040px) {
 	.nav-toggle { display: none; }
 	.primary-nav { display: flex !important; position: static; align-items: center; gap: var(--sp-4); background: none; box-shadow: none; border: 0; padding: 0; }
 	.primary-nav__list { flex-direction: row; padding: 0; gap: .25rem; }
 	.primary-nav__list a { padding: .5rem .75rem; }
-	.primary-nav__cta { padding: 0; }
+	.primary-nav__cta { padding: 0; flex-direction: row; align-items: center; }
 	.primary-nav__cta .btn { width: auto; }
 }
 
@@ -447,7 +447,7 @@ section { padding-block: clamp(2.5rem, 6vw, 5rem); }
 
 .badge-todo { font-size: .7rem; color: var(--accent-dark); background: var(--accent-soft); padding: .1rem .4rem; border-radius: 6px; font-weight: 600; }
 .phone-placeholder { color: var(--muted); font-style: italic; }
-.phone-link { font-weight: 600; text-decoration: none; }
+.phone-link { font-weight: 600; text-decoration: none; white-space: nowrap; }
 
 /* =========================================================================
    CTA BAND + FOOTER

@@ -56,6 +56,7 @@
 				?>
 				<div class="primary-nav__cta">
 					<?php ef_cta( 'primary' ); ?>
+					<?php echo ef_phone_link( true ); ?>
 				</div>
 			</nav>
 

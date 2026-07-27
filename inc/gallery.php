@@ -27,7 +27,7 @@ function ef_gallery_images() {
 		array( 'base' => 'juli_fryzjer_1686656383_3124222641488867340_14892312004', 'alt' => __( 'Młodzieżowe strzyżenie typu crop z grzywką i niskim przejściem — z boku', 'elegant-fryzjer' ) ),
 		array( 'base' => 'juli_fryzjer_1686655755_3124217379323558063_14892312004', 'alt' => __( 'Krótkie teksturowane strzyżenie męskie ze średnim przejściem — z boku', 'elegant-fryzjer' ) ),
 		array( 'base' => 'juli_fryzjer_1611572070_2494369772245657089_14892312004', 'alt' => __( 'Krótkie męskie strzyżenie z przejściem i lekkim zarostem — profil', 'elegant-fryzjer' ) ),
-		array( 'base' => 'juli_fryzjer_1686655883_3124218450817146031_14892312004', 'alt' => __( 'Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu', 'elegant-fryzjer' ) ),
+		array( 'base' => 'IMG_20230612_192448_737', 'month' => '2026/07', 'alt' => __( 'Zaczesany do tyłu wierzch z przejściem i pełną brodą — profil, wnętrze zakładu', 'elegant-fryzjer' ) ),
 		array( 'base' => 'juli_fryzjer_1686656320_3124222114994679573_14892312004', 'alt' => __( 'Męskie strzyżenie z uniesioną górą i cieniowanym tyłem — widok z tyłu', 'elegant-fryzjer' ) ),
 		array( 'base' => 'juli_fryzjer_1686590133_3123666898549415366_14892312004', 'alt' => __( 'Męskie strzyżenie typu crop z teksturą — od przodu', 'elegant-fryzjer' ) ),
 		array( 'base' => 'juli_fryzjer_1686656039_3124219754062982891_14892312004', 'alt' => __( 'Bardzo krótkie strzyżenie na jeża ze skórnym przejściem — widok z tyłu', 'elegant-fryzjer' ) ),

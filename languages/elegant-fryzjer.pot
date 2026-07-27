@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Elegant Fryzjer
-# This file is distributed under the same license as the Elegant Fryzjer package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Elegant Fryzjer 1.2.23\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-08 19:48+0000\n"
+"POT-Creation-Date: 2026-07-10 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr ""
 msgid "Jak dojechać"
 msgstr ""
 
-#: footer.php:35 front-page.php:101 page-kontakt.php:25
+#: footer.php:35 page-kontakt.php:25
 msgid "Adres"
 msgstr ""
 
-#: footer.php:46 front-page.php:110 page-kontakt.php:33
+#: footer.php:46 page-kontakt.php:33
 msgid "Godziny otwarcia"
 msgstr ""
 
@@ -41,11 +41,11 @@ msgstr ""
 msgid "Do potwierdzenia przez właściciela"
 msgstr ""
 
-#: footer.php:48 front-page.php:111 page-kontakt.php:34
+#: footer.php:48 page-kontakt.php:34
 msgid "[do potwierdzenia]"
 msgstr ""
 
-#: footer.php:56 front-page.php:115 page-kontakt.php:38
+#: footer.php:56 page-kontakt.php:38
 msgid "nieczynne"
 msgstr ""
 
@@ -57,58 +57,26 @@ msgstr ""
 msgid "Nawigacja"
 msgstr ""
 
-#: footer.php:67 inc/i18n.php:227 header.php:90 page-uslugi.php:46
+#: footer.php:67 header.php:90 page-uslugi.php:46 inc/i18n.php:227
 msgid "Usługi i cennik"
 msgstr ""
 
-#: footer.php:68 inc/i18n.php:228 header.php:91 page-o-nas.php:13
+#: footer.php:68 header.php:91 page-o-nas.php:13 inc/i18n.php:228
 msgid "O nas"
 msgstr ""
 
-#: footer.php:69 inc/i18n.php:229 header.php:92 page-galeria.php:13
+#: footer.php:69 header.php:92 page-galeria.php:13 inc/i18n.php:229
 msgid "Galeria"
 msgstr ""
 
-#: footer.php:70 inc/i18n.php:230 header.php:93 page-kontakt.php:15
-#: page-uslugi.php:122
+#: footer.php:70 header.php:93 page-kontakt.php:15 page-uslugi.php:122
+#: inc/i18n.php:230
 msgid "Kontakt"
 msgstr ""
 
-#: footer.php:71 inc/i18n.php:231 page-kontakt.php:76
-#: page-polityka-prywatnosci.php:18
+#: footer.php:71 page-kontakt.php:76 page-polityka-prywatnosci.php:18
+#: inc/i18n.php:231
 msgid "Polityka prywatności"
-msgstr ""
-
-#: inc/i18n.php:223 inc/config.php:18
-msgid "Salon fryzjerski w Białołęce"
-msgstr ""
-
-#: inc/i18n.php:246
-msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
-msgstr ""
-
-#: inc/i18n.php:250
-msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
-msgstr ""
-
-#: inc/i18n.php:251
-msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
-msgstr ""
-
-#: inc/i18n.php:252
-msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
-msgstr ""
-
-#: inc/i18n.php:253
-msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
-msgstr ""
-
-#: inc/i18n.php:254
-msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
-msgstr ""
-
-#: inc/i18n.php:272
-msgid "Wybór języka"
 msgstr ""
 
 #: front-page.php:15
@@ -205,22 +173,6 @@ msgstr ""
 msgid "Zobacz całą galerię →"
 msgstr ""
 
-#: front-page.php:98
-msgid "Odwiedź nas"
-msgstr ""
-
-#: front-page.php:99
-msgid "Adres i godziny"
-msgstr ""
-
-#: front-page.php:102 page-kontakt.php:26
-msgid "Telefon"
-msgstr ""
-
-#: front-page.php:106
-msgid "Mapa i dojazd"
-msgstr ""
-
 #: functions.php:26 header.php:47
 msgid "Menu główne"
 msgstr ""
@@ -235,6 +187,10 @@ msgstr ""
 
 #: functions.php:68
 msgid "Zarezerwuj online"
+msgstr ""
+
+#: functions.php:71
+msgid "(otwiera się w nowej karcie)"
 msgstr ""
 
 #: functions.php:73
@@ -300,6 +256,10 @@ msgstr ""
 
 #: page-kontakt.php:17
 msgid "Umów wizytę lub zadaj pytanie — odpowiemy najszybciej, jak to możliwe."
+msgstr ""
+
+#: page-kontakt.php:26
+msgid "Telefon"
 msgstr ""
 
 #: page-kontakt.php:50
@@ -544,6 +504,10 @@ msgstr ""
 msgid "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
 msgstr ""
 
+#: inc/config.php:18 inc/i18n.php:223
+msgid "Salon fryzjerski w Białołęce"
+msgstr ""
+
 #: inc/config.php:81
 msgid "Poniedziałek"
 msgstr ""
@@ -589,107 +553,79 @@ msgid "Strzyżenie męskie (nożyczki)"
 msgstr ""
 
 #: inc/config.php:104
-msgid "Strzyżenie męskie + mycie"
-msgstr ""
-
-#: inc/config.php:105
 msgid "Farbowanie siwych włosów (kamuflaż)"
 msgstr ""
 
-#: inc/config.php:112
+#: inc/config.php:111
 msgid "Broda i zarost"
 msgstr ""
 
-#: inc/config.php:113
+#: inc/config.php:112
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
 msgstr ""
 
-#: inc/config.php:115
+#: inc/config.php:114
 msgid "Korekta brody / zarostu"
 msgstr ""
 
-#: inc/config.php:116
+#: inc/config.php:115
 msgid "Modelowanie brody"
 msgstr ""
 
-#: inc/config.php:117
+#: inc/config.php:116
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
 msgstr ""
 
-#: inc/config.php:124
+#: inc/config.php:123
 msgid "Pakiety"
 msgstr ""
 
-#: inc/config.php:125
+#: inc/config.php:124
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 msgstr ""
 
-#: inc/config.php:127
+#: inc/config.php:126
 msgid "Strzyżenie męskie + broda (korekta)"
 msgstr ""
 
-#: inc/config.php:128
+#: inc/config.php:127
 msgid "Strzyżenie męskie + broda (modelowanie)"
 msgstr ""
 
-#: inc/config.php:129
-msgid "Strzyżenie maszynką + broda"
+#: inc/config.php:128
+msgid "Strzyżenie męskie + broda (premium)"
 msgstr ""
 
-#: inc/config.php:130
+#: inc/config.php:129
 msgid "Strzyżenie męskie + farbowanie siwych włosów (kamuflaż)"
 msgstr ""
 
-#: inc/config.php:138 inc/config.php:141
+#: inc/config.php:137 inc/config.php:140
 msgid "Strzyżenie damskie"
 msgstr ""
 
-#: inc/config.php:139
+#: inc/config.php:138
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 msgstr ""
 
-#: inc/config.php:142
+#: inc/config.php:141
 msgid "Strzyżenie grzywki"
 msgstr ""
 
-#: inc/config.php:143
+#: inc/config.php:142
 msgid "Mycie + stylizacja / układanie"
 msgstr ""
 
-#: inc/config.php:150
+#: inc/config.php:149
 msgid "Strzyżenie dziecięce"
 msgstr ""
 
-#: inc/config.php:151
+#: inc/config.php:150
 msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 msgstr ""
 
-#: inc/config.php:153
+#: inc/config.php:152
 msgid "Strzyżenie dziecięce (do 10 lat)"
-msgstr ""
-
-#: inc/config.php:160
-msgid "Pielęgnacja i stylizacja"
-msgstr ""
-
-#: inc/config.php:161
-msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
-msgstr ""
-
-#: inc/config.php:163
-msgid "Mycie włosów"
-msgstr ""
-
-#: inc/config.php:164
-msgid "Odżywka / maska"
-msgstr ""
-
-#: inc/config.php:165
-msgid "Stylizacja / układanie"
-msgstr ""
-
-#: inc/config.php:166
-msgid "Stylizacja premium (produkty profesjonalne)"
 msgstr ""
 
 #: inc/gallery.php:23
@@ -721,7 +657,7 @@ msgid "Krótkie męskie strzyżenie z przejściem i lekkim zarostem — profil"
 msgstr ""
 
 #: inc/gallery.php:30
-msgid "Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu"
+msgid "Zaczesany do tyłu wierzch z przejściem i pełną brodą — profil, wnętrze zakładu"
 msgstr ""
 
 #: inc/gallery.php:31
@@ -822,6 +758,34 @@ msgstr ""
 
 #: inc/gallery.php:59
 msgid "Dziewczęce strzyżenie bob — widok z tyłu"
+msgstr ""
+
+#: inc/i18n.php:246
+msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
+msgstr ""
+
+#: inc/i18n.php:250
+msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
+msgstr ""
+
+#: inc/i18n.php:251
+msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
+msgstr ""
+
+#: inc/i18n.php:252
+msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
+msgstr ""
+
+#: inc/i18n.php:253
+msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
+msgstr ""
+
+#: inc/i18n.php:254
+msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
+msgstr ""
+
+#: inc/i18n.php:272
+msgid "Wybór języka"
 msgstr ""
 
 #: inc/schema.php:52

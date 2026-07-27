@@ -79,6 +79,25 @@ function ef_schema_jsonld() {
 	if ( ! empty( $c['phone_tel'] ) ) { $data['telephone'] = $c['phone_tel']; }
 	if ( ! empty( $c['email'] ) )     { $data['email']     = $c['email']; }
 
+	// Booking action -> Booksy (single-sourced from ef_config(), matches the ef_cta() primary CTA).
+	if ( ! empty( $c['booksy_url'] ) ) {
+		$data['potentialAction'] = array(
+			'@type'  => 'ReserveAction',
+			'target' => array(
+				'@type'          => 'EntryPoint',
+				'urlTemplate'    => $c['booksy_url'],
+				'actionPlatform' => array(
+					'http://schema.org/DesktopWebPlatform',
+					'http://schema.org/MobileWebPlatform',
+				),
+			),
+			'result' => array(
+				'@type' => 'Reservation',
+				'name'  => __( 'Zarezerwuj online', 'elegant-fryzjer' ),
+			),
+		);
+	}
+
 	echo "\n<script type=\"application/ld+json\">\n"
 		. wp_json_encode( $data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT )
 		. "\n</script>\n";

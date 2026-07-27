@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Elegant Fryzjer 1.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-08 19:48+0000\n"
+"POT-Creation-Date: 2026-07-10 21:19+0000\n"
 "PO-Revision-Date: 2026-06-21 18:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: en_US\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Note: All translations human-reviewed 2026-07-02. Mark any new machine-translation draft with a [MT-REVIEW] prefix until it is reviewed.\n"
+"X-Note: All translations human-reviewed 2026-07-02. Mark any new machine-"
+"translation draft with a [MT-REVIEW] prefix until it is reviewed.\n"
 
 #: footer.php:7
 msgid "Gotowa/gotowy na nowy look?"
@@ -25,11 +26,11 @@ msgstr "Book an appointment at Elegant Fryzjer in Białołęka."
 msgid "Jak dojechać"
 msgstr "How to get here"
 
-#: footer.php:35 front-page.php:101 page-kontakt.php:25
+#: footer.php:35 page-kontakt.php:25
 msgid "Adres"
 msgstr "Address"
 
-#: footer.php:46 front-page.php:110 page-kontakt.php:33
+#: footer.php:46 page-kontakt.php:33
 msgid "Godziny otwarcia"
 msgstr "Opening hours"
 
@@ -37,11 +38,11 @@ msgstr "Opening hours"
 msgid "Do potwierdzenia przez właściciela"
 msgstr "To be confirmed by the owner"
 
-#: footer.php:48 front-page.php:111 page-kontakt.php:34
+#: footer.php:48 page-kontakt.php:34
 msgid "[do potwierdzenia]"
 msgstr "[to be confirmed]"
 
-#: footer.php:56 front-page.php:115 page-kontakt.php:38
+#: footer.php:56 page-kontakt.php:38
 msgid "nieczynne"
 msgstr "closed"
 
@@ -53,59 +54,27 @@ msgstr "Footer"
 msgid "Nawigacja"
 msgstr "Navigation"
 
-#: footer.php:67 inc/i18n.php:227 header.php:90 page-uslugi.php:46
+#: footer.php:67 header.php:90 page-uslugi.php:46 inc/i18n.php:227
 msgid "Usługi i cennik"
 msgstr "Services & pricing"
 
-#: footer.php:68 inc/i18n.php:228 header.php:91 page-o-nas.php:13
+#: footer.php:68 header.php:91 page-o-nas.php:13 inc/i18n.php:228
 msgid "O nas"
 msgstr "About us"
 
-#: footer.php:69 inc/i18n.php:229 header.php:92 page-galeria.php:13
+#: footer.php:69 header.php:92 page-galeria.php:13 inc/i18n.php:229
 msgid "Galeria"
 msgstr "Gallery"
 
-#: footer.php:70 inc/i18n.php:230 header.php:93 page-kontakt.php:15
-#: page-uslugi.php:122
+#: footer.php:70 header.php:93 page-kontakt.php:15 page-uslugi.php:122
+#: inc/i18n.php:230
 msgid "Kontakt"
 msgstr "Contact"
 
-#: footer.php:71 inc/i18n.php:231 page-kontakt.php:76
-#: page-polityka-prywatnosci.php:18
+#: footer.php:71 page-kontakt.php:76 page-polityka-prywatnosci.php:18
+#: inc/i18n.php:231
 msgid "Polityka prywatności"
 msgstr "Privacy Policy"
-
-#: inc/i18n.php:223 inc/config.php:18
-msgid "Salon fryzjerski w Białołęce"
-msgstr "Hair salon in Białołęka"
-
-#: inc/i18n.php:246
-msgid "Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
-msgstr "Elegant Fryzjer — hair salon and barbershop in Warsaw's Białołęka. Women's, men's and children's haircuts, barbering, beard care. Run by Julia."
-
-#: inc/i18n.php:250
-msgid "Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie damskie, męskie i dziecięce, barber, broda."
-msgstr "Full range of services and price list at Elegant Fryzjer in Białołęka — women's, men's and children's haircuts, barbering, beard care."
-
-#: inc/i18n.php:251
-msgid "Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej Białołęce. Salon prowadzi Julia."
-msgstr "Meet Elegant Fryzjer — an intimate hair and barber salon in Warsaw's Białołęka. The salon is run by Julia."
-
-#: inc/i18n.php:252
-msgid "Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje i strzyżenia."
-msgstr "Gallery of work by the Elegant Fryzjer salon — colour transformations, colourings and haircuts."
-
-#: inc/i18n.php:253
-msgid "Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub zadaj pytanie."
-msgstr "Contact and directions to the Elegant Fryzjer salon in Białołęka. Book an appointment or ask a question."
-
-#: inc/i18n.php:254
-msgid "Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe odwiedzających i klientów."
-msgstr "Privacy policy for the Elegant Fryzjer salon — how we process the personal data of visitors and clients."
-
-#: inc/i18n.php:272
-msgid "Wybór języka"
-msgstr "Language selection"
 
 #: front-page.php:15
 msgid "Barber & Salon · Warszawa Białołęka"
@@ -116,8 +85,14 @@ msgid "Elegancka fryzura blisko domu — na Białołęce"
 msgstr "An elegant hairstyle close to home — in Białołęka"
 
 #: front-page.php:17
-msgid "Strzyżenie męskie, broda i barber — a także strzyżenie damskie i dziecięce. Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój komfort."
-msgstr "Men's haircuts, beard trims and barbering — as well as women's and children's haircuts. The salon is run by <strong>Julia</strong> — with care for every detail and your comfort."
+msgid ""
+"Strzyżenie męskie, broda i barber — a także strzyżenie damskie i dziecięce. "
+"Salon prowadzi <strong>Julia</strong> — z dbałością o każdy detal i Twój "
+"komfort."
+msgstr ""
+"Men's haircuts, beard trims and barbering — as well as women's and "
+"children's haircuts. The salon is run by <strong>Julia</strong> — with care "
+"for every detail and your comfort."
 
 #: front-page.php:20
 msgid "Zobacz usługi i cennik"
@@ -140,8 +115,12 @@ msgid "Barber i fryzjer dla całej rodziny"
 msgstr "Barber & hairdresser for the whole family"
 
 #: front-page.php:41
-msgid "Jedno miejsce dla mężczyzn, kobiet i dzieci — od barberskiego strzyżenia po pielęgnację i stylizację."
-msgstr "One place for men, women and children — from barber cuts to hair care and styling."
+msgid ""
+"Jedno miejsce dla mężczyzn, kobiet i dzieci — od barberskiego strzyżenia po "
+"pielęgnację i stylizację."
+msgstr ""
+"One place for men, women and children — from barber cuts to hair care and "
+"styling."
 
 #: front-page.php:52
 msgid "Pełna lista usług i cennik →"
@@ -160,8 +139,10 @@ msgid "Dla całej rodziny"
 msgstr "For the whole family"
 
 #: front-page.php:64
-msgid "Barber, strzyżenie męskie, damskie i dziecięce w jednym miejscu na Białołęce."
-msgstr "Barber, men's, women's and children's haircuts in one place in Białołęka."
+msgid ""
+"Barber, strzyżenie męskie, damskie i dziecięce w jednym miejscu na Białołęce."
+msgstr ""
+"Barber, men's, women's and children's haircuts in one place in Białołęka."
 
 #: front-page.php:65
 msgid "Doświadczenie i pasja"
@@ -169,7 +150,8 @@ msgstr "Experience and passion"
 
 #: front-page.php:65
 msgid "Salon prowadzi Julia — strzyżenia i barber z dbałością o detal."
-msgstr "The salon is run by Julia — haircuts and barbering with attention to detail."
+msgstr ""
+"The salon is run by Julia — haircuts and barbering with attention to detail."
 
 #: front-page.php:66
 msgid "Wygodny dojazd"
@@ -201,22 +183,6 @@ msgstr "Enlarge: %s"
 msgid "Zobacz całą galerię →"
 msgstr "See the whole gallery →"
 
-#: front-page.php:98
-msgid "Odwiedź nas"
-msgstr "Visit us"
-
-#: front-page.php:99
-msgid "Adres i godziny"
-msgstr "Address and hours"
-
-#: front-page.php:102 page-kontakt.php:26
-msgid "Telefon"
-msgstr "Phone"
-
-#: front-page.php:106
-msgid "Mapa i dojazd"
-msgstr "Map and directions"
-
 #: functions.php:26 header.php:47
 msgid "Menu główne"
 msgstr "Main menu"
@@ -233,6 +199,10 @@ msgstr "Close"
 msgid "Zarezerwuj online"
 msgstr "Book online"
 
+#: functions.php:71
+msgid "(otwiera się w nowej karcie)"
+msgstr "[MT-REVIEW] (opens in a new tab)"
+
 #: functions.php:73
 msgid "Zadzwoń:"
 msgstr "Call:"
@@ -242,8 +212,12 @@ msgid "Umów wizytę"
 msgstr "Book an appointment"
 
 #: functions.php:106
-msgid "Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje możliwość umówienia wizyty w innym terminie."
-msgstr "Can't make these hours? Give us a call — by prior arrangement it's possible to book an appointment at another time."
+msgid ""
+"Nie możesz w tych godzinach? Zadzwoń — po wcześniejszym uzgodnieniu istnieje "
+"możliwość umówienia wizyty w innym terminie."
+msgstr ""
+"Can't make these hours? Give us a call — by prior arrangement it's possible "
+"to book an appointment at another time."
 
 #: header.php:36
 msgid "Przejdź do treści"
@@ -282,8 +256,12 @@ msgid "Wróć na stronę główną"
 msgstr "Back to home page"
 
 #: page-galeria.php:15
-msgid "Prawdziwe metamorfozy, koloryzacje i strzyżenia wykonane w salonie Elegant Fryzjer. Kliknij zdjęcie, aby powiększyć."
-msgstr "Real transformations, colourings and haircuts done at the Elegant Fryzjer salon. Click a photo to enlarge it."
+msgid ""
+"Prawdziwe metamorfozy, koloryzacje i strzyżenia wykonane w salonie Elegant "
+"Fryzjer. Kliknij zdjęcie, aby powiększyć."
+msgstr ""
+"Real transformations, colourings and haircuts done at the Elegant Fryzjer "
+"salon. Click a photo to enlarge it."
 
 #: page-galeria.php:22
 #, php-format
@@ -296,7 +274,12 @@ msgstr "Get in touch"
 
 #: page-kontakt.php:17
 msgid "Umów wizytę lub zadaj pytanie — odpowiemy najszybciej, jak to możliwe."
-msgstr "Book an appointment or ask a question — we'll reply as soon as possible."
+msgstr ""
+"Book an appointment or ask a question — we'll reply as soon as possible."
+
+#: page-kontakt.php:26
+msgid "Telefon"
+msgstr "Phone"
 
 #: page-kontakt.php:50
 msgid "Napisz do nas"
@@ -332,10 +315,12 @@ msgstr "Send message"
 
 #: page-kontakt.php:76
 msgid "Wysyłając formularz zgadzasz się na kontakt w sprawie zapytania."
-msgstr "By submitting the form you agree to be contacted regarding your enquiry."
+msgstr ""
+"By submitting the form you agree to be contacted regarding your enquiry."
 
 #: page-kontakt.php:84
-msgid "Mapa Google ładuje się dopiero po kliknięciu (ochrona prywatności / RODO)."
+msgid ""
+"Mapa Google ładuje się dopiero po kliknięciu (ochrona prywatności / RODO)."
 msgstr "The Google map loads only after you click (privacy protection / GDPR)."
 
 #: page-kontakt.php:87
@@ -355,20 +340,45 @@ msgid "Salon prowadzi Julia"
 msgstr "The salon is run by Julia"
 
 #: page-o-nas.php:15
-msgid "Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie klienta."
-msgstr "Elegant Fryzjer is an intimate hair and barber salon in Warsaw's Białołęka, where an individual approach and the client's wellbeing matter most."
+msgid ""
+"Elegant Fryzjer to kameralny salon fryzjerski i barber na warszawskiej "
+"Białołęce, w którym liczy się indywidualne podejście i dobre samopoczucie "
+"klienta."
+msgstr ""
+"Elegant Fryzjer is an intimate hair and barber salon in Warsaw's Białołęka, "
+"where an individual approach and the client's wellbeing matter most."
 
 #: page-o-nas.php:16
-msgid "Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz usługach barberskich — modelowaniu i stylizacji brody."
-msgstr "We specialise in women's, men's and children's haircuts, as well as barbering services — beard shaping and styling."
+msgid ""
+"Specjalizujemy się w strzyżeniach damskich, męskich i dziecięcych oraz "
+"usługach barberskich — modelowaniu i stylizacji brody."
+msgstr ""
+"We specialise in women's, men's and children's haircuts, as well as "
+"barbering services — beard shaping and styling."
 
 #: page-o-nas.php:17
-msgid "Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich — fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą starannością podchodząc do strzyżeń damskich i dziecięcych."
-msgstr "Julia has over ten years of experience and professional hairdressing qualifications. She specialises in men's cuts and barbering — fades, classic cuts, beard shaping and shaving — and brings the same care to women's and children's cuts."
+msgid ""
+"Julia ma ponad dziesięć lat doświadczenia i profesjonalne kwalifikacje "
+"fryzjerskie. Specjalizuje się w strzyżeniach męskich i usługach barberskich "
+"— fade’ach, klasycznych cięciach, modelowaniu i goleniu brody — z taką samą "
+"starannością podchodząc do strzyżeń damskich i dziecięcych."
+msgstr ""
+"Julia has over ten years of experience and professional hairdressing "
+"qualifications. She specialises in men's cuts and barbering — fades, classic "
+"cuts, beard shaping and shaving — and brings the same care to women's and "
+"children's cuts."
 
 #: page-o-nas.php:18
-msgid "Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która sprawdza się jeszcze tydzień później."
-msgstr "Her approach is direct: she listens, advises based on your actual hair rather than passing trends, and tells you honestly what will really suit you. The goal isn't just a good cut in the chair — it's one that still holds up a week later."
+msgid ""
+"Jej podejście jest bezpośrednie: słucha, doradza w oparciu o Twoje realne "
+"włosy, a nie chwilowe trendy, i szczerze mówi, co naprawdę będzie Ci "
+"pasować. Celem nie jest tylko dobra fryzura w fotelu — ale taka, która "
+"sprawdza się jeszcze tydzień później."
+msgstr ""
+"Her approach is direct: she listens, advises based on your actual hair "
+"rather than passing trends, and tells you honestly what will really suit "
+"you. The goal isn't just a good cut in the chair — it's one that still holds "
+"up a week later."
 
 #: page-o-nas.php:21
 msgid "Zobacz realizacje"
@@ -388,7 +398,9 @@ msgstr "Consultation"
 
 #: page-o-nas.php:42
 msgid "Zanim zaczniemy, rozmawiamy o Twoich oczekiwaniach i kondycji włosów."
-msgstr "Before we start, we talk about your expectations and the condition of your hair."
+msgstr ""
+"Before we start, we talk about your expectations and the condition of your "
+"hair."
 
 #: page-o-nas.php:43
 msgid "Jakość"
@@ -411,8 +423,11 @@ msgid "RODO"
 msgstr "GDPR"
 
 #: page-polityka-prywatnosci.php:19
-msgid "Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant Fryzjer."
-msgstr "How we process the personal data of visitors and clients of Elegant Fryzjer."
+msgid ""
+"Jak przetwarzamy dane osobowe odwiedzających i klientów salonu Elegant "
+"Fryzjer."
+msgstr ""
+"How we process the personal data of visitors and clients of Elegant Fryzjer."
 
 #: page-polityka-prywatnosci.php:23
 msgid "Administrator danych"
@@ -420,64 +435,123 @@ msgstr "Data controller"
 
 #: page-polityka-prywatnosci.php:28
 #, php-format
-msgid "Administratorem danych osobowych przetwarzanych za pośrednictwem strony elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s."
-msgstr "The controller of personal data processed via elegantfryzjer.pl is %1$s (NIP: %2$s), %3$s."
+msgid ""
+"Administratorem danych osobowych przetwarzanych za pośrednictwem strony "
+"elegantfryzjer.pl jest %1$s (NIP: %2$s), %3$s."
+msgstr ""
+"The controller of personal data processed via elegantfryzjer.pl is %1$s "
+"(NIP: %2$s), %3$s."
 
 #: page-polityka-prywatnosci.php:34
-msgid "Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz kontaktowy na stronie."
-msgstr "Contact for data protection matters: by phone or via the contact form on the site."
+msgid ""
+"Kontakt w sprawach ochrony danych: telefonicznie lub przez formularz "
+"kontaktowy na stronie."
+msgstr ""
+"Contact for data protection matters: by phone or via the contact form on the "
+"site."
 
 #: page-polityka-prywatnosci.php:37
 msgid "Formularz kontaktowy"
 msgstr "Contact form"
 
 #: page-polityka-prywatnosci.php:38
-msgid "Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do celów marketingowych bez odrębnej zgody."
-msgstr "Through the contact form we collect your name, email address and message content. This data is used solely to respond to your enquiry and is not used for marketing purposes without separate consent."
+msgid ""
+"Za pośrednictwem formularza kontaktowego zbieramy imię i nazwisko, adres e-"
+"mail oraz treść wiadomości. Dane te są wykorzystywane wyłącznie w celu "
+"udzielenia odpowiedzi na przesłane zapytanie i nie są wykorzystywane do "
+"celów marketingowych bez odrębnej zgody."
+msgstr ""
+"Through the contact form we collect your name, email address and message "
+"content. This data is used solely to respond to your enquiry and is not used "
+"for marketing purposes without separate consent."
 
 #: page-polityka-prywatnosci.php:39
-msgid "Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie uzasadniony interes administratora polegający na udzieleniu odpowiedzi na przesłane zapytanie."
-msgstr "The legal basis for processing is Article 6(1)(f) GDPR — the controller's legitimate interest in responding to your enquiry."
+msgid ""
+"Podstawą prawną przetwarzania jest art. 6 ust. 1 lit. f) RODO — prawnie "
+"uzasadniony interes administratora polegający na udzieleniu odpowiedzi na "
+"przesłane zapytanie."
+msgstr ""
+"The legal basis for processing is Article 6(1)(f) GDPR — the controller's "
+"legitimate interest in responding to your enquiry."
 
 #: page-polityka-prywatnosci.php:40
-msgid "Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail administratora i nie są zapisywane w bazie danych strony. Przechowujemy je tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej korespondencji."
-msgstr "Messages from the form are sent directly to the controller's email inbox and are not stored in the site's database. We keep them for as long as needed to handle your enquiry and any further correspondence."
+msgid ""
+"Wiadomości z formularza są przesyłane bezpośrednio na skrzynkę e-mail "
+"administratora i nie są zapisywane w bazie danych strony. Przechowujemy je "
+"tak długo, jak jest to potrzebne do obsługi zapytania i ewentualnej dalszej "
+"korespondencji."
+msgstr ""
+"Messages from the form are sent directly to the controller's email inbox and "
+"are not stored in the site's database. We keep them for as long as needed to "
+"handle your enquiry and any further correspondence."
 
 #: page-polityka-prywatnosci.php:42
 msgid "Komu przekazujemy dane"
 msgstr "Who we share data with"
 
 #: page-polityka-prywatnosci.php:43
-msgid "Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych witryny przechowywanych na koncie Google Drive administratora — w tym zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz Google jako podmioty przetwarzające."
-msgstr "We use external hosting and automatic website backups stored in the controller's Google Drive account — to that extent, data may be temporarily processed by the hosting provider and by Google as data processors."
+msgid ""
+"Korzystamy z zewnętrznego hostingu oraz automatycznych kopii zapasowych "
+"witryny przechowywanych na koncie Google Drive administratora — w tym "
+"zakresie dane mogą być czasowo przetwarzane przez dostawcę hostingu oraz "
+"Google jako podmioty przetwarzające."
+msgstr ""
+"We use external hosting and automatic website backups stored in the "
+"controller's Google Drive account — to that extent, data may be temporarily "
+"processed by the hosting provider and by Google as data processors."
 
 #: page-polityka-prywatnosci.php:45
 msgid "Pliki cookie i mapa dojazdu"
 msgstr "Cookies and the directions map"
 
 #: page-polityka-prywatnosci.php:46
-msgid "Strona nie wykorzystuje plików cookie do śledzenia ani profilowania odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest przesyłany na serwer."
-msgstr "The site does not use cookies to track or profile visitors. Your light/dark display preference is stored only locally in your browser (local storage) and is never sent to the server."
+msgid ""
+"Strona nie wykorzystuje plików cookie do śledzenia ani profilowania "
+"odwiedzających. Wybór jasnego lub ciemnego motywu wyświetlania zapisywany "
+"jest wyłącznie lokalnie w przeglądarce (local storage) i nigdy nie jest "
+"przesyłany na serwer."
+msgstr ""
+"The site does not use cookies to track or profile visitors. Your light/dark "
+"display preference is stored only locally in your browser (local storage) "
+"and is never sent to the server."
 
 #: page-polityka-prywatnosci.php:47
-msgid "Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
-msgstr "The directions map (Google Maps) on the Contact page only loads after you click the “Show the map” button — only then is a connection made to Google, and Google's own privacy policy starts to apply."
+msgid ""
+"Mapa dojazdu (Mapy Google) na stronie Kontakt ładuje się dopiero po "
+"kliknięciu przycisku „Pokaż mapę dojazdu” — dopiero wtedy nawiązywane jest "
+"połączenie z Google i zaczyna obowiązywać polityka prywatności Google."
+msgstr ""
+"The directions map (Google Maps) on the Contact page only loads after you "
+"click the “Show the map” button — only then is a connection made to Google, "
+"and Google's own privacy policy starts to apply."
 
 #: page-polityka-prywatnosci.php:49
 msgid "Twoje prawa"
 msgstr "Your rights"
 
 #: page-polityka-prywatnosci.php:50
-msgid "Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych."
-msgstr "Under GDPR you have the right to access your data, rectify it, erase it, restrict its processing, transfer it, and object to its processing. You also have the right to lodge a complaint with the President of the Polish Data Protection Authority (UODO)."
+msgid ""
+"Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, "
+"usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia "
+"sprzeciwu wobec przetwarzania. Przysługuje Ci również prawo wniesienia "
+"skargi do Prezesa Urzędu Ochrony Danych Osobowych."
+msgstr ""
+"Under GDPR you have the right to access your data, rectify it, erase it, "
+"restrict its processing, transfer it, and object to its processing. You also "
+"have the right to lodge a complaint with the President of the Polish Data "
+"Protection Authority (UODO)."
 
 #: page-polityka-prywatnosci.php:52
 msgid "Zmiany w polityce"
 msgstr "Changes to this policy"
 
 #: page-polityka-prywatnosci.php:53
-msgid "Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
-msgstr "This policy may be updated periodically as the site changes. The current version is always available at this address."
+msgid ""
+"Niniejsza polityka może być okresowo aktualizowana wraz ze zmianami na "
+"stronie. Aktualna wersja jest zawsze dostępna pod tym adresem."
+msgstr ""
+"This policy may be updated periodically as the site changes. The current "
+"version is always available at this address."
 
 #: page-uslugi.php:28
 #, php-format
@@ -489,8 +563,12 @@ msgid "Cennik"
 msgstr "Pricing"
 
 #: page-uslugi.php:47
-msgid "Pełna oferta salonu Elegant Fryzjer na Białołęce — strzyżenia, broda i pielęgnacja dla całej rodziny."
-msgstr "The full range of services at Elegant Fryzjer in Białołęka — haircuts, beard care and hair care for the whole family."
+msgid ""
+"Pełna oferta salonu Elegant Fryzjer na Białołęce — strzyżenia, broda i "
+"pielęgnacja dla całej rodziny."
+msgstr ""
+"The full range of services at Elegant Fryzjer in Białołęka — haircuts, beard "
+"care and hair care for the whole family."
 
 #: page-uslugi.php:51
 msgid "Kategorie usług"
@@ -537,8 +615,16 @@ msgid "Cała rodzina w jednym miejscu"
 msgstr "The whole family in one place"
 
 #: page-uslugi.php:115
-msgid "Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
-msgstr "Barbering for him, haircuts and styling for her, calm haircuts for the youngest — all at Elegant Fryzjer in Białołęka."
+msgid ""
+"Barber dla niego, strzyżenie i stylizacja dla niej, spokojne strzyżenie dla "
+"najmłodszych — wszystko w Elegant Fryzjer na Białołęce."
+msgstr ""
+"Barbering for him, haircuts and styling for her, calm haircuts for the "
+"youngest — all at Elegant Fryzjer in Białołęka."
+
+#: inc/config.php:18 inc/i18n.php:223
+msgid "Salon fryzjerski w Białołęce"
+msgstr "Hair salon in Białołęka"
 
 #: inc/config.php:81
 msgid "Poniedziałek"
@@ -573,8 +659,12 @@ msgid "Strzyżenie męskie"
 msgstr "Men's haircut"
 
 #: inc/config.php:99
-msgid "Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki. Mycie włosów wliczone w cenę."
-msgstr "Classic and modern men's haircuts, styling on the spot. Hair wash included in the price."
+msgid ""
+"Klasyczne i nowoczesne strzyżenia męskie, stylizacja od ręki. Mycie włosów "
+"wliczone w cenę."
+msgstr ""
+"Classic and modern men's haircuts, styling on the spot. Hair wash included "
+"in the price."
 
 #: inc/config.php:101
 msgid "Strzyżenie męskie (1 nakładka)"
@@ -585,115 +675,92 @@ msgid "Strzyżenie męskie (nożyczki)"
 msgstr "Men's haircut (scissors)"
 
 #: inc/config.php:104
-msgid "Strzyżenie męskie + mycie"
-msgstr "Men's haircut + wash"
-
-#: inc/config.php:105
 msgid "Farbowanie siwych włosów (kamuflaż)"
 msgstr "Grey hair coverage (camouflage)"
 
-#: inc/config.php:112
+#: inc/config.php:111
 msgid "Broda i zarost"
 msgstr "Beard & stubble"
 
-#: inc/config.php:113
+#: inc/config.php:112
 msgid "Korekta, modelowanie i precyzyjny kontur brody."
 msgstr "Trimming, shaping and a precise beard outline."
 
-#: inc/config.php:115
+#: inc/config.php:114
 msgid "Korekta brody / zarostu"
 msgstr "Beard / stubble trim"
 
-#: inc/config.php:116
+#: inc/config.php:115
 msgid "Modelowanie brody"
 msgstr "Beard shaping"
 
-#: inc/config.php:117
+#: inc/config.php:116
 msgid "Premium (modelowanie, kontur, płynne przejścia)"
 msgstr "Premium (shaping, outline, smooth fades)"
 
-#: inc/config.php:124
+#: inc/config.php:123
 msgid "Pakiety"
 msgstr "Packages"
 
-#: inc/config.php:125
+#: inc/config.php:124
 msgid "Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie."
 msgstr "A haircut and beard in one visit, at a lower combined price."
 
-#: inc/config.php:127
+#: inc/config.php:126
 msgid "Strzyżenie męskie + broda (korekta)"
 msgstr "Men's haircut + beard (trim)"
 
-#: inc/config.php:128
+#: inc/config.php:127
 msgid "Strzyżenie męskie + broda (modelowanie)"
 msgstr "Men's haircut + beard (shaping)"
 
-#: inc/config.php:129
-msgid "Strzyżenie maszynką + broda"
-msgstr "Clipper cut + beard"
+#: inc/config.php:128
+msgid "Strzyżenie męskie + broda (premium)"
+msgstr "Men's haircut + beard (premium)"
 
-#: inc/config.php:130
+#: inc/config.php:129
 msgid "Strzyżenie męskie + farbowanie siwych włosów (kamuflaż)"
 msgstr "Men's haircut + grey hair coverage (camouflage)"
 
-#: inc/config.php:138 inc/config.php:141
+#: inc/config.php:137 inc/config.php:140
 msgid "Strzyżenie damskie"
 msgstr "Women's haircut"
 
-#: inc/config.php:139
+#: inc/config.php:138
 msgid "Strzyżenie i modelowanie dopasowane do struktury Twoich włosów."
 msgstr "Haircut and styling tailored to your hair's structure."
 
-#: inc/config.php:142
+#: inc/config.php:141
 msgid "Strzyżenie grzywki"
 msgstr "Fringe trim"
 
-#: inc/config.php:143
+#: inc/config.php:142
 msgid "Mycie + stylizacja / układanie"
 msgstr "Wash + styling / blow-dry"
 
-#: inc/config.php:150
+#: inc/config.php:149
 msgid "Strzyżenie dziecięce"
 msgstr "Children's haircut"
 
-#: inc/config.php:151
+#: inc/config.php:150
 msgid "Spokojnie i bez stresu — strzyżenie dla najmłodszych."
 msgstr "Calm and stress-free — haircuts for the youngest."
 
-#: inc/config.php:153
+#: inc/config.php:152
 msgid "Strzyżenie dziecięce (do 10 lat)"
 msgstr "Children's haircut (up to 10 years)"
 
-#: inc/config.php:160
-msgid "Pielęgnacja i stylizacja"
-msgstr "Care & styling"
-
-#: inc/config.php:161
-msgid "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje."
-msgstr "Washing, care and styling — for everyone, every day and for special occasions."
-
-#: inc/config.php:163
-msgid "Mycie włosów"
-msgstr "Hair wash"
-
-#: inc/config.php:164
-msgid "Odżywka / maska"
-msgstr "Conditioner / hair mask"
-
-#: inc/config.php:165
-msgid "Stylizacja / układanie"
-msgstr "Styling / blow-dry"
-
-#: inc/config.php:166
-msgid "Stylizacja premium (produkty profesjonalne)"
-msgstr "Premium styling (professional products)"
-
 #: inc/gallery.php:23
-msgid "Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
-msgstr "Men's haircut and styling — interior of the Elegant Fryzjer salon in Białołęka"
+msgid ""
+"Męskie strzyżenie i stylizacja — wnętrze salonu Elegant Fryzjer na Białołęce"
+msgstr ""
+"Men's haircut and styling — interior of the Elegant Fryzjer salon in "
+"Białołęka"
 
 #: inc/gallery.php:24
-msgid "Męskie strzyżenie: teksturowana góra z przejściem (fade) i krótka broda — z boku"
+msgid ""
+"Męskie strzyżenie: teksturowana góra z przejściem (fade) i krótka broda — z "
+"boku"
 msgstr "Men's textured top with a fade and short beard — side view"
 
 #: inc/gallery.php:25
@@ -717,8 +784,10 @@ msgid "Krótkie męskie strzyżenie z przejściem i lekkim zarostem — profil"
 msgstr "Short men's fade with light stubble — side profile"
 
 #: inc/gallery.php:30
-msgid "Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu"
-msgstr "Short men's cut with a fade and full beard — front view"
+msgid ""
+"Zaczesany do tyłu wierzch z przejściem i pełną brodą — profil, wnętrze "
+"zakładu"
+msgstr "Slicked-back top with a fade and full beard — side profile, inside the shop"
 
 #: inc/gallery.php:31
 msgid "Męskie strzyżenie z uniesioną górą i cieniowanym tyłem — widok z tyłu"
@@ -774,7 +843,8 @@ msgstr "Short, light-coloured cut with a fade — side profile"
 
 #: inc/gallery.php:45
 msgid "Jasne, krótkie strzyżenie z przejściem — profil, wnętrze barbershopu"
-msgstr "Light-coloured short cut with a fade — side profile, barbershop interior"
+msgstr ""
+"Light-coloured short cut with a fade — side profile, barbershop interior"
 
 #: inc/gallery.php:46
 msgid "Teksturowany wierzch z przejściem — profil"
@@ -820,32 +890,143 @@ msgstr "Girl's bob haircut — portrait"
 msgid "Dziewczęce strzyżenie bob — widok z tyłu"
 msgstr "Girl's bob haircut — rear view"
 
+#: inc/i18n.php:246
+msgid ""
+"Elegant Fryzjer — salon fryzjerski i barber w Warszawie na Białołęce. "
+"Strzyżenie damskie, męskie i dziecięce, barber, broda. Prowadzi Julia."
+msgstr ""
+"Elegant Fryzjer — hair salon and barbershop in Warsaw's Białołęka. Women's, "
+"men's and children's haircuts, barbering, beard care. Run by Julia."
+
+#: inc/i18n.php:250
+msgid ""
+"Pełna oferta i cennik salonu Elegant Fryzjer na Białołęce — strzyżenie "
+"damskie, męskie i dziecięce, barber, broda."
+msgstr ""
+"Full range of services and price list at Elegant Fryzjer in Białołęka — "
+"women's, men's and children's haircuts, barbering, beard care."
+
+#: inc/i18n.php:251
+msgid ""
+"Poznaj Elegant Fryzjer — kameralny salon fryzjerski i barber na warszawskiej "
+"Białołęce. Salon prowadzi Julia."
+msgstr ""
+"Meet Elegant Fryzjer — an intimate hair and barber salon in Warsaw's "
+"Białołęka. The salon is run by Julia."
+
+#: inc/i18n.php:252
+msgid ""
+"Galeria realizacji salonu Elegant Fryzjer — metamorfozy koloru, koloryzacje "
+"i strzyżenia."
+msgstr ""
+"Gallery of work by the Elegant Fryzjer salon — colour transformations, "
+"colourings and haircuts."
+
+#: inc/i18n.php:253
+msgid ""
+"Kontakt i dojazd do salonu Elegant Fryzjer na Białołęce. Umów wizytę lub "
+"zadaj pytanie."
+msgstr ""
+"Contact and directions to the Elegant Fryzjer salon in Białołęka. Book an "
+"appointment or ask a question."
+
+#: inc/i18n.php:254
+msgid ""
+"Polityka prywatności salonu Elegant Fryzjer — jak przetwarzamy dane osobowe "
+"odwiedzających i klientów."
+msgstr ""
+"Privacy policy for the Elegant Fryzjer salon — how we process the personal "
+"data of visitors and clients."
+
+#: inc/i18n.php:272
+msgid "Wybór języka"
+msgstr "Language selection"
+
 #: inc/schema.php:52
-msgid "Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
-msgstr "Hair salon and barbershop in Warsaw's Białołęka — women's, men's and children's haircuts, barbering and beard styling. Run by Julia."
+msgid ""
+"Salon fryzjerski i barber w Warszawie na Białołęce — strzyżenie damskie, "
+"męskie i dziecięce, barber i stylizacja brody. Prowadzi Julia."
+msgstr ""
+"Hair salon and barbershop in Warsaw's Białołęka — women's, men's and "
+"children's haircuts, barbering and beard styling. Run by Julia."
 
 #: inc/schema.php:74
 msgid "Usługi fryzjerskie i barberskie"
 msgstr "Hairdressing and barber services"
 
+#~ msgid "Krótkie męskie strzyżenie z przejściem i pełną brodą — od przodu"
+#~ msgstr "Short men's cut with a fade and full beard — front view"
+
+#~ msgid "Odwiedź nas"
+#~ msgstr "Visit us"
+
+#~ msgid "Adres i godziny"
+#~ msgstr "Address and hours"
+
+#~ msgid "Mapa i dojazd"
+#~ msgstr "Map and directions"
+
+#~ msgid "Strzyżenie męskie + mycie"
+#~ msgstr "Men's haircut + wash"
+
+#~ msgid "Strzyżenie maszynką + broda"
+#~ msgstr "Clipper cut + beard"
+
+#~ msgid "Pielęgnacja i stylizacja"
+#~ msgstr "Care & styling"
+
+#~ msgid ""
+#~ "Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne "
+#~ "okazje."
+#~ msgstr ""
+#~ "Washing, care and styling — for everyone, every day and for special "
+#~ "occasions."
+
+#~ msgid "Mycie włosów"
+#~ msgstr "Hair wash"
+
+#~ msgid "Odżywka / maska"
+#~ msgstr "Conditioner / hair mask"
+
+#~ msgid "Stylizacja / układanie"
+#~ msgstr "Styling / blow-dry"
+
+#~ msgid "Stylizacja premium (produkty profesjonalne)"
+#~ msgstr "Premium styling (professional products)"
+
 # --- Gallery: men's cut alt texts (added 2026-06-22) ---
-#~ msgid "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
+#~ msgid ""
+#~ "Męskie strzyżenie z włosami zaczesanymi do tyłu i pełnym zarostem — profil"
 #~ msgstr "Men's slicked-back cut with a full beard — side profile"
 
-#~ msgid "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — z boku"
+#~ msgid ""
+#~ "Męskie strzyżenie z krótkim, teksturowanym wierzchem i przyciętą brodą — "
+#~ "z boku"
 #~ msgstr "Men's short textured top with a trimmed beard — side view"
 
 #~ msgid "Krótkie męskie strzyżenie z pełną, wymodelowaną brodą — od przodu"
 #~ msgstr "Short men's cut with a full, shaped beard — front view"
 
-#~ msgid "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt przed i po"
-#~ msgstr "Transformation: balayage colouring and soft waves styling — before and after"
+#~ msgid ""
+#~ "Metamorfoza: koloryzacja balayage i modelowanie miękkich fal — efekt "
+#~ "przed i po"
+#~ msgstr ""
+#~ "Transformation: balayage colouring and soft waves styling — before and "
+#~ "after"
 
-#~ msgid "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — przed i po"
-#~ msgstr "Colour transformation: from dark brown to lightened blonde with waves — before and after"
+#~ msgid ""
+#~ "Metamorfoza koloru: z ciemnego brązu na rozjaśniony blond z falami — "
+#~ "przed i po"
+#~ msgstr ""
+#~ "Colour transformation: from dark brown to lightened blonde with waves — "
+#~ "before and after"
 
-#~ msgid "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — efekt przed i po, widok z tyłu"
-#~ msgstr "Colour transformation: lightening from dark blonde to platinum blonde — before and after, back view"
+#~ msgid ""
+#~ "Metamorfoza koloru: rozjaśnienie z ciemnego blondu na platynowy blond — "
+#~ "efekt przed i po, widok z tyłu"
+#~ msgstr ""
+#~ "Colour transformation: lightening from dark blonde to platinum blonde — "
+#~ "before and after, back view"
 
 #~ msgid "Mycie + modelowanie"
 #~ msgstr "Wash + blow-dry styling"

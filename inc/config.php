@@ -32,7 +32,7 @@ function ef_config() {
 		// --- Booking CTA (single swappable component) ---
 		// Leave 'booksy_url' empty -> primary CTA is click-to-call (or contact form if no phone).
 		// Paste your Booksy URL here -> it instantly becomes the primary CTA site-wide.
-		'booksy_url'      => '', // np. 'https://elegantfryzjer.booksy.com'
+		'booksy_url'      => 'https://booksy.com/pl-pl/353136_elegant-fryzjer_fryzjer_3_warszawa',
 
 		// Phone: set BOTH when you have the real number. Until then the click-to-call
 		// is suppressed (we will NOT dial a fake number) and the CTA falls back to the form.
@@ -101,8 +101,7 @@ function ef_services() {
 				array( 'name' => __( 'Strzyżenie męskie (1 nakładka)', 'elegant-fryzjer' ),                 'price' => '60 zł' ),
 				array( 'name' => __( 'Strzyżenie męskie', 'elegant-fryzjer' ),                               'price' => '80 zł' ),
 				array( 'name' => __( 'Strzyżenie męskie (nożyczki)', 'elegant-fryzjer' ),                    'price' => '100 zł' ),
-				array( 'name' => __( 'Strzyżenie męskie + mycie', 'elegant-fryzjer' ),                       'price' => '90 zł' ),
-				array( 'name' => __( 'Farbowanie siwych włosów (kamuflaż)', 'elegant-fryzjer' ),             'price' => '50 zł' ),
+				array( 'name' => __( 'Farbowanie siwych włosów (kamuflaż)', 'elegant-fryzjer' ),             'price' => '80 zł' ),
 			),
 		),
 		array(
@@ -125,9 +124,9 @@ function ef_services() {
 			'lead'  => __( 'Strzyżenie i broda w jednej wizycie, w niższej łącznej cenie.', 'elegant-fryzjer' ),
 			'items' => array(
 				array( 'name' => __( 'Strzyżenie męskie + broda (korekta)', 'elegant-fryzjer' ),     'price' => '110 zł' ),
-				array( 'name' => __( 'Strzyżenie męskie + broda (modelowanie)', 'elegant-fryzjer' ), 'price' => '125 zł' ),
-				array( 'name' => __( 'Strzyżenie maszynką + broda', 'elegant-fryzjer' ),             'price' => '85 zł' ),
-				array( 'name' => __( 'Strzyżenie męskie + farbowanie siwych włosów (kamuflaż)', 'elegant-fryzjer' ), 'price' => '130 zł' ),
+				array( 'name' => __( 'Strzyżenie męskie + broda (modelowanie)', 'elegant-fryzjer' ), 'price' => '120 zł' ),
+				array( 'name' => __( 'Strzyżenie męskie + broda (premium)', 'elegant-fryzjer' ),     'price' => '130 zł' ),
+				array( 'name' => __( 'Strzyżenie męskie + farbowanie siwych włosów (kamuflaż)', 'elegant-fryzjer' ), 'price' => '160 zł' ),
 			),
 		),
 		// --- Women's, children's & care (light block; secondary but present) ---
@@ -151,19 +150,6 @@ function ef_services() {
 			'lead'  => __( 'Spokojnie i bez stresu — strzyżenie dla najmłodszych.', 'elegant-fryzjer' ),
 			'items' => array(
 				array( 'name' => __( 'Strzyżenie dziecięce (do 10 lat)', 'elegant-fryzjer' ), 'price' => '70 zł' ),
-			),
-		),
-		array(
-			'id'    => 'pielegnacja',
-			'block' => 'light',
-			'icon'  => 'bottle',
-			'title' => __( 'Pielęgnacja i stylizacja', 'elegant-fryzjer' ),
-			'lead'  => __( 'Mycie, pielęgnacja i stylizacja — dla każdego, na co dzień i na specjalne okazje.', 'elegant-fryzjer' ),
-			'items' => array(
-				array( 'name' => __( 'Mycie włosów', 'elegant-fryzjer' ),           'price' => '20 zł' ),
-				array( 'name' => __( 'Odżywka / maska', 'elegant-fryzjer' ),        'price' => '30 zł' ),
-				array( 'name' => __( 'Stylizacja / układanie', 'elegant-fryzjer' ), 'price' => 'od 40 zł' ),
-				array( 'name' => __( 'Stylizacja premium (produkty profesjonalne)', 'elegant-fryzjer' ), 'price' => 'od 60 zł' ),
 			),
 		),
 	);
