@@ -20,8 +20,11 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo esc_url( $ef_icons . '/favicon-16.png?ver=' . EF_VER ); ?>">
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url( $ef_icons . '/apple-touch-icon.png?ver=' . EF_VER ); ?>">
 	<link rel="manifest" href="<?php echo esc_url( $ef_icons . '/site.webmanifest?ver=' . EF_VER ); ?>">
-	<?php if ( is_front_page() ) :
+	<?php if ( is_front_page() && ! get_query_var( 'ef_blog' ) ) :
 		// Preload the hero (LCP element) so the browser fetches it before it discovers the <img> in the body.
+		// The !get_query_var('ef_blog') guard excludes the Porady blog index (inc/blog.php): WP's
+		// front-page fallback (show_on_front === 'posts') misclassifies that route as the front
+		// page, which would otherwise preload an image that page never actually uses.
 		$ef_hero = get_template_directory_uri() . '/assets/img/hero-barber';
 	?>
 	<link rel="preload" as="image" type="image/webp"
@@ -93,6 +96,9 @@ function ef_nav_fallback() {
 		'/galeria/' => __( 'Galeria', 'elegant-fryzjer' ),
 		'/kontakt/' => __( 'Kontakt', 'elegant-fryzjer' ),
 	);
+	if ( 'pl' === ef_lang() ) {
+		$items['/porady/'] = __( 'Porady', 'elegant-fryzjer' );
+	}
 	echo '<ul class="primary-nav__list">';
 	foreach ( $items as $path => $label ) {
 		printf( '<li><a href="%s">%s</a></li>', esc_url( ef_url( $path ) ), esc_html( $label ) );
