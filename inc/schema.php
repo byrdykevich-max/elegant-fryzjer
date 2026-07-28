@@ -8,6 +8,10 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 function ef_schema_jsonld() {
+	if ( is_singular( 'post' ) ) {
+		return; // Porady posts get BlogPosting JSON-LD instead (inc/blog.php) —
+		        // avoid two competing top-level schema entities on one URL.
+	}
 	$c   = ef_config();
 	$url = home_url( '/' );
 

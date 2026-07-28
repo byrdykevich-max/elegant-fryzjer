@@ -7,6 +7,10 @@
  * because it can only list real WP objects — it would miss the rewrite-virtual /en/ and
  * /uk/ URLs and carries no hreflang. Served at /sitemap.xml (advertised in robots.txt).
  *
+ * Also lists the Polish-only Porady blog (inc/blog.php): the /porady/ index plus
+ * one entry per published post, as plain <url><loc>+<lastmod></url> — no
+ * <xhtml:link> alternates, since there is no other-language version to link to.
+ *
  * Served even while the site is noindexed — it's just an XML file, ready to submit at
  * launch; crawlers still honour the page-level noindex until that is lifted.
  */
@@ -49,6 +53,32 @@ add_action( 'init', function () {
 			echo "\t</url>\n";
 		}
 	}
+
+	// 4) Porady blog — plain entries, no <xhtml:link> alternates: Polish-only
+	//    content (see inc/blog.php), so there is nothing to cross-link. Dynamic —
+	//    reflects whatever is actually published, no separate maintenance needed
+	//    as posts go live. Category archives are intentionally NOT listed here
+	//    (thin/duplicate listing content — see the noindex guard in inc/blog.php).
+	echo "\t<url>\n\t\t<loc>" . esc_url( home_url( '/porady/' ) ) . "</loc>\n";
+	$blog_index_lastmod = get_lastpostmodified( 'gmt', 'post' );
+	if ( $blog_index_lastmod ) {
+		echo "\t\t<lastmod>" . esc_html( mysql2date( 'c', $blog_index_lastmod, false ) ) . "</lastmod>\n";
+	}
+	echo "\t</url>\n";
+
+	$blog_posts = get_posts( array(
+		'post_type'      => 'post',
+		'post_status'    => 'publish',
+		'posts_per_page' => -1,
+		'orderby'        => 'date',
+		'order'          => 'DESC',
+	) );
+	foreach ( $blog_posts as $bp ) {
+		echo "\t<url>\n\t\t<loc>" . esc_url( get_permalink( $bp ) ) . "</loc>\n";
+		echo "\t\t<lastmod>" . esc_html( get_the_modified_date( 'c', $bp ) ) . "</lastmod>\n";
+		echo "\t</url>\n";
+	}
+
 	echo "</urlset>\n";
 	exit;
 }, 0 );

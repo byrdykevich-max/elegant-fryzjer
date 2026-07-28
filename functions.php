@@ -6,7 +6,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
-define( 'EF_VER', '1.2.31' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
+define( 'EF_VER', '1.2.36' ); // bump to bust CSS/JS cache on changes (also flushes rewrite rules)
 
 require_once get_template_directory() . '/inc/config.php';
 require_once get_template_directory() . '/inc/gallery.php';
@@ -14,6 +14,7 @@ require_once get_template_directory() . '/inc/icons.php';
 require_once get_template_directory() . '/inc/schema.php';
 require_once get_template_directory() . '/inc/i18n.php';
 require_once get_template_directory() . '/inc/sitemap.php';
+require_once get_template_directory() . '/inc/blog.php';
 
 /* -------------------------------------------------------------------------
  * Theme setup
@@ -170,6 +171,21 @@ function ef_meta_description() {
 		$ex = get_post_field( 'post_excerpt', get_queried_object_id() );
 		if ( $ex ) return wp_strip_all_tags( $ex );
 	}
+	// Porady posts: each draft sets its own excerpt as the meta description.
+	if ( is_singular( 'post' ) ) {
+		$ex = get_post_field( 'post_excerpt', get_queried_object_id() );
+		if ( $ex ) return wp_strip_all_tags( $ex );
+	}
+	// Porady category archives: use the category description set at creation
+	// (see ef_blog_categories() in inc/blog.php).
+	if ( is_category() ) {
+		$term = get_queried_object();
+		if ( $term && $term->description ) return wp_strip_all_tags( $term->description );
+	}
+	// Porady blog index (custom route — see inc/blog.php).
+	if ( get_query_var( 'ef_blog' ) ) {
+		return __( 'Porady fryzjerskie i barberskie od Elegant Fryzjer — pielęgnacja, broda, strzyżenie i strzyżenie dziecięce.', 'elegant-fryzjer' );
+	}
 	return ef_localized_description();
 }
 function ef_head_meta() {
@@ -181,7 +197,10 @@ function ef_head_meta() {
 	// rel_canonical solely on singular views; the front page is the posts index, so it
 	// would otherwise have no canonical. Sub-pages get theirs from core (ef_canonical_url),
 	// so we must not emit here for them — hence the is_front_page() guard (no duplicates).
-	if ( is_front_page() ) {
+	// The extra !get_query_var('ef_blog') guard excludes the Porady blog index (inc/blog.php):
+	// WP's front-page fallback (show_on_front === 'posts') misclassifies that unrecognised
+	// route as the front page, which would otherwise print a canonical pointing at "/".
+	if ( is_front_page() && ! get_query_var( 'ef_blog' ) ) {
 		echo "\n<link rel=\"canonical\" href=\"" . esc_url( $cur ) . "\">\n";
 	}
 	echo "\n<meta name=\"description\" content=\"" . esc_attr( $desc ) . "\">\n";

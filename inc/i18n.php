@@ -179,6 +179,13 @@ add_filter( 'get_canonical_url', 'ef_canonical_url' );
  *    Returns null for views we don't expose alternates for (404, etc.).
  * ---------------------------------------------------------------------- */
 function ef_current_relpath() {
+	// Porady routes (index/single/category — see inc/blog.php) are Polish-only
+	// and must never get hreflang/alternates. Must be checked BEFORE
+	// is_front_page(): WP's own front-page fallback (show_on_front === 'posts')
+	// misclassifies the unrecognised /porady/ index query as the front page.
+	if ( get_query_var( 'ef_blog' ) || is_singular( 'post' ) || is_category() ) {
+		return null;
+	}
 	if ( is_front_page() ) {
 		return '/';
 	}
@@ -219,7 +226,19 @@ add_action( 'wp_head', 'ef_hreflang_tags', 6 );
  *    Site name "Elegant Fryzjer" is a brand and is never translated.
  * ---------------------------------------------------------------------- */
 function ef_title_parts( $parts ) {
-	if ( is_front_page() ) {
+	if ( get_query_var( 'ef_blog' ) ) {
+		// Porady blog index (custom route — see inc/blog.php), checked first:
+		// WP's front-page fallback (show_on_front === 'posts') misclassifies this
+		// unrecognised query as the front page, so an is_front_page() branch
+		// above this one would win and print the wrong title. Core's own
+		// wp_get_document_title() also runs its is_front_page() branch BEFORE
+		// this filter, pre-setting $parts['tagline'] (site description) instead
+		// of $parts['site'] (site name) — swap that back so the title reads
+		// "Porady – Elegant Fryzjer" like every other non-front page.
+		$parts['title'] = __( 'Porady', 'elegant-fryzjer' );
+		unset( $parts['tagline'] );
+		$parts['site'] = get_bloginfo( 'name' );
+	} elseif ( is_front_page() ) {
 		$parts['tagline'] = __( 'Salon fryzjerski w Białołęce', 'elegant-fryzjer' );
 	} elseif ( is_page() ) {
 		$slug = get_post_field( 'post_name', get_queried_object_id() );
@@ -234,6 +253,8 @@ function ef_title_parts( $parts ) {
 			$parts['title'] = $map[ $slug ];
 		}
 	}
+	// Single posts and category archives get their title from WordPress core
+	// as usual (post title / category name) — no branch needed here for those.
 	return $parts;
 }
 add_filter( 'document_title_parts', 'ef_title_parts' );
